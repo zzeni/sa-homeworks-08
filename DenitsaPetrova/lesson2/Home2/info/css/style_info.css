@@ -1,0 +1,58 @@
+body {
+    margin: 250px;
+    margin-top: 0;
+}
+
+img {
+    border-style: double;
+    border-color: black;
+    text-align: center;
+}
+
+a {
+    display: block;
+    font-style: italic;
+    color: #656161;
+}
+
+section {
+    padding: 40px;
+    padding-top: 10px;
+}
+
+header {
+    margin-top: 0;
+    text-align: center;
+    font-size: 200%
+}
+main{
+    padding: 10px;
+}
+table {
+    border-collapse: collapse;
+    margin-left: 20%;     
+        width: 60%;
+}
+table, th, td {
+    border-color:  white;
+    border-style: solid;
+    text-align: left;
+    color:white;    
+}
+
+th {
+    height: 25px;
+}
+
+ #MY{
+    border-radius: 100%;
+}
+footer {
+    color: white;
+    background-color: #1d3e3e;
+    padding: 20px;
+    text-align: center;
+}
+figcaption {
+    font-size: 120%;
+}
