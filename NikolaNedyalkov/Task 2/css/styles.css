@@ -1,0 +1,23 @@
+body {
+			width: 80%;
+			margin: auto;
+			background-color:#ffa768;
+			
+		}
+		article {
+			margin-top: 30px;
+			background-color: #ffffff;
+			
+		}
+		h2,p {
+			padding: 20px;
+		}
+
+		nav {
+			background-color: #71f2d8;
+			padding: 20px;
+			margin-bottom: 30px;
+		}
+		nav a {
+			padding: 20px;
+		}
