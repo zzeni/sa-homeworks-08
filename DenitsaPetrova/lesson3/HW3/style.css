@@ -1,0 +1,48 @@
+nav {
+	display: block;
+	text-align: center;
+}
+
+nav a {
+	color: white;
+	width: 150px;
+	border: 1px solid;
+	text-align: center;
+	padding: 10px;
+}
+a {
+	display: inline-block;
+}
+
+.me1 {
+	background-color: green;
+}
+
+.histary1 {
+	background-color: yellow;
+}
+
+.projects1 {
+	background-color: red;
+}
+
+.contact1 {
+	background-color: blue;
+}
+
+body {
+	padding: 0;
+	margin: 40px;
+	background-color: #e3e3e3;
+}
+
+section {
+	border: 3px solid;
+	padding: 20px;
+	margin: 10px;
+	text-align: justify;
+}
+
+h2{
+	text-align: center;
+}
