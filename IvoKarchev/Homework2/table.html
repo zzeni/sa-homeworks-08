@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица</title>
+    <style>
+        header {
+            padding: 20px;
+            background-color: #c5d6b4;
+            text-align: center;
+            
+        }
+        
+        a {
+            border: 1px solid white;
+            background-color: #e2ebd9;
+            padding: 10px 25px;
+            color: black;
+            text-decoration: none;
+            
+        }
+        body {
+            background-color: white;
+            text-align:center;
+            margin: auto;
+            width: 900px;
+            border: solid 1px black;
+        }
+        
+        main {
+            background-color:  #e2ebd9;
+            text-align: center;
+            }
+        
+        footer {
+            background-color: #c5d6b4;
+            padding: 25px;
+            text-align: center;
+        }
+       
+
+        #firstth {
+            padding-top: 30px;
+        }
+
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            margin: auto;
+                    
+        }
+
+        th,
+        td {
+            padding: 20px;
+            text-align: left;
+        }
+        
+    </style>
+</head>
+
+<body>
+   <header>
+    <h1>HTML table</h1>
+    <nav>
+        <a href="index.html" title="Кликни тук за да се върнеш обратно">Върни ме обратно</a>
+    </nav>
+    </header>
+    
+    <main>
+    <table>
+        <th id="firstth" colspan="3">This is a simple table</th>
+        <tr>
+            <th>Име</th>
+            <td>Иво Кърчев</td>
+            <td id="test" rowspan="3"><img width="200px" src="bulgaria.png" title="нашият флаг" alt="Bulgaria"></td>
+        </tr>
+        <tr>
+            <th>Родно място</th>
+            <td>Плевен</td>
+        </tr>
+        <tr rowspan="3">
+            <th>Години</th>
+            <td>21</td>
+        </tr>
+
+    </table>
+</main>
+<footer>
+  Copyrights 2018&copy;
+    
+</footer>
+</body>
+</html>
