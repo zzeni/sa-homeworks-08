@@ -1,0 +1,66 @@
+main {
+  width: 100%;
+  margin-top: 150px;
+  text-align: justify;
+font-style:italic;
+font-size:1.5rem
+}
+
+section {
+  padding: 35px;
+  margin-bottom: 150px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: skyblue;
+}
+
+section.zamen {
+  background-color: green;
+}
+
+section.istoriq {
+  background-color: yellow;
+}
+
+section.proekti {
+  background-color: red;
+}
+
+section.kontakti {
+  background-color: skyblue;
+}
+
+body {
+  margin: auto;
+  width: 900px;
+  border: 1px solid;
+
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
