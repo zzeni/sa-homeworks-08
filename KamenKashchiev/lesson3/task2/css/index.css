@@ -1,0 +1,54 @@
+body {
+	color: white;
+	margin: 0px;
+	background-color: darkred;
+}
+nav {
+	display: flex;
+	margin: 20px;
+	padding: 20px;
+	justify-content: center;
+}
+a {
+	color: white;
+}
+a:visited {
+	color: white;
+}
+main {
+	width: 80%;
+	margin: auto;
+}
+h2 {
+	margin: 20px;
+}
+#about ,#history ,#projects ,#contacts {
+	text-align: center;
+	background-color: black;
+	padding: 5px 0px 20px 0px;
+	margin: 25px;
+}
+article {
+	text-align: left;
+	width: 80%;
+	display: block;
+	margin: 20px auto;
+}
+#contactsnav ,#projectsnav ,#historynav ,#aboutnav {
+	padding: 30px;
+}
+#aboutnav {
+	background-color: green;
+}
+#historynav {
+	background-color: blue;
+}
+#projectsnav {
+	background-color: red;
+}
+#contactsnav {
+	background-color: purple;
+}
+section {
+	padding: 20px;
+}
