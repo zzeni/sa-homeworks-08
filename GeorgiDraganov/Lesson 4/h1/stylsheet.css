@@ -1,0 +1,18 @@
+ img {
+  width: 30px;
+  }
+header {
+  display:inline;
+}
+.flexbox {     
+  width: 400px;     
+  height: 50px;     
+  background-color: orange;     
+  display: flex;     
+  justify-content:space-between;    
+  align-items: center; 
+font-size: 1.3em;
+  font-weight:bolder;
+padding-right: 15px;
+padding-left: 15px;
+}
