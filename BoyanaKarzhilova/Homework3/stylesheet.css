@@ -1,0 +1,50 @@
+body {
+    width: 60vw;
+    margin: auto;
+    border: 1px solid;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+section {
+    padding: 3px;
+}
+
+nav {
+    display: inline-block;
+    display: flex;
+    width: inherit;
+}
+
+.classNav {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    text-decoration-line: none;
+    font-size: 1.2em;
+    width: inherit;
+
+}
+
+#purple {
+    background-color: #aa87f0;
+}
+
+#green {
+    background-color: #82ad2b;
+}
+
+#yellow {
+    background-color: #ddaa36;
+}
+
+#red {
+    background-color: #d01a1a;
+}
+
+#blue {
+    background-color: #83cbe8;
+}
