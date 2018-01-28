@@ -1,0 +1,66 @@
+ * {
+     box-sizing: border-box
+ }
+
+ section {
+     border: 1px solid;
+     padding: 20px;
+     margin: 20px;
+     float: left;
+     clear: right
+ }
+
+ img {
+     width: 800px;
+     max-width: 100%;
+     padding: 20px;
+
+
+
+ }
+
+ div {
+     display: inline;
+     border: 1px solid;
+     box-sizing: border-box;
+     padding: 20px;
+     float: left;
+     clear: right;
+
+
+
+
+
+ }
+
+
+ .home {
+     background-color: lightcoral;
+
+ }
+
+ .about {
+     background-color: darkorange;
+ }
+
+ .contact {
+     background-color: yellow;
+ }
+
+ .submit {
+     background-color: greenyellow;
+ }
+
+ .terms {
+     background-color: saddlebrown;
+     ;
+
+
+ }
+
+ footer {
+     text-align: center;
+     padding: 20px;
+     float: left;
+     clear: both
+ }
