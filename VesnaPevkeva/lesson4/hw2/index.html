@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>task 02</title>
+	<style type="text/css">
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+			font-family: sans-serif;
+			text-decoration: none;
+			list-style: none;
+		}
+		body {
+			display: flex;
+			height: 100%;
+			max-width: 800px;
+			background-color: #EAEAEA;
+			margin: auto;
+		}
+
+		h3 {
+			padding-top: 30px;
+			font-size: 30px;
+			color: #3F956F;
+		}
+		.nav_container {
+			position: sticky;
+			top: 0;
+			width: 200px;
+			height: 100vh;
+			background-color: #62e6ac;
+			padding: 20px;
+		}
+
+		.menu_style {
+			display: block;
+			color: black;
+			padding: 15px;
+			margin-top: 10px;
+			border: 2px solid #44A379;
+		}
+
+		li:first-child {
+			margin-top: 60px;
+		}
+
+		main {
+			flex-grow: 1;
+			display: flex;
+			align-content: space-between; 
+			flex-wrap: wrap;
+		}
+
+		.header {
+			padding: 30px;
+			background-color: #D2D2D2;
+			width: 100%;
+			position: relative;
+		}
+
+		.header>h1 {
+			font-size: 70px; 
+		}
+
+		.header>h2 {
+			font-size: 50px;
+		}
+
+		.button {
+    		background-color: #62e6ac;
+    		border: none;
+    		color: black;
+    		width: 150px;
+    		padding: 15px 32px;
+    		text-align: center;
+    		display: inline-block;
+    		font-size: 16px;
+    		margin: 4px 2px;
+    		cursor: pointer;
+		}
+
+		.buttons_container {
+			position: absolute;
+			bottom: -30px;
+			right: 10px;
+		}
+
+		section {
+			padding-left: 30px;
+			padding-top: 50px;
+			color: #494949;
+		}
+
+		.article_container {
+			border:2px solid #9D9D9D;
+			padding: 25px;
+			margin:20px 0px;
+		}
+
+		img {
+			float: left;
+			margin-right: 20px;
+		}
+
+		footer {
+			background-color: #53C995;
+			height: 50px;
+			width: 100%;
+			text-align: center;
+			padding: 15px;
+		}
+	</style>
+</head>
+<body>
+	<nav class="nav_container">
+		<h3>Vesna <br>Pevkeva</h3> 
+    	<ul>
+    	  <li><a class="menu_style">About Me</a></li>
+    	  <li><a class="menu_style">Project 01</a></li>
+    	  <li><a class="menu_style">Project 02</a></li>
+    	  <li><a class="menu_style">Contacts</a></li>
+    	</ul>
+	</nav>
+	<main>
+		<header class="header">
+			<h1>Hello,</h1>
+			<h2>a bit about me:</h2>
+			<nav class="buttons_container">
+				<a class="button" href="#my_resume">My Resume</a>
+				<a class="button" href="#my_work">My Work</a>
+				<a class="button" href="#my_skills">My Skills</a>
+			</nav>
+		</header>
+		<section>
+			<article class="article_container" id="my_resume">
+				<img src="jpg/my_picture.jpg" alt="Vesna Pevkeva profile picture" width="300px">
+				<div class="my_resume">
+					<h2>My Resume</h2>
+					<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+			</article>
+			<article class="article_container" id="my_work">
+				<h2>My Work</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</article>
+			<article class="article_container" id="my_skills">
+				<h2>My Skills</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</article>
+		</section>
+		<footer>
+			<p>Footer container 2018</p>
+		</footer>
+	</main>
+</body>
+</html>
