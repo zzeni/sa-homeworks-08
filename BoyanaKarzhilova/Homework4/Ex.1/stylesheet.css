@@ -1,0 +1,17 @@
+img {
+    width: 20px;
+    padding-right: 10px;
+}
+
+h1 {
+    padding-left: 10px;
+}
+
+#flex-header {
+    width: auto;
+    height: auto;
+    display: flex;
+    background-color: darkorange;
+    align-items: center;
+    justify-content: space-between;
+}
