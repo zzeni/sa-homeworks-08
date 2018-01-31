@@ -1,0 +1,78 @@
+body {
+    font-family: Century Gothic;
+    margin: 0;
+    background-image: url(summit-beach-resort-panama-city-beach-fl-beach-01.jpg);
+}
+
+h1 {
+    background-color: lightskyblue;
+    margin: 0;
+    padding: 20px;
+    border-bottom: 2px solid;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+    font-size: 25px;
+    padding: 1.5em;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: -30px;
+    background-color: lightskyblue;
+    border-radius: 10px;
+}
+
+.introduction {
+    margin: 50px 20px 50px 20px;
+    border: 1px solid;
+    font-size: 25px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 150px;
+    width: 450px;
+}
+
+.menu {
+    padding: 15px 0px 15px 0px;
+    width: 220px;
+    border-right: 1px solid;
+    /*            background-color: aliceblue;*/
+    background-image: url(Sand-picture.jpg);
+    float: left;
+}
+
+.menu_two {
+    float: right;
+    border-left: 1px solid;
+    /*            background-color: aliceblue;*/
+    background-image: url(Sand-picture.jpg);
+    padding: 15px 0px 15px 0px;
+    width: 220px;
+}
+
+footer {
+    border-top: 1px solid;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    bottom: 0px;
+    background-color: lightskyblue;
+    width: 100%;
+}
+
+section {
+    margin-bottom: 100px;
+    background-color: transparent;
+    z-index: 1;
+    border-radius: 25px;
+}

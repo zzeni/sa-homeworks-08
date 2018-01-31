@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 40px;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 1.5em;
+}
+
+p {
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  text-align: justify;
+  margin-top: 10px;
+}
+
+a {
+  color: lightblue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}

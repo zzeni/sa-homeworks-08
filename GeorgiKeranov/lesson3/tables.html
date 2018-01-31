@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Таблици</title>
+  <meta charset="UTF-8">
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+    td, th {
+      border: 1px solid;
+      padding: 10px;
+    }
+    th {
+      text-align: left;
+    }
+    .yellow {
+      background-color: yellow;
+    }
+    .center {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Tables</h1>
+
+  <h2>Table 1</h2>
+
+  <table>
+    <tr>
+      <th colspan="3" class="center">Table 1</th>
+    </tr>
+    <tr>
+      <th>Row 1 header</th>
+      <td class="yellow">row 1 data</td>
+      <td>row 1 data</td>
+    </tr>
+    <tr>
+      <th>Row 2 header</th>
+      <td>row 2 data</td>
+      <td>row 2 data</td>
+    </tr>
+    <tr>
+      <th>Row 3 header</th>
+      <td>row 3 data</td>
+      <td>row 3 data</td>
+    </tr>
+  </table>
+
+  <h2>Table 2</h2>
+
+  <table border="1">
+    <tr>
+      <th rowspan="3">Row span</th>
+      <th class="yellow center">Column &lt; 1 &copy; header</th>
+      <th>Column 2 header</th>
+      <th>Column 3 header</th>
+    </tr>
+    <tr>
+      <td>col 1 data</td>
+      <td>col 2 data</td>
+      <td>col 3 data</td>
+    </tr>
+    <tr>
+      <td>col 1 data</td>
+      <td>col 2 data</td>
+      <td>col 3 data</td>
+    </tr>
+  </table>
+
+</body>
+</html>
