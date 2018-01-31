@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+p {
+  display: inline-block;
+  width: 500px;
+  margin: auto 50px;
+  padding: 30px;
+  background-image: url("background.jpg");
+}
