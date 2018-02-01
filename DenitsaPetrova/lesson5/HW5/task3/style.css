@@ -3,63 +3,103 @@
 }
 
 main {
-  width: 600px;
-  height: 500px;
+  width: 100vh;
   background-color: black;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
+  padding: 5px;
 }
 
 div {
-  margin: 10px;
-  width: 100px;
-  height: 120px;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
 }
 
 #first {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row;
 }
 
 .yellow {
-  flex-grow: 1;
   background-color: yellow;
+  width: 46vh;
 }
 
 .green {
-  flex-grow: 1;
   background-color: green;
+  width: 46vh;
 }
 
-
 #second {
-/*  border: 2px solid pink;*/
   display: flex;
-  flex-flow: column wrap;
-  height: 320px;
-  width: 545px;
-  justify-content: space-around;
+  flex-direction: column;
 }
 
 .red {
-  display: flex;
-  width: 55%;
-  height: 100%;
   background-color: red;
+  width: 95vh;
+  height: 40vh;
+  display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
 }
 
 .blue {
-  width: 40%;
-  height: 43%;
   background-color: blue;
+  width: 95vh;
 }
 
 h1 {
   text-align: center;
-  color: white;
-  font-size: 3em;
   font-family: sans-serif;
+}
+
+@media (min-width:600px) {
+
+  main {
+    width: 600px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  }
+
+  div {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .yellow {
+    flex-grow: 1;
+    background-color: yellow;
+  }
+
+  .green {
+    flex-grow: 1;
+    background-color: green;
+  }
+
+  #second {
+    /*  border: 2px solid pink;*/
+    display: flex;
+    flex-wrap: wrap;
+    height: 345px;
+    width: 545px;
+    justify-content: space-around;
+  }
+
+  .red {
+    width: 55%;
+    height: 100%;
+  }
+
+  .blue {
+    width: 40%;
+    height: 43%;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
 }
