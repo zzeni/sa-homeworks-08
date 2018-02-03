@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  padding: 20px;
+}
+
+body {
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+article img {
+  width: 200px;
+}
+
+header hr {
+  width: 900px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+}
+
+nav {
+  margin: 20px;
+}
+
+#container {
+  width: 900px;
+  max-width: 100%;
+  border: 2px solid black;
+  margin: 30px auto;
+}
+
+main {
+  padding: 20px 30px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.left {
+  float: left;
+  margin-right: 15px;
+}
+#top-link {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: pink;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  border-radius: 100%;
+}
+.right {
+  float: right;
+  margin-left: 15px;
+
+}
+
+article p {
+  overflow: auto;
+  font-size: 1.2em;
+  text-align: justify;
+  padding: 20px;
+}
+
+article {
+  clear: both;
+  border: 2px dashed black;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+#article-2 {
+  text-align: right;
+}
+
+@media (max-width: 620px) {
+  article {
+    width: 120px;
+    padding: auto;
+    margin: auto;
+    overflow: auto;
+    font-size: 0.2em
+  }
+  article img {
+    width: 50px;
+  }
+
+  #container {
+    width: 180px;
+    max-width: 100%;
+    border: 2px solid black;
+    margin: auto;
+  }
+  article {
+    clear: both;
+    border: 1px solid black;
+    margin: auto;
+    padding: auto;
+  }
+  article p {
+    overflow: auto;
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 0px;
+  }
+  #top-link {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: pink;
+  text-align: center;
+  line-height: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  border-radius: 100%;
+  font-size:0.4em;
+  }
+  footer {
+    background-color: black;
+    color: white;
+    padding: 0px;
+    text-align: center;
+    font-size: 0.3em;
+  }
+  header {
+    text-align: center;
+    font-size: 0.6em;
+  }
+  nav {
+    margin: 20px;
+    font-size: 0.6em;
+  }
+  h2 {
+    padding: 0px;
+    text-align: center;
+  }
+  .left,
+  .right {
+    float: none;
+    display: block;
+    margin: 10px auto;
+    overflow: auto;
+  }
+}
+
+}
