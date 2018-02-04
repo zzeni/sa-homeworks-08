@@ -1,0 +1,8 @@
+body {
+	background-color: orange;
+}
+@media screen and (max-width: 650px) {
+    body {
+        background-color: blue;
+    }
+}

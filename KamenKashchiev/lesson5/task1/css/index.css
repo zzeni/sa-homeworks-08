@@ -1,0 +1,58 @@
+body {
+	margin: 0px;
+	text-align: center;
+}
+nav {
+	text-align: center;
+	margin: 30px;
+}
+hr {
+	width: 80%;
+	border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+a {
+	margin: 3px;
+}
+#link2 {
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	padding: 5px 10px;
+}
+section {
+	width: 70%;
+	border: 3px solid;
+	margin: auto;
+	
+}
+article {
+	padding: 10px;
+	width: 95%;
+	border: 3px dashed;
+	border-radius: 10px;
+	margin: 20px auto;
+	box-sizing: border-box;
+	max-width: 100%;
+}
+img {
+	margin: 10px 10px 0px 10px;
+}
+#img1and3 {
+	float: left;
+}
+#img2 {
+	float: right;
+}
+article p {
+	margin: 5px 15px;
+	text-align: justify;
+}
+footer {
+	background-color: grey;
+	color: white;
+	padding: 20px;
+}
+footer p {
+	margin: 0px;
+}
