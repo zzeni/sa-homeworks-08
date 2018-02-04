@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контактна форма</title>
+    <style>
+        label {
+            font-weight: bold;
+            margin: 10px;
+            width: 140px;
+            display: inline-block;
+
+
+        }
+
+        .form-group {
+            margin: 1em;
+
+        }
+
+        textarea {
+            vertical-align: text-top;
+        }
+
+        body {
+            border: 1px solid black;
+            max-width: 600px;
+            font-family: cursive;
+        }
+
+        h1 {
+            padding-left: 25px;
+        }
+
+        button {
+            width: 100px;
+            border-radius: 4px;
+            margin-right: 10px;
+            box-shadow: 3px 3px 5px 2px #ccc;
+            font-family: cursive;
+
+        }
+
+        button:hover {
+            background-color: gray;
+        }
+
+        ::placeholder {
+            font-family: cursive;
+        }
+
+        input {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        textarea {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        select {
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Контактна форма</h1>
+    <form method="post">
+        <div class="form-group">
+            <label>Вашите имена:</label>
+            <input type="text" name="usernames" placeholder="Име Фамилия" required>
+        </div>
+
+        <div class="form-group">
+            <label>Вашият имейл:</label>
+            <input type="text" name="email" placeholder="email@example.com" required>
+        </div>
+
+        <div class="form-group">
+            <label>Език:</label>
+            <select name="language">
+  <option value="Bulgarian">Български</option>
+  <option value="English">Английски</option>
+  <option value="Russian">Руски</option>
+  <option value="French">Френски</option>
+</select>
+        </div>
+
+        <div class="form-group">
+            <label>Вашият телефон:</label>
+            <input type="tel" name="phonenumber" placeholder="+359*********" required>
+        </div>
+
+        <div class="form-group">
+            <label>Съобщение:</label>
+            <textarea placeholder="Опишете вашето запитване" rows="6" cols="30" required></textarea>
+        </div>
+
+        <div class="form-group">
+            <label></label>
+            <button type="reset" tabindex="99">Изтрий</button>
+
+            <button type="Submit">Изпрати</button>
+        </div>
+
+    </form>
+</body>
+
+</html>
