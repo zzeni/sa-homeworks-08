@@ -1,0 +1,9 @@
+p {
+    border: 1px solid black;
+    width: 500px;
+    margin: 50px;
+    padding: 30px;
+    background-image: url(skynight.jpg);
+    background-position: center;
+    color: white;
+}

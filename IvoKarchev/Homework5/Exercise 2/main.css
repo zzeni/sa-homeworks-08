@@ -1,0 +1,96 @@
+body {
+    font-family: cursive;
+    /* not sure what font you used */
+    margin: 0;
+    border: 2px solid black;
+
+}
+
+#main-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header p {
+    margin: 0;
+    border-bottom: 3px solid black;
+    text-align: left;
+}
+
+/* We can do this with div container as well
+    header div {
+    border: 2px solid;
+    display: flex;
+} */
+
+header {
+    text-align: center;
+}
+
+hr {
+    margin-bottom: 30px;
+    max-width: 60%;
+    border: 0;
+    height: 2px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+nav a {
+    padding: 5px;
+    color: #006080;
+
+}
+
+a.border {
+    border-right: 1px solid;
+}
+
+a.bold {
+    border-right: 2px solid black;
+}
+
+main {
+    border: 3px solid;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+section {
+    border: 3px dashed;
+    /* use this border, if your browser doesn't support border-image */
+    border-radius: 20px;
+    border-image: linear-gradient(to right, rgb(255, 255, 255) 0%, rgba(0, 0, 0, 0.95) 80%);
+    border-image-slice: 1;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+section h2 {
+    border-bottom: 1px solid;
+    display: inline;
+}
+
+img {
+    width: 200px;
+}
+
+#article-1 img,
+#article-3 img {
+    float: left;
+    margin-right: 10px;
+
+}
+
+#article-2 img {
+    float: right;
+    margin-left: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
