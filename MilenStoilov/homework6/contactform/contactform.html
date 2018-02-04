@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form method="post" action="success/succes.html" novalidate>
+        <div id="flexbox">
+            <fieldset>
+                <legend>Свържете се с нас</legend>
+                <div><label for="name">Вашите имена</label>
+                    <input type="text" id="name" placeholder="Име и Фамилия" required></div>
+                <div><label for="email">Вашият Имейл</label>
+                    <input type="email" id="email" placeholder="email@example.com" required></div>
+                <div><label for="language">Избор на език</label><select name="country" id="country"><option readonly="" value="" selected="">Изберете...</option><optgroup  label="Европа"></optgroup><option value="bg">България</option><option value="it">Италия</option><option value="gr">Германия</option><optgroup  label="Азия"></optgroup><option value="ch">Китай</option><option value="jp">Япония</option><option value="sk">Южна Корея</option></select>
+                </div>
+                <div><label for="tel">Теллефон</label><input type="tel" id="tel" placeholder="+359*******">
+                </div>
+                <div><label for="text">Оставете коментар</label><textarea id="textarea" name="textarea" cols="40" rows="6"></textarea></div>
+                <div id="buttons"><button type="submit">Изпрати</button></div>
+                <div id="buttons1"><button type="reset">Изтрий</button></div>
+            </fieldset>
+        </div>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+
+}
+
+div {
+    display: block;
+}
+
+label {
+    display: inline-block;
+    width: 160px;
+    text-align: left;
+}
+
+fieldset {
+    flex-grow: 1;
+}
+
+input {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid;
+
+
+}
+
+textarea {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    vertical-align: top;
+    border: 1px solid
+}
+
+select {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+#buttons ,#buttons1 {
+    display: inline-block;
+}
