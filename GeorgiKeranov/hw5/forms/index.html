@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        label{
+            font-weight: bold;
+            display: inline-block;
+            width: 120px;
+            margin: 10px;
+        }
+        textarea{
+            vertical-align: text-top;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Свържете се с нас!</h1>
+    <form method="get" action="server.html">
+        <div>
+            <label>Вашите имена: 
+            </label>
+            <input type="text" name="name" placeholder="въведете вашите имена">
+        </div>
+        <div>
+            <label> Вашият имейл
+            </label>
+            <input type="email" name="email" placeholder="email@example.com">
+        </div>
+        <div>
+            <label>Избор на език:
+            </label>
+            <select name="language">
+                <option name="bulgarian" selected>български</option>
+                <option name="english">английски</option>
+                <option name="spanish">испански</option>
+                <option name="deutsch">немски</option>
+                <option name="french">френски</option>
+            </select>
+        </div>
+        <div>
+            <label>Телефон
+            </label>
+            <input type="text" name="number" placeholder="+359xxxxxxxxx">
+        </div>
+        <div>
+            <label>Съобщение
+            </label>
+            <textarea name="message">
+            </textarea>
+        </div>
+        <div>
+            <label></label>
+            <button type="reset">Изтрий</button>
+            <button type="submit">Изпрати</button>
+        </div>
+    </form>
+</body>
+</html>
