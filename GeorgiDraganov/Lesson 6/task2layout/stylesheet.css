@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box
+}
+
+img {
+  width: 200px;
+  padding: 0px;
+}
+
+p {
+  margin-bottom: 220px;
+}
+
+body {
+  width: 800px;
+  height: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: aqua;
+  color: #3b2929;
+
+}
+
+#main-container1 {
+  background-color: beige;
+  overflow: auto;
+
+  display: flex;
+}
+
+main {
+  padding: 100px;
+  flex-grow: 1;
+  overflow: auto;
+}
+
+#navside {
+  margin: 10px flex-basis: 220px;
+
+  background-color: gold;
+
+}
+
+#navside a {
+
+  margin: 30;
+  padding: 10px;
+  border: 1px solid black;
+  display: block;
+  position: relative;
+  left: -20px;
+  bottom: -10px;
+  background-color: white;
+  border-radius: 15px;
+  text-decoration: none;
+  margin: 10px
+}
+
+
+
+footer {
+  background-color: white;
+
+  text-align: center;
+  border-top: 2px solid black;
+  padding: 10px;
+  color: black;
+}
+
+#top-link {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: pink;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+  border-radius: 100%;
+  font-size: 2em;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    width: 100%
+  }
+  #top-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: pink;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    border-radius: 100%;
+    font-size: 1em;
+  }
+  header {
+    background-color: aqua;
+    color: #3b2929;
+
+  }
+
+  #navside {
+    margin: 10px flex-basis: 220px;
+
+    background-color: gold;
+
+  }
+  header {
+    background-color: mediumpurple;
+    color: #3b2929;
+
+  }
+
+  #navside {
+    margin: 0px flex-basis: 220px;
+    display: flex;
+    background-color: indianred;
+    justify-content: space-around;
+    justify-content: center;
+
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  body {
+    height: 100%;
+    width: 100% font-size:0.1em;
+  }
+
+
+  #navside a {
+    padding: 2px;
+    margin: 10px;
+    display: inline;
+    border: 0.5px solid black;
+    font-weigh: bold;
+    font-size: 0.5em;
+
+    background-color: white;
+    border-radius: 15px;
+    text-decoration: none;
+
+  }
+
+  #main-container1 {
+
+
+    display: inline;
+
+    font-weight: 900;
+  }
+  #header {
+    font-size: 0.5em;
+    justify-content: center;
+    display: flex;
+  }
+
+
+  #top-link {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: pink;
+    text-align: center;
+    line-height: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    border-radius: 100%;
+    font-size: 0.5em;
+  }
+
+
+}
