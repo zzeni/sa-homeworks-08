@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+nav {
+  margin: 20px 0;
+}
+
+main,
+footer {
+  border: 1px solid black;
+  margin: 0 20px;
+}
+
+section {
+  text-align: justify;
+  border: 1px dashed;
+  margin: 20px;
+  padding: 10px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.dalia,
+.roza {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.kamelia {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#kamelia h3 {
+  text-align: right;
+}
+
+h3 {
+  text-decoration-line: underline;
+}
+
+footer {
+  background: #484646;
+  color: white;
+}
+
+a:visited {
+  color: blue;
+}
