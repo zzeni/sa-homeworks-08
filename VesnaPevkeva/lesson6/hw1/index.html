@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="utf-8">
+  <title>Forms example</title>
+
+  <style>
+    label {
+      font-weight: bold;
+      margin-right: 10px;
+      width: 140px;
+      display: inline-block;
+    }
+
+    .form-group {
+      margin: 1em;
+    }
+
+    textarea {
+      vertical-align: text-top;
+    }
+  </style>
+
+</head>
+
+<body>
+  <h1>Свържете се с нас!</h1>
+
+  <form method="post" action="server.html">
+    <div class="form-group">
+      <label>Вашите имена</label>
+      <input type="text" name="fname&lname" placeholder="Име Фамилия">
+    </div>
+
+    <div class="form-group">
+      <label>Вашия имейл</label>
+      <input type="email" name="email" placeholder="email@example.com">
+    </div>
+
+    <div class="form-group">
+      <label for="language">Език:</label>
+      <select name="language" id="language">
+          <option value="en">Английски</option>
+          <option value="de">Немски</option>
+          <option value="bg" selected>Български</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Телефон</label>
+      <input type="tel" name="tel" placeholder="+359xxxxxxxxx">
+    </div>
+
+    <div class="form-group">
+      <label>Съобщение</label>
+      <textarea name="message" placeholder="Опишете Башето запитване тук" rows="6" cols="30"></textarea>
+    </div>
+
+    <div class="form-group">
+      <label></label>
+      <button type="reset">Изтрий</button>
+      <button type="submit">Изпрати</button>
+    </div>
+  </form>
+  
+</body>
+</html>
