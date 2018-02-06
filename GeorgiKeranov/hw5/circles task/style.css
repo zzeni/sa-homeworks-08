@@ -1,0 +1,68 @@
+/* HINT: Use just A Colour Picker to get the colors */
+body {
+  background-color: #FAF0E6;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+}
+
+.circle {
+  background-color: #7C8500;
+  color: white;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle div {
+  text-align: center;
+}
+
+.sm-only, .md-only, .lg-only {
+  display: none;
+}
+
+@media (min-width: 460px) and (max-width: 679px){
+    body{
+        background-color: coral;
+    }
+    .circle{
+        background-color: lightskyblue;
+    }
+    .xs-only, .md-only, .lg-only{
+        display: none;
+    }
+}
+
+@media (min-width: 680px) and (max-width: 999px){
+    body{
+        background-color: antiquewhite;
+    }
+    .circle{
+        background-color: green;
+    }
+    .xs-only, .sm-only, .lg-only{
+        display: none;
+    }
+}
+
+@media (min-width: 1000px){
+    body{
+        background-color: azure;
+    }
+    .circle{
+        background-color: purple;
+    }
+    .xs-only, .sm-only, .md-only{
+        display: none;
+    }
+}

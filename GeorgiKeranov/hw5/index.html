@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        div{
+            width: 600px;
+            height: 500px;
+            display: flex;
+            justify-content: space-around;
+            background-color: black;
+            padding: 10px;
+            flex-wrap: wrap;
+            margin: auto;
+            max-width: 100%;
+        }
+        #yellow{
+            width: 250px;
+            height: 180px;
+            background-color: yellow;
+            flex-direction: column;
+        }
+        #green{
+            width: 250px;
+            height: 180px;
+            background-color: green;
+        }
+        #red{
+            width: 280px;
+            height: 220px;
+            background-color: red;
+            color: white;
+            text-align: center;
+            line-height: 200px;
+        }
+        .blue{
+            display: flex;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            width: 180px;
+            height: 100px;
+            background-color: skyblue;
+            flex-direction: row;
+        }
+        @media (min-width: 600px){
+            *{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p id="yellow">
+        </p>
+        <p id="green">
+        </p>
+        <p id="red">
+            CSS3 Flex box
+        </p>
+        <p class="blue">
+        </p>
+        <p class="blue" id="blue2">
+        </p>
+    </div>
+</body>
+</html>
