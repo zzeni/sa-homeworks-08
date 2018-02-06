@@ -1,0 +1,118 @@
+/* HINT: Use just A Colour Picker to get the colors */
+body {
+  background-color: #FAF0E6;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+}
+
+.circle {
+  background-color: #96d125;
+  color: white;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle div {
+  text-align: center;
+font-family: cursive;
+}
+
+.sm-only, .md-only, .lg-only {
+  display: none;
+}
+@media only screen and (min-width:460px) and (max-width:679px){
+        /* styles for browsers larger than 460px to 679px; */
+  
+  
+
+.sm-only {
+  background-color: deepskyblue;
+  color: white;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sm-only {
+  text-align: center;
+  dislay:flex;
+  }
+  .xs-only{
+    display:none;
+  }
+}
+@media only screen and (min-width:680px) and (max-width:999px){
+        /* styles for browsers larger than 680px to 999px; */
+   
+
+  
+.md-only {
+  background-color: green;
+  color: white;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.md-only {
+  text-align: center;
+
+  dislay:flex;
+  }
+  .sm-only, .xs-only{
+    display:none;
+  }
+
+
+
+
+}
+@media only screen and (min-width:1000px) {
+        /* styles for browsers larger than 1000px */
+   
+
+
+
+.lg-only {
+  background-color: #ea00f4;
+  color: white;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lg-only {
+  text-align: center;
+
+  dislay:flex;
+  }
+  .sm-only, .xs-only, .md-only{
+    display:none;
+  }
+
+
+
+
+
+
+}
