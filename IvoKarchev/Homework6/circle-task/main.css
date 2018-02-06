@@ -1,0 +1,117 @@
+/* HINT: Use just A Colour Picker to get the colors */
+
+body {
+    background-color: #FAF0E6;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin: 0;
+}
+
+.circle {
+    background-color: #7C8500;
+    color: white;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle div {
+    text-align: center;
+}
+
+.xs-only,
+.sm-only,
+.md-only,
+.lg-only {
+    display: none;
+}
+
+@media (max-width: 459px) {
+    .xs-only {
+        display: block;
+        font-family: cursive, fantasy;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+    .xs-only small {
+        font-size: 16px;
+    }
+
+    .circle {
+        background-color: #7F8000;
+    }
+}
+
+@media (min-width: 460px) and (max-width: 679px) {
+    .sm-only {
+        display: block;
+        font-family: cursive, fantasy;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+    .sm-only small {
+        font-size: 16px;
+    }
+
+    .circle {
+        background-color: #689BEA;
+    }
+
+    body {
+        background-color: #EE875C;
+    }
+}
+
+@media (min-width: 680px) and (max-width: 999px) {
+    .md-only {
+        display: block;
+        font-family: cursive, fantasy;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+    .md-only small {
+        font-size: 16px;
+    }
+
+    .circle {
+        background-color: #4A8420
+    }
+
+    body {
+        background-color: #FFF8DE;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    .lg-only {
+        display: block;
+        font-family: cursive, fantasy;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+    .lg-only small {
+        font-size: 16px;
+    }
+
+    .circle {
+        background-color: #E94D97;
+    }
+
+    body {
+        background-color: #F3FFFF;
+    }
+}

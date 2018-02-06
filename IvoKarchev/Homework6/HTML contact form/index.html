@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>За контакти</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h1>Свържете се с нас</h1>
+    <form>
+        <fieldset>
+            <legend>Вашата информация</legend>
+            <div class="form-group">
+                <label>Вашите имена</label>
+                <input type="text" name="your-name" placeholder="Име Фамилия">
+            </div>
+            <div class="form-group">
+                <label>Вашият имейл</label>
+                <input type="email" name="email" placeholder="email@example.com">
+            </div>
+            <div class="form-group">
+                <label>Избор на език</label>
+                <select name="language" id="language">
+           <option value="bg">Български език</option>
+           <option value="en">Английски език</option>
+           <option value="ru">Руски език</option>
+        </select>
+            </div>
+            <div class="form-group">
+                <label>Телефон</label>
+                <input type="tel" name="usertel" placeholder="+359xxxxxxxxx">
+            </div>
+            <div class="form-group">
+                <label class="form-group-message">Съобщение</label>
+                <textarea name="text" id="message" cols="30" rows="7" placeholder="Опишете вашето запитване тук"></textarea>
+            </div>
+            <div class="form-group">
+                <label></label>
+                <button class="button" type="reset">Изтрий</button>
+                <button class="button" type="submit">Изпрати</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
