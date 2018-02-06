@@ -1,64 +1,64 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .titleI {
-	border: 5px solid #ffff50;
-	border-radius: 50px;
-	float: left;
-	width: 25%;
-	/*	height: 25%;*/
+  border: 5px solid #ffff50;
+  border-radius: 50px;
+  float: left;
+  width: 25%;
+  /*	height: 25%;*/
 }
 
 .titleH {
-	float: right;
-	color: darkred;
-	font-style: oblique;
-	padding: 20px;
-	width: 75%;
-	text-align: center;
-	/*	background-image: url(img/team.jpg);
+  float: right;
+  color: darkred;
+  font-style: oblique;
+  padding: 20px;
+  width: 75%;
+  text-align: center;
+  /*	background-image: url(img/team.jpg);
 	background-repeat: no-repeat;
 	background-size: 75% 100%;*/
 }
 
 body {
-	/*	border: 2px solid black;*/
-	width: 800px;
-	/*	min-width: 100vh;*/
-	margin-left: auto;
-	margin-right: auto;
-	display: flex;
-	flex-wrap: wrap;
-	background-color: #9cfa9c;
+  /*	border: 2px solid black;*/
+  width: 800px;
+  /*	min-width: 100vh;*/
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #9cfa9c;
 }
 
 header {
-	width: 100%;
+  width: 100%;
 }
 
 aside {
-	width: 25%;
-	background-color: #ffff50;
-	padding: 20px;
-	position: static;
-	border: 5px solid #ffff50;
-	border-radius: 50px;
-	text-align: center;
+  width: 25%;
+  background-color: #ffff50;
+  padding: 20px;
+  position: static;
+  border: 5px solid #ffff50;
+  border-radius: 50px;
+  text-align: center;
 }
 
 main {
-	width: 75%;
-	background-color: limegreen;
-	padding: 20px;
-	position: sticky;
-	border: 5px solid limegreen;
-	border-radius: 50px;
+  width: 75%;
+  background-color: limegreen;
+  padding: 20px;
+  position: sticky;
+  border: 5px solid limegreen;
+  border-radius: 50px;
 }
 
 footer {
-	width: 100%;
-	background-color: darkred;
-	color: white;
-	text-align: center;
+  width: 100%;
+  background-color: darkred;
+  color: white;
+  text-align: center;
 }

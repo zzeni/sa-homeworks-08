@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+div {
+  padding: 10px;
+}
+
+label {
+  text-align: left;
+  width: 150px;
+  display: inline-block;
+}
+
+textarea {
+  vertical-align: top;
+}
+
+h1, label{
+  font-family: cursive;
+}
+
+#button {
+  text-align: right;
+}
+
+#buttom input {
+  background-color: white;
+  width: 70px;
+  height: 40px;
+}

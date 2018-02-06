@@ -3,7 +3,7 @@
 }
 
 main {
-  width: 100vh;
+  width: 100vw;
   background-color: black;
   padding: 5px;
 }
@@ -21,12 +21,12 @@ div {
 
 .yellow {
   background-color: yellow;
-  width: 46vh;
+  width: 45vw;
 }
 
 .green {
   background-color: green;
-  width: 46vh;
+  width: 45vw;
 }
 
 #second {
@@ -36,8 +36,8 @@ div {
 
 .red {
   background-color: red;
-  width: 95vh;
-  height: 40vh;
+  width: 93vw;
+  height: 40vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,7 +46,8 @@ div {
 
 .blue {
   background-color: blue;
-  width: 95vh;
+  width: 93vw;
+  height: 40px;
 }
 
 h1 {
