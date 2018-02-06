@@ -1,0 +1,13 @@
+/* HINT: Use just A Colour Picker to get the colors */
+
+body {
+  background-color: #FAF0E6;
+}
+
+.circle {
+  background-color: #7C8500;
+}
+
+.sm-only, .md-only, .lg-only {
+  display: none;
+}

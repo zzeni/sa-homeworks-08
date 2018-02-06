@@ -1,0 +1,221 @@
+@media screen and (min-width:800px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    #container {
+        display: flex;
+        flex-flow: row;
+    }
+
+    header {
+        background-color: #91d1ff;
+        border: 5px solid pink;
+        max-width: 100%;
+        flex-grow: 1;
+        margin: 5px;
+    }
+
+    #left h2 {
+        margin: 20px;
+    }
+
+    h1 {
+        font-family: cursive;
+        font-size: 2em;
+        color: white;
+        padding: 0px 40px;
+        margin: 10px;
+    }
+
+    main {
+        display: flex;
+    }
+
+    #content {
+        padding: 5px;
+        margin: 20px 5px;
+        overflow: auto;
+        max-height: 100%;
+    }
+
+    #left {
+        max-width: 200px;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff57f;
+        border: 3px solid #5bb45b;
+    }
+
+    #left nav a {
+        margin: 5px;
+        text-align: center;
+        text-decoration: none;
+        font-family: cursive;
+        font-size: 1em;
+        display: block;
+        max-width: 100%;
+    }
+
+    #icon {
+        margin: 10px;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        border: 5px solid pink;
+        border-radius: 25px;
+        background-color: pink;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:800px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    #container {
+        display: flex;
+        flex-flow: row;
+    }
+
+    header {
+        background-color: #ce566b;
+        border: 5px solid pink;
+        max-width: 100%;
+        flex-grow: 1;
+        margin: 5px;
+    }
+
+    #left h2 {
+        margin: 20px;
+    }
+
+    h1 {
+        font-family: cursive;
+        font-size: 2em;
+        color: white;
+        padding: 0px 40px;
+        margin: 10px;
+    }
+
+    main {
+        display: flex;
+    }
+
+    #content {
+        padding: 5px;
+        margin: 20px 5px;
+        overflow: auto;
+        max-height: 100%;
+    }
+
+    #left {
+        max-width: 200px;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        background-color: #c5a9ff;
+        border: 3px solid #5bb45b;
+    }
+
+    #left nav a {
+        margin: 5px;
+        text-align: center;
+        text-decoration: none;
+        font-family: cursive;
+        font-size: 1em;
+        display: block;
+        max-width: 100%;
+    }
+
+    #icon {
+        margin: 10px;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        border: 5px solid pink;
+        border-radius: 25px;
+        background-color: pink;
+    }
+}
+
+@media screen and (max-width:600px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    header {
+        background-color: #91d1ff;
+        border: 5px solid pink;
+        max-width: 100%;
+        flex-grow: 1;
+        margin: 5px;
+    }
+
+    h1 {
+        font-family: cursive;
+        font-size: 2em;
+        color: white;
+        padding: 0px 40px;
+        margin: 10px;
+    }
+
+    #content {
+        padding: 5px;
+        margin: 20px 5px;
+        overflow: auto;
+        max-height: 100%;
+    }
+
+    #left {
+        max-width: 100%;
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        background-color: #fff57f;
+        border: 3px solid #5bb45b;
+    }
+
+    #left nav a {
+        margin: 5px;
+        text-align: center;
+        text-decoration: none;
+        font-family: cursive;
+        font-size: 1em;
+        display: inline-block;
+        max-width: 100%;
+    }
+
+    #icon {
+        margin: 10px;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        border: 5px solid pink;
+        border-radius: 25px;
+        background-color: pink;
+    }
+}
