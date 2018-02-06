@@ -1,0 +1,149 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6em;
+}
+
+.container {
+    border: 2px solid black;
+    width: 100%;
+    min-height: 600px;
+}
+
+.square {
+    color: white;
+}
+
+.red {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+.blue {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+
+.green {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+}
+
+.black {
+    background-color: black;
+    height: 200px;
+    width: 200px;
+}
+
+/* Smallest first (<399px) */
+
+@media {}
+
+@media screen and (min-width: 400px) and (max-width: 499px) {
+    .red {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    }
+    .blue {
+        position: fixed;
+        top: 0px;
+        right: 0px;
+    }
+    .green {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+    }
+    .black {
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+    }
+}
+
+
+@media screen and (min-width: 500px)and (max-width: 599px) {
+    .blue {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    }
+    .green {
+        position: fixed;
+        top: 0px;
+        right: 0px;
+    }
+    .black {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+    }
+    .red {
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+    }
+}
+
+
+
+@media screen and (min-width:600px)and (max-width: 699px) {
+
+
+    .black {
+        position: fixed;
+        top: 0px;
+        right: 0px;
+    }
+    .red {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+    }
+    .blue {
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+    }
+    .green {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+
+
+
+
+
+
+    }
+}
+
+
+
+@media screen and (min-width: 700px)and (max-width: 799px) {
+    .red {
+        position: fixed;
+        top: 0px;
+        right: 0px;
+    }
+    .blue {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+    }
+    .green {
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+    }
+    .black {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    }
+
+    /* > 800 */
+    /*@media {}*/
