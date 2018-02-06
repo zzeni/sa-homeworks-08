@@ -1,0 +1,38 @@
+@media screen and (min-width: 680px) and (max-width: 999px) {
+
+  body {
+    background-color: #FFF7DD;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .circle {
+    background-color: #4A8422;
+    color: white;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle div {
+    text-align: center;
+  }
+  
+  .xs-only, .sm-only, .lg-only {
+    display: none;
+  }
+  
+  .md-only {
+    display: block;
+  }
+}
