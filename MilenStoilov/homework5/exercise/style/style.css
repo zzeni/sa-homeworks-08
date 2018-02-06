@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    
+}
+
+.container {
+    border: 1px solid;
+    padding: 20px;
+    clear: both;
+    overflow: hidden;
+    margin: 20px;
+    text-align: justify;
+
+}
+
+.dogs {
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    padding: 10px;
+}
+
+h2 {
+    display: block;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+}
+#arrow{height: 75px;
+position: fixed;
+bottom: 10px;
+right: 20px;}

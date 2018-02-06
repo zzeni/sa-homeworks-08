@@ -1,0 +1,87 @@
+body {
+    background-color: lightcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    border: 1px solid;
+    border-radius: 500px;
+    background-color: pink;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.xs p {
+    display: block;
+    text-align: center;
+}
+
+@media screen and (min-width:460px) {
+    body {
+        background-color: bisque;
+    }
+    .circle {
+        display: flex;
+        justify-content: center;
+        height: 300px;
+        width: 300px;
+        border: 1px solid;
+        border-radius: 500px;
+        background-color: peru;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+    #s{display: none;}
+    #m{display: none;}
+    #l{display: none;}
+}
+
+@media screen and (min-width:680px) {
+    body {
+        background-color: cornflowerblue;
+    }
+    .circle {
+        display: flex;
+        justify-content: center;
+        height: 300px;
+        width: 300px;
+        border: 1px solid;
+        border-radius: 500px;
+        background-color: indigo;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }#s{display: none;}
+    #m{display: none;}
+    #xl{display: none;}
+}
+
+@media screen and (min-width:1000px) {
+    body {
+        background-color: powderblue;
+    }
+    .circle {
+        display: flex;
+        justify-content: center;
+        height: 300px;
+        width: 300px;
+        border: 1px solid;
+        border-radius: 500px;
+        background-color: yellow;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+    
+}
