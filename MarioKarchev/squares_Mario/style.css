@@ -1,0 +1,192 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6em;
+    margin: 0px;
+}
+
+.container {
+    border: 2px solid black;
+    width: 100vh;
+    min-height: 600px;
+}
+
+.square {
+    color: white;
+    width: 200px;
+    height: 200px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.black {
+    background-color: black;
+}
+
+p {
+    text-align: center;
+    vertical-align: middle;
+    padding: 33%;
+
+}
+
+/* Smallest first (<399px) */
+
+@media (max-width:399px) {
+    body {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
+
+/* 400 - 499 */
+
+@media (min-width:400px) and (max-width: 499px) {
+    /*
+    body {
+        position: relative;
+        margin: 0px 0px
+        
+    }
+*/
+    .red {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    .green {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+
+    .blue {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+
+    }
+
+    .black {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+
+}
+
+/* 500 - 599 */
+
+@media (min-width:500px) and (max-width:599px) {
+    /*
+    body {
+        position: relative;
+    }
+*/
+    .red {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+
+    }
+
+    .green {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    .black {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+    .blue {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+}
+
+/* 600 - 699 */
+
+@media (min-width:600px) and (max-width:699px) {
+    .black {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    .blue {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .red {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+
+    .green {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+}
+
+/* 700 - 799 */
+
+@media (min-width:700px) and (max-width:799px) {
+    /*
+    body {
+        position: relative;
+    }
+*/
+    .black {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    .red {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    .green {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .blue {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+}
+
+/* > 800 */
+
+@media (min-width:800px) {
+    body {
+        display: flex;
+
+    }
+}
