@@ -1,0 +1,159 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6em;
+}
+
+.container {
+    border: 2px solid black;
+    width: 100%;
+    min-height: 600px;
+}
+
+.square {
+    color: white;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+
+}
+
+.green {
+    background-color: green;
+}
+
+.black {
+    background-color: black;
+}
+
+@media screen and (max-width:399px) {
+
+    .square {
+        display: flex;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:400px) and (max-width:499px) {
+    .red {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    }
+
+    .green {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+    }
+
+    .blue {
+        position: fixed;
+        top: 0px;
+        right: 0px;
+
+    }
+
+    .black {
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:599px) {
+    .red {
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .green {
+        position: fixed;
+        top: 0px;
+        right: 0px;
+    }
+
+    .blue {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+
+    }
+
+    .black {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:699px) {
+    .red {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+    }
+
+    .green {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    }
+
+    .blue {
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+
+    }
+
+    .black {
+        position: fixed;
+        top: 0px;
+        right: 0px;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:799px) {
+    .red {
+        position: fixed;
+        top: 0px;
+        right: 0px;
+    }
+
+    .green {
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .blue {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+
+    }
+
+    .black {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    }
+}
+
+@media screen and (min-width:800px) {
+
+    body {
+        display: flex;
+    }
+}
