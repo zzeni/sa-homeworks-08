@@ -1,0 +1,166 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.6em;
+}
+
+.container {
+  border: 2px solid black;
+  width: 100%;
+  min-height: 600px;
+}
+
+.square {
+  display: inline-block;
+    width: 200px;
+    height: 200px;
+  color: white;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.black {
+  background-color: black;
+}
+
+/* Smallest first (<399px) */
+@media (max-width: 399px) {
+    .square{
+        width: 100%;
+    }
+    .square{
+        box-sizing: border-box;
+        padding: 60px;
+    }
+}
+
+/* 400 - 499 */
+@media (min-width: 400px) and (max-width: 499px) {
+    .red{
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+    .blue{
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+    .green{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+    }
+    .black{
+        position: fixed;
+        right: 0;
+        bottom: 0;
+    }
+    .square{
+        box-sizing: border-box;
+        padding: 60px;
+    }
+}
+
+/* 500 - 599 */
+@media (min-width: 500px) and (max-width: 599px){
+    .blue{
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    .green{
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+    .red{
+        position: fixed;
+        right: 0;
+        bottom: 0;
+    }
+    .black{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+    .square{
+        box-sizing: border-box;
+        padding: 60px;
+    }
+}
+
+/* 600 - 699 */
+@media (min-width: 600px) and (max-width: 699px) {
+    .green{
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+    .black{
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+    .blue{
+        position: fixed;
+        right: 0;
+        bottom: 0
+    }
+    .red{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+    .square{
+        box-sizing: border-box;
+        padding: 60px;
+    }
+}
+
+/* 700 - 799 */
+@media (min-width: 700px) and (max-width: 799px) {
+    .black{
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+    .red{
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+    .green{
+        position: fixed;
+        right: 0;
+        bottom: 0;
+    }
+    .blue{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+    .square{
+        box-sizing: border-box;
+        padding: 60px;
+    }
+}
+
+/* > 800 */
+@media (min-width: 800px){
+    .square{
+        margin: -5px;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 60px;
+    }
+}
