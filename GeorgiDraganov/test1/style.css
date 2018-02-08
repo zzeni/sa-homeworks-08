@@ -1,0 +1,115 @@
+* { box-sizing:border-box}
+body {
+  font-family: sans-serif;
+  line-height: 1.6em;
+}
+
+.container {
+  border: 2px solid black;
+  width: 100%;
+  min-height: 600px;
+
+}
+
+.square {
+  color: white;
+}
+
+.red {
+  background-color: red;
+width:200px;
+  height:200px;
+}
+
+.blue {
+  background-color: blue;
+width:200px;
+  height:200px;
+}
+
+.green {
+  background-color: green;
+width:200px;
+  height:200px;
+}
+
+.black {
+  background-color: black;
+width:200px;
+  height:200px;
+}
+
+/* Smallest first (<399px) */
+@media screen and (max-width:399px){
+  .red {
+  background-color: red;
+width:100%;
+
+  }
+  .square {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+.blue {
+  background-color: blue;
+width:100%;
+
+  }
+
+.green {
+  background-color: green;
+width:100%;
+
+  }
+
+.black {
+  background-color: black;
+width:100%;
+  
+  }
+}
+
+/* 400 - 499 */
+@media screen and (min-width:400px) and (max-width:499px){
+  .red {
+  background-color: red;
+position:fixed;
+top:0;
+    bottom:0;
+  }
+
+.blue {
+  background-color: blue;
+position:fixed;
+top:0;
+    bottom:0;
+  
+  }
+
+.green {
+  background-color: green;
+position:fixed;
+top:0;
+    bottom:0;
+  }
+
+.black {
+  background-color: black;
+position:fixed;
+top:0;
+    bottom:0;
+}
+}
+
+/* 500 - 599 */
+@media {}
+
+/* 600 - 699 */
+@media {}
+
+/* 700 - 799 */
+@media {}
+
+/* > 800 */
+@media {}
