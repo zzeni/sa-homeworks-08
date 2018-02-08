@@ -1,21 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1.6em;
 }
 
 .container {
-    border: 2px solid black;
-   width: 100%;
-    min-height: 600px;
+  border: 2px solid black;
+  width: 100%;
+  min-height: 600px;
+  padding: 0;
+  margin: 0;
+  position: static;
 }
 
 .square {
   color: white;
   height: 150px;
+  padding: 40px;
+  /*  border: 2px solid pink;*/
 }
 
-p{
-    text-align:  center;
+p {
+  text-align: center;
 }
 
 .red {
@@ -36,31 +45,29 @@ p{
 
 /* Smallest first (<399px) */
 
-@media (min-width:400){
-  
- div {
+@media (min-width:400px) {
+
+  .square {
     width: 150px;
-    }
-  .red{
     position: fixed;
+  }
+
+  .red {
     left: 0;
-    top:0;
-  }  
+    top: 0;
+  }
 
   .blue {
-    position: fixed;
     right: 0;
-    top:0;
+    top: 0;
   }
-  
-  .green{
-    position: absolute;
+
+  .green {
     left: 0;
     bottom: 0;
   }
-  
-  .black{
-    position: fixed;
+
+  .black {
     right: 0;
     bottom: 0;
   }
@@ -68,27 +75,24 @@ p{
 
 /* 400 - 499 */
 
-@media (min-width:500px){
-  .red{
-    position: fixed;
+@media (min-width:500px) {
+
+  .red {
     right: 0;
-    bottom:0;
-  }  
+    bottom: 0;
+  }
 
   .blue {
-    position: fixed;
     left: 0;
-    top:0;
+    top: 0;
   }
-  
-  .green{
-    position: absolute;
+
+  .green {
     right: 0;
     top: 0;
   }
-  
-  .black{
-    position: fixed;
+
+  .black {
     left: 0;
     bottom: 0;
   }
@@ -96,27 +100,24 @@ p{
 
 /* 500 - 599 */
 
-@media (min-width:600px){
-  .red{
-    position: fixed;
+@media (min-width:600px) {
+
+  .red {
     left: 0;
-    bottom:0;
-  }  
+    bottom: 0;
+  }
 
   .blue {
-    position: fixed;
     right: 0;
-    bottom:0;
+    bottom: 0;
   }
-  
-  .green{
-    position: absolute;
+
+  .green {
     left: 0;
     top: 0;
   }
-  
-  .black{
-    position: fixed;
+
+  .black {
     right: 0;
     top: 0;
   }
@@ -124,11 +125,36 @@ p{
 
 /* 600 - 699 */
 
-@media {}
+@media (min-width:700px) {
+  .red {
+    right: 0;
+    top: 0;
+  }
+
+  .blue {
+    left: 0;
+    bottom: 0;
+  }
+
+  .green {
+    right: 0;
+    bottom: 0;
+  }
+
+  .black {
+    left: 0;
+    top: 0;
+  }
+}
 
 /* 700 - 799 */
 
-@media {}
+@media (min-width:800px) {
+  .square {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+}
 
 /* > 800 */
 
