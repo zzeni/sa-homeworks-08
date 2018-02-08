@@ -69,7 +69,8 @@ font-family: cursive;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+
+  }
 
 .md-only {
   text-align: center;
@@ -79,7 +80,6 @@ font-family: cursive;
   .sm-only, .xs-only{
     display:none;
   }
-
 
 
 
