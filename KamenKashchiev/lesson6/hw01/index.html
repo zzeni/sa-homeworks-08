@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<section class="main">
+		<form action="..." method="post" id="userform">
+			<label for="name">Вашите имена</label>
+			<input type="text" name="name" placeholder="Три имена" onfocus="this.placeholder=''" onblur="this.placeholder='Три имена'" id="name"><br>
+			<label for="email">Вашият e-mail</label>
+			<input type="email" name="email" placeholder="email@example.com" onfocus="this.placeholder=''" onblur="this.placeholder='email@example.com'" id="email"><br>
+			<label for="language">Избор на език</label>
+			<select name="language" id="language" form="userform">
+				<option value="bg">Български</option>
+				<option value="en">Английски</option>
+				<option value="de">Немски</option>
+			</select><br>
+			<label for="phone">Телефон</label>
+			<input type="text" name="phone" placeholder="+359xxxxxxxxx" onfocus="this.placeholder=''" onblur="this.placeholder='+359xxxxxxxxx'" id="phone"><br>
+			<label for="message">Съобщение</label>
+			<textarea type="text" name="message" placeholder="Опишете вашето запитване тук" onfocus="this.placeholder=''" onblur="this.placeholder='Опишете вашето запитване тук'"></textarea><br>
+			<input type="reset" id="reset">
+			<input type="submit" id="submit">
+		</form>
+	</section>
+</body>
+</html>

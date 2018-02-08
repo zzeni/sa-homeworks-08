@@ -1,0 +1,89 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.6em;
+}
+
+.container {
+  border: 2px solid black;
+  width: 100%;
+  min-height: 600px;
+}
+
+.square {
+  color: white;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.black {
+  background-color: black;
+}
+
+/* Smallest first (<399px) */
+@media screen and (max-width: 399px) {
+	body {
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+	}
+	.square {
+		display: flex;
+		height: 30%;
+		text-align: center;
+	}
+}
+
+/* 400 - 499 */
+@media screen and (min-width: 400px) and (max-width: 499) {
+	body {
+		height: 100vh;
+		display: flex;
+	}
+	.container {
+		height: 100%;
+		display: inline-block;
+		position: relative;
+	}
+	.red {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	.blue {
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	.green {
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+	}
+	.black {
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+	}
+}
+
+/* 500 - 599 */
+@media screen and {}
+
+/* 600 - 699 */
+@media screen and {}
+
+/* 700 - 799 */
+@media screen and {}
+
+/* > 800 */
+@media screen and {}

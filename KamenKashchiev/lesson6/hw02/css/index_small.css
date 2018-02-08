@@ -1,0 +1,58 @@
+body {
+	margin: 0px;
+}
+header {
+	border: 3px solid #D43F90;
+	border-radius: 2px;
+	width: 95%;
+	margin: 10px auto;
+	background-color: #61C7ED;
+}
+h2 {
+	margin-left: 10px;
+}
+nav {
+	border: 3px solid green;
+	border-radius: 2px;
+	width: 95%;
+	margin: 10px auto;
+	background-color: #F8FB90;
+}
+span {
+	padding-right: 20px;
+	float: left;
+}
+ul {
+	padding-left: 10px;
+}
+li {
+	display: inline;
+	border-right: 1px solid;
+	padding: 5px;
+}
+a {
+	margin: 10px 0px;
+	text-decoration: none;
+}
+h1 {
+	margin-left: 10px;
+}
+article {
+	border: 1px solid;
+	width: 95%;
+	margin: auto;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+h3 {
+	margin-left: 10px;
+}
+p {
+	margin: 10px;
+}
+img {
+	width: 35px;
+	position: fixed;
+	right: 5px;
+	bottom: 5px;
+}

@@ -1,0 +1,14 @@
+#flex-header {
+	width: 600px;
+	background-color: orange;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+h1 {
+	margin: 10px;
+}
+img {
+	width: 30px;
+	margin: 10px;
+}

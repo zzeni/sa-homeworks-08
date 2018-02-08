@@ -1,0 +1,18 @@
+body {
+	margin: 0px;
+	display: flex;
+}
+article {
+	background-image: url(http://gregag.com/sites/default/files/field/image/html5-and-css3_0.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 1px solid;
+}
+p {
+	width: 500px;
+	margin: 50px;
+	padding: 30px;
+	
+	background-color: rgba(255, 255, 255, 0.6);
+}

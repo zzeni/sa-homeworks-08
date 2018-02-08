@@ -1,0 +1,58 @@
+@media screen and (max-width: 600px) {
+	#art1 {
+		width: 100%;
+	}
+}
+body {
+	margin: 0px;
+}
+#main {
+	width: 600px;
+	height: 500px;
+	background-color: black;
+	margin: auto;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#art1 ,#art2 {
+	width: 48%;
+	height: 30%;
+}
+#art1 {
+	background-color: yellow;
+}
+#art2 {
+	background-color: green;
+}
+#art3 {
+	background-color: red;
+	width: 57%;
+	height: 65%;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h1 {
+	color: white;
+	width: 35%;
+	text-align: center;
+	font-size: 2em;
+}
+#section2 {
+	margin-top: 20px;
+	width: 39%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.art4and5 {
+	background-color: cyan;
+	width: 100%;
+	height: 46%;
+}
+.art5 {
+	margin-top: 20px;
+}
