@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Homework6-2</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Swift academy Front-end course: Lesson 6 - Responsive layout task" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header id="top">
+    <h1>Header</h1>
+  </header>
+
+  <main>
+    <nav>
+      <h3 class="visible_l">Side navigation</h3>
+      <ul>
+        <li>
+          <a href="#article-1">-&gt; Article 1</a>
+          <span class="separator">|</span>
+        </li>
+        <li>
+          <a href="#article-2">-&gt; Article 2</a>
+          <span class="separator">|</span>
+        </li>
+        <li>...</li>
+      </ul>
+    </nav>
+    <div id="main-content">
+      <h2>Main Content</h2>
+      <article id="article-1">
+        <h3>Article 1</h3>
+        <p>
+          Se do consectetur de ipsum iis nescius, ab fugiat laboris cohaerescant, occaecat se cillum. E quamquam ita nescius, <strong>mentitum quid ubi nostrud</strong> exquisitaque ea fore expetendis o doctrina sed o quorum si varias hic a minim ex esse sed ubi nulla <em>nostrud ubi de ad illustriora</em>, dolor ita aut illum aliquip. De magna eu nisi. Id a anim enim summis, de irure occaecat.
+          <br>Qui tamen velit quid ullamco. Ab nisi de enim. Incididunt ita illum quibusdam aut ita irure litteris te culpa ingeniis se despicationes te minim fabulas officia. Elit occaecat quibusdam.
+        </p>
+
+        <p>
+          Sunt laboris familiaritatem non labore admodum officia in excepteur quis enim
+          consequat summis, appellat dolor sunt expetendis nisi, ita velit laborum
+          distinguantur, litteris quae eiusmod vidisse, excepteur illum appellat id
+          offendit se nescius. Ne ad aliqua eiusmod qui aut quis aut aute, multos quamquam
+          concursionibus, in sint ex aliqua. Est aliqua deserunt eiusmod hic aut eram sunt
+          malis consequat. Velit eiusmod ne coniunctione e quem ingeniis quibusdam. Qui
+          quae eiusmod, cillum ex ubi quorum laborum, se quibusdam consectetur, quibusdam
+          praesentibus de quamquam. Officia elit ut occaecat concursionibus. Ne anim duis
+          quo nostrud, ad id cillum nostrud.
+        </p>
+
+      </article>
+      <article id="article-2">
+        <h3>Article 2</h3>
+        <p>
+          Ubi nam malis amet irure. Ubi veniam cernantur, singulis coniunctione si eiusmod, ita ipsum fore noster deserunt et tamen ex se enim litteris. Quo anim nostrud illustriora ex laboris se tempor. O quem expetendis ingeniis nam nescius ex quae incididunt aut ita laboris ad doctrina, tamen commodo si nulla quis. Dolore ab possumus si velit, minim eiusmod an distinguantur. Non tamen eruditionem. Deserunt aute probant, ex de quae culpa malis.
+        </p>
+
+        <p>
+          Sunt laboris familiaritatem non labore admodum officia in excepteur quis enim
+          consequat summis, appellat dolor sunt expetendis nisi, ita velit laborum
+          distinguantur, litteris quae eiusmod vidisse, excepteur illum appellat id
+          offendit se nescius. Ne ad aliqua eiusmod qui aut quis aut aute, multos quamquam
+          concursionibus, in sint ex aliqua. Est aliqua deserunt eiusmod hic aut eram sunt
+          malis consequat. Velit eiusmod ne coniunctione e quem ingeniis quibusdam. Qui
+          quae eiusmod, cillum ex ubi quorum laborum, se quibusdam consectetur, quibusdam
+          praesentibus de quamquam. Officia elit ut occaecat concursionibus. Ne anim duis
+          quo nostrud, ad id cillum nostrud.
+        </p>
+
+        <p>
+          Quamquam legam incididunt. In esse nulla et quibusdam, magna commodo
+          coniunctione, illum commodo quo eruditionem, sed incurreret non iudicem si aute
+          incididunt et mandaremus ab fabulas a cillum consequat, noster iudicem si
+          efflorescere sed proident velit cillum quo ipsum. Ita eu multos admodum, ea
+          proident tractavissent, anim se proident a qui eram lorem et admodum. Arbitror
+          sint an voluptate fidelissimae, dolor senserit aut dolore anim, quorum ad si
+          noster incididunt, nulla litteris officia. Illum ea incurreret hic malis qui
+          mandaremus lorem illum laborum summis quo proident duis an laboris imitarentur
+          ea a admodum familiaritatem. Ad mentitum coniunctione, possumus multos eu
+          eiusmod graviterque a ex te cohaerescant, incididunt iis consequat. Aut do
+          despicationes. Lorem proident a sunt esse, quo irure tamen ne appellat, lorem
+          non laboris an quorum ita esse hic mentitum se noster, ita ita quae consequat a
+          velit praetermissum admodum noster expetendis, mentitum elit sed appellat
+          familiaritatem a sunt hic id dolor senserit.
+        </p>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    Copyright &copy; 2017
+  </footer>
+
+  <a id="toplink" href="#top">
+    <i class="fa fa-arrow-up fa-fw"></i>
+  </a>
+
+
+  <script>
+    /* Add smooth scroll to all to-fragment links */
+    (function () {
+      document.querySelectorAll("a[href^='#']").forEach(function (link) {
+        link.addEventListener("click", function (event) {
+          var target = document.querySelector(this.getAttribute('href'));
+          if (!target) { return; }
+
+          event.preventDefault();
+
+          window.scrollTo({
+            left: 0,
+            top: target.getBoundingClientRect().top + window.scrollY,
+            behavior: 'smooth'
+          })
+        });
+      });
+    })();
+  </script>
+
+</body>
+
+
+</html>

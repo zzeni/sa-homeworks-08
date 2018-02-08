@@ -1,0 +1,135 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.6em;
+}
+
+.container {
+    border: 2px solid black;
+   width: 100%;
+    min-height: 600px;
+}
+
+.square {
+  color: white;
+  height: 150px;
+}
+
+p{
+    text-align:  center;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.black {
+  background-color: black;
+}
+
+/* Smallest first (<399px) */
+
+@media (min-width:400){
+  
+ div {
+    width: 150px;
+    }
+  .red{
+    position: fixed;
+    left: 0;
+    top:0;
+  }  
+
+  .blue {
+    position: fixed;
+    right: 0;
+    top:0;
+  }
+  
+  .green{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .black{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+/* 400 - 499 */
+
+@media (min-width:500px){
+  .red{
+    position: fixed;
+    right: 0;
+    bottom:0;
+  }  
+
+  .blue {
+    position: fixed;
+    left: 0;
+    top:0;
+  }
+  
+  .green{
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .black{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+/* 500 - 599 */
+
+@media (min-width:600px){
+  .red{
+    position: fixed;
+    left: 0;
+    bottom:0;
+  }  
+
+  .blue {
+    position: fixed;
+    right: 0;
+    bottom:0;
+  }
+  
+  .green{
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .black{
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+}
+
+/* 600 - 699 */
+
+@media {}
+
+/* 700 - 799 */
+
+@media {}
+
+/* > 800 */
+
+@media {}
