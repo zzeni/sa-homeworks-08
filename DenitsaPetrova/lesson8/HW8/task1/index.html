@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Video and Audio examples</title>
+  <meta name="author" content="">
+  <meta name="description" content="Lesson 5 example - audio and video elements">
+  <link href="resource/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div id="myaudio">
+      <audio controls autoplay>
+    <source src="resource/storm.mp3" type="audio/mp3" />
+      <source src="resource/storm.ogg" type="audio/ogg0" />
+      Your browser does not support the audio element.
+    </audio>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#" alt="home"> home </a></li>
+        <li><a href="#" alt="about"> about </a></li>
+        <li><a href="#" alt="contact"> contact </a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <video loop autoplay id="myvideo" width="100%" height="100%">
+    <source src="resource/rain.webm" type="video/webm" />
+    <source src="resource/rain.mp4" type="video/mp4" />
+  </video>
+  </main>
+  <footer>Swift Academy &copy; 2017</footer>
+
+</body>
+
+</html>
