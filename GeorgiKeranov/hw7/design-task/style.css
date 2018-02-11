@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+#brand {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #fafafa;
+    color: #222222;
+}
+
+#intro {
+    border: 1px solid;
+    height: calc(100vh - 80px);
+    background-image: url(images/header-bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+}
+
+#intro .heading {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 50px;
+    text-align: center;
+    border: 10px solid #f0f0f0;
+    max-width: 600px;
+    margin: 15vh auto;
+}
+
+header,
+#intro {
+    text-transform: uppercase;
+}
+
+header nav{
+    overflow: hidden;
+    height: 220px;
+    transition: all 1s ease-in-out;
+}
+
+.collapse{
+    height: 0;
+}
+
+header {
+    padding: 1em;
+}
+
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu-icon {
+    font-size: 2em;
+}
+
+#menu-icon:visited, #menu-icon:active{
+    color: inherit;
+}
+
+header a {
+    text-decoration: none;
+    color: #121212
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+    border-top: 1px solid #ccc;
+}
+nav a, nav a:visited{
+     color: #666;
+}
+
+nav a:active{
+    color: #333;
+}
+
+header nav a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+/*
+header nav li:last-of-type a{
+    border-bottom: 1px solid #ccc;
+}
+*/
+
+header nav a:hover {
+    background-color: #f1f1f1;
+}
+
+@media (min-width: 625px) {
+    header {
+        padding: 0em 2em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+    }
+    header nav ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        border-top: 0;
+    }
+
+    header nav ul li {
+        margin: 5px;
+    }
+    
+    header nav{
+        height: auto;
+    }
+
+    header nav a {
+        color: #666;
+        text-decoration: none;
+        margin: 6px;
+    }
+    #menu-icon{
+        display: none;
+    }
+}

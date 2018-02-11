@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="flex-header">
+            <a id="brand" href="#">Pure mix</a>
+            <a id="menu-icon" href="#">&#9776;</a>
+        </div>
+
+        <nav class="collapse">
+            <ul>
+                <li>
+                    <a href="#">home</a>
+                </li>
+                <li>
+                    <a href="#">about</a>
+                </li>
+                <li>
+                    <a href="#">blog</a>
+                </li>
+                <li>
+                    <a href="#">contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="intro">
+            <div class="heading">
+                <h1>Lorem ipsum dolor</h1>
+                <p>six html pages included</p>
+            </div>
+        </div>
+        <nav class="second-nav">
+            <ul>
+                <li>
+                    <a href="#">home</a>
+                </li>
+                <li>
+                    <a href="#">about</a>
+                </li>
+                <li>
+                    <a href="#">blog</a>
+                </li>
+                <li>
+                    <a href="#">contact</a>
+                </li>
+            </ul>
+        </nav>
+    </main>
+    <script>
+        document.getElementById("menu-icon").addEventListener("click", function() {
+                                                              document.querySelector("header.nav").classList.toggle("collapse");})
+    </script>
+
+</body>
+
+</html>
