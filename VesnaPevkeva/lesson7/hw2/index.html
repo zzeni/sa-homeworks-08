@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <style type="text/css">
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;]
+    }
+
+    body {
+      height: 100vh;
+    }
+
+    li {
+      text-align: center;
+      color: white;
+      padding: 10px;
+      border: 10px dashed rgba(255, 255, 255, 0.2);
+    }
+
+    .red {
+      background-color: #A14D4F;
+    }
+
+    .green {
+      background-color: #218A49;
+    }
+
+    .yellow {
+      background-color: #988550;
+    }
+
+    .purple {
+      background-color: #494756;
+    }
+
+    ul {
+      margin-top: 20px;
+      margin-bottom: 50px;
+    }
+
+    header {
+      /*padding: 30px;*/
+      background-color: #502627;
+    }
+
+    main {
+      background-color: #A14D4F;
+      height: 100vh;
+      border: 10px dashed rgba(255, 255, 255, 0.2);
+    }
+
+    h1 {
+      text-align: center;
+      color: white;
+      padding: 40px;
+      box-sizing: initial;
+      border-bottom: 10px dashed rgba(255, 255, 255, 0.2);  
+    }
+
+    @media (min-width: 480px) {
+
+      ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 120px;
+        height: 120px;
+        border-radius: 60px;
+        list-style-type: none;
+      }
+
+      .red {
+        background-color: #A14D4F;
+      }
+  
+      .green {
+        margin-left: -20px;
+      }
+  
+      .yellow {
+        margin-left: -20px;
+      }
+  
+      .purple {
+        margin-left: -20px;
+      }
+
+
+      main {
+        margin: auto;
+        max-width: 800px;
+      }
+
+    }
+
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li class="txt_decoration red">About</li>
+      <li class="txt_decoration green">Resume</li>
+      <li class="txt_decoration yellow">Portfolio</li>
+      <li class="txt_decoration purple">Contacts</li>
+    </ul>
+  </nav>
+
+  <main>
+    <header>
+      <h1>Main Container</h1>
+    </header>
+
+  </main>
+</body>
+</html>
