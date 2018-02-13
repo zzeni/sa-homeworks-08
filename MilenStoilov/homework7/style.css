@@ -1,0 +1,138 @@
+* {
+            box-sizing: border-box;
+
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .red,
+        .green,
+        .orange,
+        .blue {
+            border: 1px dashed;
+            text-align: center;
+            color: #fafafafa
+        }
+
+        .red {
+            background-color: #ce6565;
+        }
+
+        .green {
+            background-color: #4ca84c;
+        }
+
+        .orange {
+            background-color: #d39625;
+        }
+
+        .blue {
+            background-color: #620862;
+        }
+        .main-heading {
+                text-align: center;
+                background-color: #ba1212;
+                border-bottom: 5px dashed;
+                height: 80px;
+                padding: 10px;
+            color: #fafafafa
+            }
+
+            .content {
+                height: 300px;
+                background-color: #ad3131;
+
+
+            }
+
+
+        @media screen and (min-width:480px) {
+            body {
+                display: block
+            }
+            header {
+                position: relative;
+                height: 200px;
+                text-align: center;
+                vertical-align: middle;
+                padding: 25px;
+                margin: auto;
+            }
+
+            .red,
+            .green,
+            .orange,
+            .blue {
+                border: 5px dashed;
+                border-radius: 50%;
+                width: 120px;
+                height: 120px;
+                color: #fafafafa;
+                margin: auto;
+
+            }
+
+            .red {
+                position: absolute;
+                left: 450px;
+                background-color: #ce6565;
+                text-align: center;
+                vertical-align: middle;
+
+
+            }
+
+            .green {
+                position: absolute;
+                left: 550px;
+                background-color: #4ca84c;
+            }
+
+            .orange {
+                position: absolute;
+                left: 650px;
+                background-color: #d39625;
+            }
+
+            .blue {
+                position: absolute;
+                left: 750px;
+                background-color: #620862;
+                display: table;
+                vertical-align: middle;
+            }
+
+            main {
+                width: 850px;
+                border: 5px dashed;
+                margin: auto;
+                color: #fafafafa
+            }
+
+            .main-heading {
+                text-align: center;
+                background-color: #ba1212;
+                border-bottom: 5px dashed;
+                height: 80px;
+                padding: 10px;
+            }
+
+            .content {
+                height: 300px;
+                background-color: #ad3131;
+
+
+            }
+
+            p {
+                display: inline-block;
+                text-align: center;
+                vertical-align: middle;
+                padding: 25px;
+            }
+        }
+    </style>
