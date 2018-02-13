@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design task</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=cyrillic" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="flex-header fhf">
+      <a id="brand" href="#">Pure mix</a>
+      <a id="menu-icon" href="#">&#9776;</a>
+    </div>
+    <nav class="collapse">
+      <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">blog</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="intro">
+    <div class="heading">
+      <h1>Lorem ipsum dolor</h1>
+      <p>six html pages included</p>
+    </div>
+  </div>
+
+  <nav class="second-nav">
+    <ul class="flex-header-sec">
+      <li><a href="#">all</a></li>
+      <li><a href="#">graphic</a></li>
+      <li><a href="#">web template</a></li>
+      <li><a href="#">photoshop</a></li>
+      <li><a href="#">branding</a></li>
+    </ul>
+  </nav>
+
+    <section id="pic-main-container">
+      <div class="pic-container">
+        <img src="images/pic1.png">
+      </div>
+      <div class="pic-container">
+        <img src="images/pic2.png">
+      </div>
+      <div class="pic-container">
+        <img src="images/pic3.png">
+      </div>
+      <div class="pic-container">
+        <img src="images/pic4.png">
+      </div>
+      <div class="pic-container">
+        <img src="images/pic5.png">
+      </div>
+      <div class="pic-container">
+        <img src="images/pic6.png">
+      </div>
+    </section>  
+
+  <footer>
+    <p>Copiright © 2016 Your Company Name - Designed by Tooplate</p>
+
+    <div class="fa-lg">
+
+      <div class="icon-container">
+        <i class="fab fa-facebook-f"></i>
+      </div>
+      <div class="icon-container">
+        <i class="fab fa-twitter"></i>
+      </div>
+      <div class="icon-container">
+        <i class="fab fa-behance"></i>
+      </div>
+      <div class="icon-container">
+        <i class="fab fa-dribbble"></i>
+      </div>
+      <div class="icon-container">
+        <i class="fab fa-google-plus-g"></i>
+      </div>
+
+    </div>
+  </footer>
+
+  <script>
+    document.querySelector("#menu-icon").addEventListener("click", function () {
+      document.querySelector("header nav").classList.toggle("collapse");
+    });
+
+  </script>
+
+</body>
+</html>
