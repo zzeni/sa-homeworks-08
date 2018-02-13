@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+a {
+    font-family: cursive;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    color: #fafafa;
+}
+
+a::before {
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+}
+
+a:hover {
+    background-color: mediumspringgreen;
+}
+
+html:target {
+    background-color: midnightblue;
+}
+
+/* Не съм сигурна дали трябваше след това да се връща към основния си цвят, или не, затова добавям и този начин */
+
+/*
+html:active {
+    background-color: #ed7e8e;
+}
+*/
+
+@media screen and (max-width:459px) {
+
+    a {
+        background-color: #807b00;
+    }
+
+
+    html {
+        background-color: #ffeecf;
+    }
+
+    a::before {
+        content: "small";
+
+    }
+
+    a::after {
+        content: "<460px";
+    }
+}
+
+@media screen and (min-width:460px) and (max-width:679px) {
+    a {
+        background-color: #73a0f5;
+    }
+
+    html {
+        background-color: #e88e5f;
+    }
+
+    a::before {
+        content: "medium";
+    }
+
+    a::after {
+        content: "460px÷679px";
+    }
+}
+
+@media screen and (min-width:680px) and (max-width:999px) {
+    a {
+        background-color: #518104;
+    }
+
+    html {
+        background-color: #fff1d8;
+    }
+
+    a::before {
+        content: "large";
+    }
+
+    a::after {
+        content: "460px÷679px";
+    }
+}
+
+@media screen and (min-width:1000px) {
+    a {
+        background-color: #ef4cb0;
+    }
+
+    html {
+        background-color: #cff7fa;
+    }
+
+    a::before {
+        content: "extra-large";
+    }
+
+    a::after {
+        content: ">1000px";
+    }
+}
