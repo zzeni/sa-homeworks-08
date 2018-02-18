@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        div {
+            width: 200px;
+            height: 312px;
+            background: url('walkingdead.png');
+            animation: play 2s steps(10) infinite;
+        }
+
+        @keyframes play {
+            100% {
+                background-position: -2000px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="walkingdead"></div>
+</body>
+</html>
