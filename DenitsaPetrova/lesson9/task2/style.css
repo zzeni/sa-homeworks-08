@@ -1,0 +1,99 @@
+body {
+  background-color: #FAF0E6;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black
+}
+
+a {
+  flex-direction: column;
+  text-align: center;
+  text-transform: uppercase;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-decoration: none;
+  background-color: #EF875E;
+}
+
+a:hover {
+  background-color: palegreen;
+}
+
+a:active {
+  background-color: yellow;
+  outline: 100vh solid yellow;
+  opacity: 0.8;
+  outline-offset: -30px;
+  color: red;
+  font-size: 1.2em;
+}
+
+a::before {
+  content: "small  ";
+}
+
+a::after {
+  content: "<460px";
+}
+
+@media (min-width:460px) and (max-width:679px) {
+  body {
+    background-color: #699BEA;
+  }
+
+  a {
+    background-color: #EF875E;
+  }
+
+
+  a::before {
+    content: "medium";
+  }
+
+
+  a::after {
+    content: "460px - 680px";
+  }
+}
+
+@media (min-width:680px) and (max-width:999px) {
+  body {
+    background-color: #EF875E;
+  }
+
+  a {
+    background-color: #699BEA;
+  }
+
+  a::before {
+    content: "large";
+  }
+
+  a::after {
+    content: "680px - 999px";
+  }
+}
+
+@media (min-width:1000px) {
+  body {
+    background-color: #F3FEFF;
+  }
+
+  a {
+    background-color: #E84D98;
+  }
+  a::before {
+    content: "extra - large";
+  }
+
+  a::after {
+    content: ">1000px";
+  }
+}
