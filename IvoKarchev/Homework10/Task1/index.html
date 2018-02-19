@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image sprites</title>
+    <style>
+        .icon {
+            margin-right: 20px;
+            width: 50px;
+            height: 50px;
+            background-image: url(social-media.jpg);
+            background-size: 320px;
+        }
+
+        li {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            border: 1px solid #ccc;
+            margin-top: -1px;
+            padding: 10px;
+        }
+
+        li:hover {
+            transform: translateX(-20px);
+            transition: all .8s ease-in-out;
+        }
+
+
+        .facebook {
+            background-position: -9px -4px;
+        }
+
+        .google-plus {
+            background-position: -72px -4px;
+        }
+
+        .instagram {
+            background-position: -135px -4px;
+        }
+
+        .pinterest {
+            background-position: 122px -4px;
+        }
+
+        .twitter {
+            background-position: 59px -4px;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <ul>
+        <li><span class="icon facebook"></span> Facebook</li>
+        <li><span class="icon google-plus"></span> Google Plus</li>
+        <li><span class="icon instagram"></span> Instagram</li>
+        <li><span class="icon pinterest"></span> Pinterest</li>
+        <li><span class="icon twitter"></span> Twitter</li>
+
+    </ul>
+
+</body>
+</html>
