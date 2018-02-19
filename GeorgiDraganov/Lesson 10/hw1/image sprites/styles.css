@@ -1,0 +1,121 @@
+body {
+  background-color: #EEE;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#container {
+  background-color: white;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header {
+  background-color: #66CCFF;
+  text-align: center;
+  color: white;
+}
+
+#content {
+  padding: 10px;
+}
+
+#nav {
+  width: 280px;
+  float: left;
+margin-left:-50px;
+}
+h3 {
+  margin-left:40px;
+}
+#main {
+  width: 500px;
+  float: right;
+}
+
+#footer {
+  clear: both;
+  padding: 10px;
+  background-color: #999999;
+  color: white;
+  text-align: right;
+  font-weight: bold;
+
+}
+
+
+
+li {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-bottom-width: 0;
+  box-shadow: 0 1px #ccc;
+  transition-duration: .3s;
+  max-width: 600px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+span {
+  vertical-align: middle;
+
+}
+
+a:visited {
+  color: #332d2d;
+}
+
+.icon {
+  width: 61px;
+  height: 61px;
+  display: inline-block;
+
+  background-size: 400px;
+
+  margin: 1em;
+}
+
+.facebook {
+  background-position:  -12px -8px;
+  background-image:url(social-medialowres.jpg);
+  
+}
+.googleplus {
+ background-position:  -91px -8px;
+  background-image:url(social-medialowres.jpg)
+}
+.instagram {
+ background-position:  -170px -8px;
+  background-image:url(social-medialowres.jpg)
+}
+.pinterest {
+   background-position:  -248px -8px;
+  background-image:url(social-medialowres.jpg)
+}
+.twitter {
+    background-position:  -328px -8px;
+  background-image:url(social-medialowres.jpg)
+}
+ li:hover {
+        background-color: #eee;
+        animation: shake .3s;
+      }
+
+      @keyframes shake {
+        25% {
+          transform: translateX(10px);
+        }
+        50% {
+          transform: translateX(-10px);
+        }
+        75% {
+          transform: translateX(10px);
+        }
+        100% {
+          transform: translateX(-10px);
+        }
+      }
