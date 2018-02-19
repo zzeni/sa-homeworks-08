@@ -1,0 +1,52 @@
+body {
+	margin: 0px;
+	height: 100vh;
+	background-image: url(../img/bg.jpg);
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	color: white;
+}
+video {
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	z-index: -10;
+}
+header {
+	width: 300px;
+	margin: 5px auto;
+	display: flex;
+	flex-direction: column;
+}
+audio {
+	margin: 15px auto;
+	width: 100%;
+}
+ul {
+	border: 5px solid #4790C1;
+	border-left: 5px solid transparent;
+	border-right:5px solid transparent;
+	width: 97%;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0px;
+	display: flex;
+}
+li {
+	display: inline;
+	margin: auto;
+	font-size: 1.3em;
+	padding: 10px;
+	
+}
+footer {
+	position: absolute;
+	width: 100%;
+	bottom: 20px;
+	background-color: #4790C1;
+	display: flex;
+}
+p {
+	margin: 15px auto;
+}
