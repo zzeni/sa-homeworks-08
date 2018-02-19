@@ -1,0 +1,118 @@
+/* HINT: Use just A Colour Picker to get the colors */
+
+body {
+    background-color: #FAF0E6;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin: 0;
+}
+
+.circle {
+    background-color: #7C8500;
+    color: white;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.circle div {
+    text-align: center;
+}
+
+.sm-only,
+.md-only,
+.lg-only {
+    display: none;
+}
+
+#undo {
+    
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    
+}
+
+@media screen and (max-width:459px) {
+    .circle::before {
+        content: "Small";
+
+    }
+    .circle {
+        background-color: #537676;
+    }
+    .circle::after {
+        content: "<459px"
+    }
+    .circle:hover {
+        background-color: #5353a3
+    }
+    :target {
+        background-color: #903b8d
+    }
+}
+
+@media screen and (min-width:460px)and (max-width:679px) {
+    .circle {
+        background-color: #a52967
+    }
+    .circle::before {
+        content: "Meduim"
+    }
+    .circle::after {
+        content: "460-679px"
+    }
+    .circle:hover {
+        background-color: rgba(219, 73, 19, 0.81)
+    }
+    :target {
+        background-color: rgba(118, 6, 6, 0.44)
+    }
+}
+
+@media screen and (min-width:680px)and (max-width:999px) {
+    .circle {
+        background-color: #c18033
+    }
+    .circle::before {
+        content: "Large"
+    }
+    .circle::after {
+        content: "680-999px"
+    }
+    .circle:hover {
+        background-color: rgba(157, 148, 138, 0.67)
+    }
+    :target {
+        background-color: rgba(88, 40, 132, 0.57)
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .circle {
+        background-color: #83b550;
+    }
+    .circle::before {
+        content: "Extra Large"
+    }
+    .circle::after {
+        content: ">1000px"
+    }
+    .circle:hover {
+        background-color: cornflowerblue;
+    }
+    :target {
+        background-color: brown;
+    }
+
+}
