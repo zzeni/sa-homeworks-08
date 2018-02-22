@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    font-family: sans-serif;
+    color: #484444;
+}
+
+header,
+#intro,
+nav {
+    text-transform: uppercase;
+}
+
+header .menu-icon {
+    float: right;
+}
+
+.container {
+    background-color: white;
+    border: 10px solid rgba(229, 221, 221, 0.24);
+    width: 600px;
+    align-self: center;
+}
+
+header ul {
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #484444;
+}
+
+header nav li {
+    list-style: none;
+    margin: 0 10px;
+    padding: 1em;
+    box-shadow: 0 1px 0 #ccc;
+    border-top: 1px #ccc solid;
+}
+
+main nav ul li {
+    list-style: none;
+    margin: 0 10px;
+    padding: 1em;
+}
+
+.center {
+    text-align: center;
+}
+
+#intro {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    background-image: url(images/header-bg.jpg);
+    height: 65vh;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center center;
+    background-color: #EDEDED;
+}
+
+footer {
+    margin-top: 100px;
+    height: 150px;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    background-color: #262626;
+    color: #d8d8d8;
+}
+
+
+@media (min-width: 680px) {
+    header {
+        display: flex;
+        align-items: center;
+        padding: 1em;
+        justify-content: space-between
+    }
+
+    header h1 {
+        margin: 0;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 5px;
+    }
+
+
+    header h1 a {
+        display: none;
+    }
+
+    header ul {
+        flex-direction: row;
+    }
+
+    header nav li {
+        border-top: 0;
+        padding: .5em;
+    }
+
+    main nav ul {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    main nav ul li {
+        margin: 20px;
+
+    }
+
+    #firstRow,
+    #secondRow {
+        display: flex;
+        justify-content: center;
+    }
+
+    .images {
+        margin: 10px;
+    }
+}
