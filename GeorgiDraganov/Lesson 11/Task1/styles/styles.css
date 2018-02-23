@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-famiy: Helvetica, Arial, sans-serif;
+}
+.green {
+  color: white;
+  background-color: #6b806b;
+}
+.dark {
+  background-color: #3f4e62;
+  color: white;
+}
+.btn {
+  margin-top: 20px;
+  float: right;
+}

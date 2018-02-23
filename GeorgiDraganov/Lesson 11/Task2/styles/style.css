@@ -1,0 +1,21 @@
+.contact {
+  padding:50px 0 80px;
+  text-align: center;
+}
+h2 {
+  padding-bottom: 80px;
+  color:#737373;
+  text-align:center;
+}
+.contact .btn {
+  background-color: #f08080;
+  color:#fff;
+}
+.contact .btn:hover {
+  background-color: #a85959;
+color: #fff;
+}
+span {
+  width:60px; 
+}
+
