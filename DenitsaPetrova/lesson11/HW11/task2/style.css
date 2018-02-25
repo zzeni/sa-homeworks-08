@@ -1,0 +1,8 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.bg-orange{
+  background-color: #E7AD5A;
+}
