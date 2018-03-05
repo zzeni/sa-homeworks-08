@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Navigation 1</title>
+    <style>
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            width: auto;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .header {
+            color: #fafafa;
+            background-color: #545454;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 50px 25px;
+            font-size: 1.5em;
+            font-family: sans-serif;
+            border-radius: 10px;
+        }
+
+        h1,
+        h4 {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            padding: 0;
+            border: .5px solid #545454;
+            border-radius: 10px;
+        }
+
+        li {
+            display: flex;
+            align-items: center;
+            padding: 5px;
+            border-bottom: .5px solid #545454;
+
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            padding-left: 60px;
+            font-size: 1.5em;
+            color: #545454;
+            font-weight: 700;
+            font-family: sans-serif;
+            text-decoration: none;
+            width: 50px;
+            height: 50px;
+            overflow: visible;
+        }
+
+        a:visited {
+            color: #545454;
+        }
+
+        li:last-of-type {
+            border-bottom: none
+        }
+
+        #facebook {
+            background: url('social-media.jpg') 3px 0px;
+            background-size: 300px 50px;
+        }
+
+        #google {
+            background: url('social-media.jpg') -57px 0px;
+            background-size: 300px 50px;
+        }
+
+        #instagram {
+            background: url('social-media.jpg') -117px 0px;
+            background-size: 300px 50px;
+        }
+
+        #pinterest {
+            background: url('social-media.jpg') -175px 0px;
+            background-size: 300px 50px;
+        }
+
+        #twitter {
+            background: url('social-media.jpg') -235px 0px;
+            background-size: 300px 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Social Navigation</h1>
+        <h4>with Image Sprites</h4>
+    </div>
+    <div class="menu">
+        <ul class="buttons">
+            <li class="button"><a href="https://www.facebook.com/" target="_blank" id="facebook"> Facebook</a></li>
+            <li class="button"><a href="https://plus.google.com/" target="_blank" id="google"> Google+</a></li>
+            <li class="button"><a href="https://www.instagram.com/?hl=en" target="_blank" id="instagram">Instagram</a></li>
+            <li class="button"><a href="https://www.pinterest.com/" target="_blank" id="pinterest">Pinterest</a></li>
+            <li class="button"><a href="https://twitter.com/?lang=en" target="_blank" id="twitter">Twitter</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>

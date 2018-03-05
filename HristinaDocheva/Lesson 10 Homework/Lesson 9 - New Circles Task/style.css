@@ -1,0 +1,94 @@
+/* HINT: Use just A Colour Picker to get the colors */
+
+body {
+    background-color: #FAF0E6;
+}
+
+#circle {
+    color: #ffffff;
+    background-color: #7C8500;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-decoration: none
+}
+
+#circle::before {
+    content: "Small";
+    font-size: 3em;
+}
+
+#circle::after {
+    content: "<460px";
+    font-size: 1.5em;
+}
+ body:target {
+      background-color: yellow;
+    }
+
+@media (min-width: 460px) {
+
+    body {
+        background-color: #ed9372;
+    }
+    #circle {
+        background-color: #63ade3;
+    }
+    #circle::before {
+        content: "Medium";
+    }
+    #circle::after {
+        content: "460px-680px";
+    }
+    body:target {
+      background-color: skyblue;
+    }
+}
+
+@media (min-width: 680px) {
+
+    body {
+        background-color: #f8efd5;
+    }
+    #circle {
+        background-color: #0b933a;
+    }
+    #circle::before {
+        content: "Large";
+    }
+    #circle::after {
+        content: "680px-1000px";
+    }  
+    body:target {
+      background-color: pink;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    body {
+        background-color: #d5f5f8;
+    }
+    #circle {
+        background-color: #e845d5;
+    }
+    #circle::before {
+        content: "Extra Large";
+    }
+    #circle::after {
+        content: ">1000px";
+    }
+    body:target {
+      background-color: lightcyan;
+    }
+}

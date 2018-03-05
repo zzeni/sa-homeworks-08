@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Navigation 1</title>
+    <style>
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            width: auto;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .header {
+            color: #fafafa;
+            background-color: #545454;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 50px 25px;
+            font-size: 1.5em;
+            font-family: sans-serif;
+            border-radius: 10px;
+
+        }
+
+        h1,
+        h4 {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            padding: 0;
+            border: .5px solid #545454;
+            border-radius: 10px;
+
+        }
+
+        li {
+            display: flex;
+            align-items: center;
+            padding: 5px;
+            border-bottom: .5px solid #545454
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            font-size: 1.5em;
+            color: #545454;
+            font-weight: 700;
+            font-family: sans-serif;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #545454;
+        }
+
+        img {
+            width: 40px;
+            height: auto;
+            margin-right: 20px;
+        }
+
+        li:last-of-type {
+            border-bottom: none
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Social Navigation</h1>
+        <h4>with Slice and Dice icons</h4>
+    </div>
+    <div class="menu">
+        <ul class="buttons">
+            <li class="button"><a href="https://www.facebook.com/" target="_blank"> <img src="/img/facebook.gif" alt="facebook">Facebook</a></li>
+            <li class="button"><a href="https://plus.google.com/" target="_blank"> <img src="/img/googleplus.gif" alt="googleplus">Google+</a></li>
+            <li class="button"><a href="https://www.instagram.com/?hl=en" target="_blank"><img src="/img/instagram.gif" alt="instagram">Instagram</a></li>
+            <li class="button"><a href="https://www.pinterest.com/" target="_blank"><img src="/img/pinterest.gif" alt="pinterest">Pinterest</a></li>
+            <li class="button"><a href="https://twitter.com/?lang=en" target="_blank"><img src="/img/twitter.gif" alt="twitter">Twitter</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
