@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	height: 100vh;
+}
+header {
+	background-color: #15289d;
+	background-image: url(../img/bblogo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: 18%;
+	border-bottom: 3px solid #FFD300;
+}
+#center {
+	order: 1;
+	width: 76%;
+	height: 100%;
+	position: fixed;
+	margin: 0 12%;
+	z-index: -1;	
+}
+#beavis ,#butthead {
+	background-color: #15289d;
+	min-width: 130px;
+	width: 12%;
+	transition-duration: .5s;
+	display: flex;
+	flex-direction: column;
+}
+#beavis:hover ,#butthead:hover {
+	width: 18%;
+}
+#beavis {
+	position: fixed;
+	border-right: 3px solid #FFD300;
+}
+#butthead {
+	position: fixed;
+	right: 0;
+	border-left: 3px solid #FFD300;
+}
+#panelimg {
+	width: 85%;
+	margin: 10px auto;
+}
+@media screen and (min-width: 480px;) and (max-width: 768px;) {
+	header {
+		height: 10%
+	}
+}
