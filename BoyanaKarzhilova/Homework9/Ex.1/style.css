@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    width: 100%;
+    margin: 0px;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+h1 {
+    margin: 0px;
+    text-align: center;
+    color: #f0e4e6;
+    height: 80px;
+    background-color: #4A2827;
+    line-height: 80px;
+}
+
+#heading {
+    max-width: 800px;
+    border-bottom: 5px dashed rgba(255, 255, 255, 0.23);
+}
+
+main {
+    background-color: #965553;
+    height: 400px;
+    border: 5px dashed rgba(255, 255, 255, 0.23);
+}
+
+#about {
+    background-color: #96534D;
+}
+
+#resume {
+    background-color: #488447;
+}
+
+#portfolio {
+    background-color: #938153;
+}
+
+#contact {
+    background-color: #484854;
+}
+
+header nav ul {
+    padding: 20px 0px;
+}
+
+header nav ul li {
+    max-width: 100%;
+    font-size: 1em;
+    border: 7px dashed rgba(255, 255, 255, 0.23);
+    list-style: none;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.buttons:hover {
+    z-index: 1;
+    margin-top: -5px;
+    transition-duration: 0.5s;
+    box-shadow: 2px 2px 5px #2e2e2e;
+}
+
+@media (min-width:480px) {
+
+    body {
+        max-width: 810px;
+        margin: 0 auto;
+    }
+
+    header nav ul li {
+        border-radius: 50%;
+        height: 120px;
+        width: 120px;
+        line-height: 100px;
+    }
+
+    .buttons {
+        margin: 0 -10px;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+        margin: 0 -10px;
+    }
+
+}

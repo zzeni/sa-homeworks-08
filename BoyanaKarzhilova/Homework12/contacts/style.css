@@ -1,0 +1,40 @@
+.contacts li {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+}
+
+.contacts li a {
+    color: darkgrey;
+}
+
+.contacts:last-of-type {
+    border-bottom: 1px solid #ccc;
+}
+
+.icon {
+    background-size: 165px;
+    margin-right: 3px;
+    background-image: url(social-media.jpg);
+    width: 35px;
+    height: 30px;
+}
+
+.google {
+    background-position: -32px;
+}
+
+.reddit {
+    background-position: 100px;
+}
+
+.pinterest {
+    background-position: 68px;
+}
+
+.twitter {
+    background-position: 35px;
+}

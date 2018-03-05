@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+}
+
+header {
+    height: 80px;
+    background-color: #67ba67;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: dimgray;
+    color: #fafafa;
+    padding: 30px;
+}
+
+p {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+footer a {
+    display: flex;
+    justify-content: center;
+    background-color: #67ba67;
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
+#icon {
+    align-self: center;
+}
