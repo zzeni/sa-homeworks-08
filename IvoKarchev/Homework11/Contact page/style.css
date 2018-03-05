@@ -1,0 +1,21 @@
+.header {
+    background-color: #379873;
+}
+
+.main {
+    background-color: #e6e6e6;
+}
+
+.button {
+    background-color: #379873;
+}
+
+.fa {
+    background-color: #379873;
+    padding: 10px;
+    font-size: 25px;
+    color: #fafafa;
+    position: fixed;
+    bottom: 35px;
+    right: 20px;
+}
