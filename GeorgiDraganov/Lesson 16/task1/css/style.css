@@ -1,0 +1,18 @@
+div {
+  background-color: #d3c8c8;
+  padding: 1em;
+  margin: auto;
+  border: 2px solid black;
+  font-size: 2em;
+  font-family: sans-serif, monospace, fantasy;
+  text-align: center;
+  width: 500px;
+  margin-bottom: 50px;
+
+}
+
+ul {
+  font-size: 0.8em;
+  padding: 25px;
+  list-style-type: circle;
+}

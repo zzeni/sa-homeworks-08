@@ -1,0 +1,58 @@
+body {
+  max-width: 700px;
+  margin: auto;
+}
+
+h1 {
+  margin: 2em 0;
+  font-size: 3em;
+  text-align: center;
+}
+
+.bike {
+  width: 250px;
+  border: 1px solid;
+  margin: 1em;
+  float: left;
+  text-align: center;
+}
+
+div {
+  text-align: center;
+  border: 2px solid #d0c0c0;
+  margin: 20px;
+  overflow: hidden;
+
+}
+
+p {
+  font-size: 1.5em
+}
+
+h3 {
+  margin: 0;
+  height: 100px;
+  background-color: #e25f5f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  font-weight: 100;
+}
+
+h4 {
+  margin: 0;
+  height: 100px;
+  width: 250px;
+  line-height: 6;
+  font-weight: 100;
+
+}
+
+.bicycle {
+  width: 450px;
+  margin: auto;
+  display: flex;
+  border-radius: 50%;
+
+}
