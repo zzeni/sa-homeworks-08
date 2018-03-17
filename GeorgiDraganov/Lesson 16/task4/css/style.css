@@ -1,0 +1,73 @@
+html,
+textarea {
+  font-family: 'Supermercado One', cursive;
+}
+#heroes {
+  width: 450px;
+  height: 450px;
+  background: rgba(208, 45, 45, 0.72);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-end;
+  border: 5px solid blue;
+  justify-content: space-around;
+  border-radius: 50%;
+}
+#badguys {
+  width: 450px;
+  height: 450px;
+  background: rgba(15, 83, 18, 0.69);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 5px solid black;
+}
+#container {
+  display: flex;
+  justify-content: space-around;
+}
+#whatHappened {
+  margin: auto;
+  background: rgba(198, 166, 166, 0.71);
+  width: 450px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+#fightResult {
+  resize: none;
+  height: 50px;
+  align-self: center;
+  overflow: hidden;
+  background-color:rgba(255, 255, 255, 0.47);
+}
+h1 {
+  display: inline-flex;
+  background: rgba(175, 155, 155, 0.67);
+  width: 100%;
+  justify-content: center;
+  height: 150px;
+  align-items: center;
+}
+body {
+  max-width: 100%;
+  margin: auto;
+  background-image: url('../img/justiceleague.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: rgba(239, 239, 239, 0.49);
+  text-align: center;
+}

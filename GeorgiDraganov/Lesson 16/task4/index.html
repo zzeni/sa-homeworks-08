@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HEROES!</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Supermercado+One" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Heroes vs. Badguys</h1>
+  </header>
+  <main>
+    <div id="container">
+      <div id="heroes">
+        <select id="list" onchange="getSelectValue();">
+  <option value="Bat-Man">Bat-Man</option>
+  <option value="Super-Man">Super-Man</option>
+  <option value="The-Flash">The-Flash</option>
+  <option value="Chuck-Norris">Chuck-Norris</option>
+</select>
+        <button type="button" id="fighttheenemy">FIGHT THE ENEMY!</button>
+        <button type="button" id="savetheworld">SAVE THE WORLD!</button>
+      </div>
+      <div id="badguys" onchange="getSelectValue2();">
+        <select id="list2">
+  <option value="joker">joker</option>
+  <option value="penguin">penguin</option>
+  <option value="catwoman">catwoman</option>
+  <option value="citizen">Citizen</option>
+</select>
+      </div>
+    </div>
+    <div id="whatHappened">
+      <textarea id="fightResult" rows="4" cols="35">
+</textarea>
+    </div>
+  </main>
+  <footer>
+    <strong> Copyright of Georgi &copy; 2018</strong>
+  </footer>
+  <script src="js/javascript.js"></script>
+</body>
+</html>
