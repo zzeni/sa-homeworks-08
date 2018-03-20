@@ -1,0 +1,29 @@
+* { -webkit-box-sizing:  border-box; box-sizing:  border-box;}
+
+.bike h2, p{
+display: inline-block;
+  padding: 5px;
+}
+
+.bike{
+  border-radius: 50%;
+}
+
+body{
+  text-align: center;
+  width: 60vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bike:nth-child(odd){
+  background-color: #fc838c;
+}
+
+.bike:nth-child(even){
+  background-color: #93f7ae;
+}
+
+.bike:hover{
+  width: 130%;
+}
