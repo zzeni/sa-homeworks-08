@@ -1,0 +1,101 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	height: 100vh;
+}
+header {
+	background-color: #B3D6F2;
+	height: 10%;
+	border-bottom: 3px solid #FFD300;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header img {
+	height: 100%;
+}
+#bblogo {
+	height: 145%;
+	position: relative;
+	top: -15px;
+	left: -9px;
+}
+#logoblur {
+	height: 70%;
+	width: 335px;
+	border: 0px solid #FFD300;
+	border-radius: 50px;
+	box-shadow: 0 0 35px #FFD300;
+	background-color: #FFD300;	
+}
+#center {
+	order: 1;
+	width: 82%;
+	height: 100%;
+	position: fixed;
+	margin: 0 9%;
+	z-index: -1;	
+}
+main {
+	
+}
+footer {
+	height: 7%;
+	width: 100%;
+	border-top: 3px solid #FFD300;
+	position: fixed;
+	bottom: 0px;
+	background-color: red;
+}
+#beavis ,#butthead {
+	background-color: #15289d;
+	width: 14%;
+	height: 100%;
+	transition-duration: .4s;
+	display: flex;
+	flex-direction: column;
+}
+#beavis:hover ,#butthead:hover {
+	width: 21%;
+}
+#beavis {
+	position: fixed;
+	border-right: 3px solid #FFD300;
+}
+#butthead {
+	position: fixed;
+	right: 0;
+	border-left: 3px solid #FFD300;
+}
+#panelimg {
+	width: 80%;
+	max-width: 135px;
+	margin: 10px auto;
+}
+#puke {
+	width: 35px;
+	margin: 20px auto;
+}
+a {
+	width: 95%;
+	height: 100%;
+	margin: auto;
+	background-image: url(../img/linkimg.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	display: flex;
+	text-decoration: none;
+	line-height: 20px;
+	font-weight: bold;
+	color: black;
+}
+a:visited {
+	color: black;
+}
+span {
+	width: 60%;
+	margin: auto;
+}

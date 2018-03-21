@@ -5,21 +5,89 @@
 	<title>Beavis and Butthead</title>
 	<meta name="author" content="Kamen Kashchiev">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" media="screen and (min-width: 768px)" href="css/large.css">
+	<link rel="stylesheet" media="screen and (max-width: 749px)" href="css/small.css">
+	<link rel="stylesheet" media="screen and (min-width: 750px)" href="css/large.css">
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
 </head>
 <body>
+	<header>
+		<img src="img/beavistop.png" alt="butthead" id="beavimg">
+		<div id="logoContainer">
+			<a href="#main1"><img src="img/tv.png" alt="beavis_and_buttheadlogo" id="bblogo"></a>
+		</div>
+		<img src="img/buttheadtop.png" alt="beavis" id="buttimg">
+	</header>
 	<div id="center">
-		<header>
-			
-		</header>
+		<section id="beavisPanel">
+			<div id="panelImgHolderL">
+				<img src="img/beavis.png" alt="beavis" id="panelImgL">
+			</div>
+			<div id="shadowRemoverL"></div>
+			<div id="pukeContainer">
+				<img src="img/puke.png" alt="puke" id="pukeL">
+			</div>
+			<div class="linkContainer">
+				<a href="#" class="linksL" onmousedown="threat.play()"><span>The great<br>Cornholio</span></a>
+				<a href="#" class="linksL midLink" onmousedown="threat.play()"><span>Beavis<br>Christ</span></a>
+				<a href="#" class="linksL" onmousedown="threat.play()"><span>Selected<br>Moments</span></a>
+			</div>
+		</section>
+		<main>
+			<section id="main1">
+				<div id="sectDimm">
+					<article id="art1A">
+						<div id="h1Dimm">
+							<h1>Beavis and Butthead</h1>
+						</div>
+						<div id="artInternalA">
+							<div id="artDimm">
+								<h2>THE ROCKING DEAD</h2>
+								<div class="artImgContainerL">
+									<img src="img/bbzombie.jpg" alt="beavis and butthead zombies" class="artImgs artImgL">
+								</div>
+								<p id="artTextL">The show that will continue to rock you long after the zombie apocalypse makes everything suck less, because zombies are cool and sculls rule!</p>
+								<hr>
+								<div class="artImgContainerR">
+									<img src="img/bbbackstage.jpg" alt="beavis and butthead backstage" class="artImgs artImgR">
+								</div>
+								<p id="artTextR">Also, a first-hand behind the scenes narration and point of view from our main protagonists.</p>
+							</div>
+						</div>
+						<div id="artInternalB">
+							<div id="artDimm">
+								<h2>Featured Video</h2>
+								<iframe id="bbCher" width="560" height="315" src="https://www.vbox7.com/emb/external.php?vid=22ae0695bb" frameborder="0" allowfullscreen></iframe>
+								<a href="#h1Dimm" id="upLink"><img src="img/uparrow.png" alt="arrow" id="upArrow"><span id="up">UP</span></a>
+							</div>
+						</div>
+					</article>
+				</div>
+			</section>
+		</main>
+		<section id="buttheadPanel">
+			<div id="panelImgHolderR">
+				<img src="img/butthead.png" alt="butthead" id="panelImgR">
+			</div>
+			<div id="shadowRemoverR"></div>
+			<div id="pukeContainer">
+				<img src="img/puke.png" alt="puke" id="pukeR">
+			</div>
+			<div class="linkContainer">
+				<a href="#" class="linksR" onmousedown="cometo.play()"><span>Santa<br>Butthead</span></a>
+				<a href="#" class="linksR midLink" onmousedown="cometo.play()"></a>
+				<a href="#" class="linksR" onmousedown="cometo.play()"><span>Selected<br>Moments</span></a>
+			</div>
+		</section>
 	</div>
-	<section id="beavis">
-		<img src="img/beavis.png" alt="beavis" id="panelimg">
-	</section>
-	<section id="butthead">
-		<img src="img/butthead.png" alt="butthead" id="panelimg">
-	</section>
+	<footer>
+		<div id="footContainer">
+			<a href="https://github.com/katzata" target="_blank" id="footLinks"><img src="img/github.svg" alt="github" id="github"></a>
+			<p>Copywright © 2018</p>
+			<a href="https://www.linkedin.com/in/kamen-kashchiev-b7889314a/" target="_blank" id="footLinks"><img src="img/in.svg" alt="linked in" id="linked"></a>
+		</div>
+	</footer>
+	<script src="js/index.js"></script>
 </body>
 </html>
