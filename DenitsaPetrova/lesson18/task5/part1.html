@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homework18-5-1</title>
+</head>
+
+<body>
+  <div style="text-align: center">
+    <h1> The next page is Google :) </h1>
+    <h1 id="start" style="color: green"></h1>
+  </div>
+
+
+  <script>
+    /* jslint esnext:true */
+    (function() {
+      "use strict";
+      var i = 5;
+
+      window.setInterval(function() {
+        document.querySelector("#start").innerHTML = i;
+        i--;
+      }, 1000);
+
+      window.setTimeout(function() {
+        window.location.replace('https://www.google.bg/');
+      }, 5000);
+    })();
+  </script>
+</body>
+</html>
