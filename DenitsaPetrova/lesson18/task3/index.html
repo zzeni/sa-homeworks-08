@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homework18-3</title>
+  <style>
+    div {
+      width: 25vw;
+      margin: 2vw;
+      float: left;
+      height: 150px;
+      overflow: auto;
+      padding: 1em;
+      border: 2px solid purple;
+      border-radius: 5px;
+    }
+
+    .green {
+      background-color: "lightgreen";
+    }
+
+    .yellow {
+      background-color: "lightyellow";
+    }
+
+    .red {
+      background-color: "coral";
+    }
+
+  </style>
+</head>
+
+<body>
+  <div id="first">
+    <p>
+      <strong>First:</strong> Iudicem e litteris. Si multos arbitror, iis ut amet varias ipsum. Culpa cupidatat incurreret, ea o velit summis eram. Cernantur comprehenderit ex mandaremus.
+    </p>
+  </div>
+
+  <div class="middle"></div>
+
+  <div>
+    <p>
+      <strong>Last:</strong> Quorum do quamquam et noster nam laborum ad fugiat. Ea tamen duis velit arbitror a cupidatat fore varias ea nisi. Ab ubi cohaerescant te quis concursionibus mandaremus illum incurreret, si ne illum tamen irure, quem quo o legam excepteur.
+    </p>
+  </div>
+  
+  
+  <script>
+    (function() {
+      "use trict";
+      var first = document.querySelector("#first");
+      first.style.backgroundColor = "lightgreen";
+
+      var second = document.querySelector(".middle");
+      second.style.backgroundColor = "lightyellow";
+
+      var third = document.querySelector("div:last-of-type");
+      third.style.backgroundColor = "coral";
+
+      document.querySelector(".middle").innerHTML = "<mark>I <3 JavaScript</mark>";
+
+      var div = document.getElementsByTagName('div');
+      for (var i = div.length; i--;) {
+        div[i].parentNode.appendChild(div[i]);
+      }
+    })();
+  </script>
+</body>
+</html>

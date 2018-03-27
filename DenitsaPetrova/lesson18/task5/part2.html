@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10%;
+    }
+
+    img {
+      border: 2px solid pink;
+      border-radius: 50%;
+    }
+
+  </style>
+  <title>Homework18-5-2</title>
+</head>
+
+<body>
+  <div>
+    <img src="https://thehungryjpeg.com/img/products/38be074271d1e6f42832ba3bcc494e6685b64cb0.jpg" alt="bunny" width="400px" class="bunny">
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    (function() {
+      "use trict";
+      var timer = setInterval(function() {
+        document.querySelector(".bunny").style.transform += 'rotate(90deg)';
+      }, 2000);
+
+      setTimeout(function() {
+        clearInterval(timer);
+      }, 10000);
+    })();
+
+  </script>
+</body>
+</html>
