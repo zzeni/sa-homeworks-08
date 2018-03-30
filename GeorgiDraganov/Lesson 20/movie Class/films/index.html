@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Урок 20 - колекция филми</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+
+</head>
+
+<body>
+  <!--Navigation   -->
+
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light jumbotron ">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">My movies</a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon "></span>
+    
+  </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Екшън</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Комедия</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Романтични</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Ужаси</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="container"></div>
+  <!-- Movie Section-->
+  <div class="row">
+
+
+
+    <div id="leftbar" class="col-sm-8 jumbotron justify-content-center ">
+      <form name="filmGenerator" class="justify-content-center ">
+        <input type="text" name="title" placeholder="Film Title" required>
+        <input type="number" name="year" min="1900" max="2016" placeholder="year" required>
+        <input type="url" name="url" placeholder="url" required>
+        <input type="url" name="imageUrl" placeholder="image url" required>
+
+        <input type="submit" value="Add!">
+      </form>
+      <ul id="collection"></ul>
+
+      <p id="debug"></p>
+
+    </div>
+    <div class="row">
+      <div class="col-sm-10 form bg-light jumbotron  rightbar">
+        <h3>Връзка</h3>
+        <p>Получавайте емайли за промените по нашият сайт!</p>
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control input-lg" name="name" id="name" placeholder="Име">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control input-lg" name="lastName" id="lastName" placeholder="Фамилия">
+          </div>
+
+          <div class="form-group">
+            <input type="email" class="form-control input-lg" name="email" id="email" placeholder="Е-поща">
+          </div>
+
+          <textarea placeholder="Имате въпрос...?">
+
+</textarea>
+          <button id="formButton" class="btn btn-block text-center">Запишете се за новини и специални предложения!</button>
+
+        </form>
+
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="#">
+    <div class="container">
+      <h3>Последвайте нашите страници!</h3>
+      <ul>
+        <li><a href="#"><i class="fab fa-facebook text-dark"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter text-dark"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram text-dark"></i></a></li>
+        <li><a href="#"><i class="fab fa-google-plus text-dark"></i></a></li>
+      </ul>
+      <h3>&copy; Copyright - 2018 by Georgi</h3>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="js/script.js" type="application/javascript"></script>
+</body>
+
+</html>
