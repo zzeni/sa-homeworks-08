@@ -1,0 +1,59 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  margin: auto 30px;
+  background-image: url(fony_33-845x570.jpg);
+  background-size: 100%;
+}
+
+/*button {
+  padding: 10px 30px;
+  background-color: lightblue;
+  color: black;
+}*/
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-bottom: 20px;
+  background-color: #e6e4e4;
+  padding: 20px;
+  border: 2px solid grey;
+  border-radius: 15px;
+}
+
+.header {
+  text-align: center;
+  color: white;
+  margin:20px auto;
+  font-size: 1.5em;
+  font-family: cursive;
+}
+
+#collection {
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 90vh;
+}
+
+.thumbnail img {
+  height: 200px;
+}
+
+.thumbnail {
+  height: 300px;
+  background-color: #e6e4e4;
+}
+
+.thumbnail .caption {
+  padding: 5px;
+}
