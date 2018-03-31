@@ -1,0 +1,48 @@
+textarea {
+  width: 100%;
+}
+
+body {
+  font-size: 100%;
+  background: url("../img/image.jpg");
+  background-attachment: fixed;
+}
+
+img {
+  width: 100%;
+
+}
+
+.row {
+  opacity: 0.9;
+}
+
+body {
+  width: 800px;
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 3em 2em;
+}
+
+footer .fab {
+  color: green;
+  font-size: 2em;
+  padding: 0 1em;
+}
+
+footer h3 {
+  color: black;
+  font-size: 2em;
+
+}
+
+ul li {
+  display: inline;
+}
+
+input:hover {
+  border: 2px solid green;
+}
