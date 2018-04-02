@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Урок 19 - колекция филми</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <main>
+    <div class="header">
+      <h1>Movie collection</h1>
+      <p>You can add new movie!</p>
+    </div>
+    <form name="filmGenerator">
+      <div class="input-group">
+        <label class="input-group-addon" id="title">Title</label>
+        <input type="text" name="title" placeholder="Film Title" aria-describedby="title" required>
+      </div>
+      <div class="input-group">
+        <label class="input-group-addon" id="year">Year</label>
+        <input type="number" name="year" min="1900" max="2016" placeholder="year" aria-describedby="year" required>
+      </div>
+      <div class="input-group">
+        <label class="input-group-addon" id="url">Url</label>
+        <input type="url" name="url" placeholder="url" aria-describedby="url" required>
+      </div>
+      <div class="input-group">
+        <label class="input-group-addon" id="imgUrl">ImageUrl</label>
+        <input type="url" name="imageUrl" placeholder="image url" aria-describedby="imgUrl" required>
+      </div>
+
+      <input type="submit" value="Add!">
+    </form>
+
+    <div id="collection"></div>
+  </main>
+  <!--  <p id="debug"></p>
+
+  <div class="row">
+    <div class="col-xs-6 col-sm-4 col-md-2">
+      <div class="thumbnail">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/The_Godfather_%28Film%29_Logo.png" alt="...">
+        <div class="caption">
+          <h3>Заглавие на филм</h3>
+          <p>година / списък с актьори / друго ...</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        </div>
+      </div>
+    </div>
+  </div>-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/movie.js"></script>
+  <script src="js/script.js" type="application/javascript"></script>
+</body>
+</html>
