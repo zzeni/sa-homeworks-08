@@ -1,0 +1,130 @@
+body,
+html {
+  max-width: 100%;
+
+}
+
+body {
+  background: url("../img/images.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#navbar {
+  margin: 50px;
+
+}
+
+button {
+  padding: 10px 30px;
+  background-color: lightblue;
+  color: black;
+
+}
+
+#formButton {
+  font-size: 0.7em;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0em 1em;
+  font-size: 1.2em;
+}
+
+
+textarea {
+  resize: none;
+}
+
+.rightbar {
+  max-height: 500px;
+  max-width: 370px;
+  margin-left: 3.4em;
+
+}
+
+#leftbar {
+  margin-left: 4em;
+
+}
+
+form {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card {
+  height: auto;
+  margin: 0;
+  padding: 0;
+
+}
+
+.row {
+  margin-right: 0px;
+}
+
+.card img {
+  width: auto;
+}
+
+#collection {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  white-space: pre-wrap;
+  max-height: 550px;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5em 1em;
+}
+
+footer .fab {
+
+  font-size: 2em;
+  padding: 0 1em;
+}
+
+footer h3 {
+  color: black;
+  font-size: 1em;
+
+}
+
+@media (min-width: 1439px) {
+  .rightbar {
+    width: 330px;
+    font-size: 0.9em;
+  }
+
+  textarea {
+    width: 265px;
+    height: 50px;
+  }
+
+
+}
+
+@media (max-width: 1024px) {
+
+  .rightbar {
+
+    margin-left: 45px;
+    width: 200px;
+    font-size: 0.4em;
+  }
+  textarea {
+    width: 136px;
+    height: 35px;
+  }
+
+}
