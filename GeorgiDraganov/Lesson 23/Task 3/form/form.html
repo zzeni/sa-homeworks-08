@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms example</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <form>
+    <hr>
+    <div class="formcontainer">
+      <h1>My form </h1>
+
+      <label for="username"><b>Username</b></label>
+      <input id="username" type="text" placeholder="username" required>
+
+      <label for="email"><b>Email</b></label>
+      <input id="email" type="email" placeholder="email" required>
+
+      <label for="password"><b>Password</b></label>
+      <input id="password" type="password" placeholder="Your password" required>
+
+      <label for="passwordConf"><b>Password Confirm</b></label>
+      <input id="passwordConf" type="password" placeholder="Password confirmation">
+
+      <label for="bday"><b>Birth date</b></label>
+      <input type="text" name="bday" id="date" placeholder="DD/MM/YY">
+
+
+
+      <label for="input"><b>Profile picture</b></label>
+      <input type="text" id="photoUrl">
+      <input type="button" value="Preview Image" id="showPhoto" />
+      <span id="photo"></span>
+      <button id="signUp" type="submit">Sign up</button>
+    </div>
+    <hr>
+  </form>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="js/javascript.js"></script>
+</body>
+
+</html>

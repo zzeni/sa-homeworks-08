@@ -1,0 +1,34 @@
+form > div {
+  padding: 10px;
+  width: 25vh;
+}
+
+form {
+  margin: auto;
+  width: auto;
+  height: 70vh;
+  font-size: 1.3em;
+}
+
+.formcontainer {
+  margin: auto;
+}
+
+form label {
+  width: 130px;
+  display: inline-block;
+  text-align: left;
+
+}
+
+button {
+  margin-top: 25px;
+}
+
+textarea {
+  resize: none;
+  vertical-align: top;
+  width: 200px;
+  height: 100px;
+}
+
