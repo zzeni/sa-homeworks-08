@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <style>
+    div {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="task1">
+    <h1>Please, fill in the fields!</h1>
+
+    <input type="text" placeholder="username" pattern="[A-Za-z0-9_]{3,}">
+
+    <input type="password" id="check" placeholder="Your password" pattern=".{6,}">
+
+    <input type="password" placeholder="Password confirmation" data-rule-equalto="#check">
+
+    <button type="submit">Sign up</button>
+  </div>
+
+  <div id="task2">
+    <h1>Please, fill in the fields!</h1>
+
+    <input id="username" type="text" placeholder="username">
+
+    <input id="email" type="email" placeholder="email">
+
+    <input id="password" type="password" placeholder="Your password">
+
+    <input id="passwordConf" type="password" placeholder="Password confirmation">
+
+    <input id="bday" type="date" placeholder="birthdate">
+
+    <input id="img" type="url" placeholder="picture url">
+
+    <button type="submit">Sign up</button>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
