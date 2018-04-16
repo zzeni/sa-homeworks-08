@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Exam Preparation</title>
+  <style>
+    main>:nth-child(odd) {
+      background-color: #fdc4cd;
+    }
+
+    main>:nth-child(even) {
+      background-color: #e2bde2;
+    }
+
+  </style>
+</head>
+
+<body class="container">
+  <header class="text-center mt-4">
+    <h1>Exam Preparation</h1>
+  </header>
+
+  <main class="row my-4">
+    <div class="col-4 p-2">
+      <h3>Shopping Cart</h3>
+      <div id="shoppingCart"></div>
+      <h4 id="total"></h4>
+    </div>
+
+    <div id="wordCounter" class="col-4 p-2">
+      <h3>Word Counter</h3>
+      <p>Enter sentence or use this:<br> <span class="text"></span></p>
+      <input id="words" type="text">
+      <button id="counter">enter</button>
+      <br>
+    </div>
+
+    <div id="capitalize" class="col-4 p-2">
+      <h3>Capitalize</h3>
+      <p>Enter sentence or use this:<br><span class="text"></span></p>
+      <input id="cap" type="text">
+      <button id="upper">enter</button>
+      <br>
+    </div>
+
+    <div id="matrix" class="col-4 p-2">
+      <h3>Matrix diagonals</h3>
+    </div>
+
+    <div id="sort" class="col-4 p-2">
+      <h3>Sort array</h3>
+      <p id="array">Original array: </p>
+    </div>
+
+    <div id="age" class="col-4 p-2">
+      <h3>How old am I?</h3>
+      <label for="yourAge">Your birth data </label>
+      <input type="date" id="yourAge">
+      <div id="howOld"></div>
+      <button id="go">enter</button>
+    </div>
+
+    <div class="col-4 p-2">
+      <h3>Vowel Counter</h3>
+      <p>Enter sentence or use this:<br><span class="text2"></span></p>
+      <input id="vow" type="text">
+      <button id="do">enter</button>
+      <div id="vowel"></div>
+      <div id="vowelCounter"></div>
+    </div>
+  </main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/shoppingCart.js"></script>
+  <script src="js/wordCounter.js"></script>
+  <script src="js/capitalize.js"></script>
+  <script src="js/howOld.js"></script>
+  <script src="js/vowelCounter.js"></script>
+  <script src="js/matrix.js"></script>
+  <script src="js/sort.js"></script>
+</body>
+
+</html>
