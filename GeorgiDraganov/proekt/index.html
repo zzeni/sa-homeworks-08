@@ -6,15 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mega Bite Foods Project</title>
   <!--bootstrap css-->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="vendor/bootstrap.min.css">
   <!--main css-->
   <link rel="stylesheet" href="css/main.css">
   <!--font awesome js-->
-  <script src="js/fontawesome-all.js"></script>
+  <script src="vendor/fontawesome-all.js"></script>
   <!--google fonts-->
   <link href="https://fonts.googleapis.com/css?family=Kanit:500i" rel="stylesheet">
   <!--magnific popup css-->
-  <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+  <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css">
 </head>
 
 <body>
@@ -42,7 +42,7 @@
       <div class="row height-90 align-items-center justify-content-center">
         <div class="col">
           <div class="banner text-center">
-            <h1 class="display-1 text-capitalize w-50  mx-auto">
+            <h1 class="display-1 text-capitalize col-sm-6  mx-auto">
               <small>mega bite</small> <strong class="primary-color">Foods</strong>
             </h1>
             <a href="#" class="btn megabite-btn main-btn my-4 text-capitalize">поръчайте онлайн</a>
@@ -106,8 +106,8 @@
   <!--end of navbar -->
   <!--menu items-->
   <section class="py-5" id="special-items">
-    <div class="container my-5">
-      <h2 class="text-center display-1">Най поръчвани</h2>
+    <div id="mostOrdered" class="container my-5">
+      <h2 class="text-center display-1">Най-поръчвани</h2>
       <div class="row parent-container">
 
         <!--menu item-->
@@ -183,169 +183,170 @@
 
   <!--end of menu items-->
   <!--menu section-->
-  <section id="menu" class="py-5 my-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <!--title-->
-          <div class="row">
-            <div class="col">
-              <h1 class="primary-color text-uppercase">ястия с пилешко</h1>
+  <article class="menu-sectionf">
+    <section id="menu" class="py-5 my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <!--title-->
+            <div class="row">
+              <div class="col">
+                <h1 class="primary-color text-uppercase">ястия с пилешко</h1>
+
+              </div>
+            </div>
+            <!--end of title-->
+            <!--single item-->
+            <div class="single-item d-flex justify-content-between my-3 p-3">
+              <div class="single-item-text">
+                <h2 class="text-uppercase text-dark">пилешко ястие</h2>
+                <h4 class="text-muted">Lorem ipsum dolor sit amet.</h4>
+              </div>
+              <div class="single-item-price align-self-end">
+                <h1 class="text-uppercase text-dark">цена</h1>
+              </div>
 
             </div>
+
+            <!--end of single item-->
+            <!--single item-->
+            <div class="single-item d-flex justify-content-between my-3 p-3 special">
+              <div class="single-item-text">
+                <h2 class="text-uppercase text-dark">пилешко ястие</h2>
+                <h4 class="text-muted">Lorem ipsum dolor sit amet.</h4>
+              </div>
+              <div class="single-item-price align-self-end">
+                <h1 class="text-uppercase text-dark">цена</h1>
+              </div>
+              <h3 class="special-text text-capitalize">специалитет</h3>
+
+            </div>
+
+            <!--end of single item-->
+            <!--title-->
+            <div class="row">
+              <div class="col">
+                <h1 class="primary-color text-uppercase">ястия с телешко</h1>
+
+              </div>
+            </div>
+            <!--end of title-->
+            <!--single item-->
+            <div class="single-item d-flex justify-content-between my-3 p-3">
+              <div class="single-item-text">
+                <h2 class="text-uppercase text-dark">телешко ястие</h2>
+                <h4 class="text-muted">Lorem ipsum dolor sit amet.</h4>
+              </div>
+              <div class="single-item-price align-self-end">
+                <h1 class="text-uppercase text-dark">цена</h1>
+              </div>
+
+            </div>
+
+            <!--end of single item-->
+            <!--single item-->
+            <div class="single-item d-flex justify-content-between my-3 p-3 special">
+              <div class="single-item-text">
+                <h2 class="text-uppercase text-dark">телешко ястие</h2>
+                <h4 class="text-muted">Lorem ipsum dolor sit amet.</h4>
+              </div>
+              <div class="single-item-price align-self-end">
+                <h1 class="text-uppercase text-dark">цена</h1>
+              </div>
+              <h3 class="special-text text-capitalize">специалитет</h3>
+
+            </div>
+
+            <!--end of single item-->
+
+
           </div>
-          <!--end of title-->
-          <!--single item-->
-          <div class="single-item d-flex justify-content-between my-3 p-3">
-            <div class="single-item-text">
-              <h2 class="text-uppercase text-dark">пилешко ястие</h2>
-              <h4 class="text-muted">Lorem ipsum dolor sit amet.</h4>
+          <!--end of first col-->
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col">
+                <h1 class="primary-color text-uppercase">ястия с риба</h1>
+
+              </div>
             </div>
-            <div class="single-item-price align-self-end">
-              <h1 class="text-uppercase text-dark">цена</h1>
+            <!--end of title-->
+            <!--single item-->
+            <div class="single-item d-flex justify-content-between my-3 p-3">
+              <div class="single-item-text">
+                <h2 class="text-uppercase text-dark">рибно ястие</h2>
+                <h4 class="text-muted">Lorem ipsum dolor sit amet.</h4>
+              </div>
+              <div class="single-item-price align-self-end">
+                <h1 class="text-uppercase text-dark">цена</h1>
+              </div>
+
             </div>
+
+            <!--end of single item-->
+            <!--single item-->
+            <div class="single-item d-flex justify-content-between my-3 p-3 special">
+              <div class="single-item-text">
+                <h2 class="text-uppercase text-dark">Рибно ястие</h2>
+                <h4 class="text-muted">Lorem ipsum dolor sit amet.</h4>
+              </div>
+              <div class="single-item-price align-self-end">
+                <h1 class="text-uppercase text-dark">цена</h1>
+              </div>
+              <h3 class="special-text text-capitalize">специалитет</h3>
+
+            </div>
+
+            <!--end of single item-->
+            <!--title-->
+            <div class="row">
+              <div class="col">
+                <h1 class="primary-color text-uppercase">салати</h1>
+
+              </div>
+            </div>
+            <!--end of title-->
+            <!--single item-->
+            <div class="single-item d-flex justify-content-between my-3 p-3">
+              <div class="single-item-text">
+                <h2 class="text-uppercase text-dark">салата</h2>
+                <h4 class="text-muted">Lorem ipsum dolor sit amet.</h4>
+              </div>
+              <div class="single-item-price align-self-end">
+                <h1 class="text-uppercase text-dark">цена</h1>
+              </div>
+
+            </div>
+
+            <!--end of single item-->
+            <!--single item-->
+            <div class="single-item d-flex justify-content-between my-3 p-3 special">
+              <div class="single-item-text">
+                <h2 class="text-uppercase text-dark">салата</h2>
+                <h4 class="text-muted">Lorem ipsum dolor sit amet.</h4>
+              </div>
+              <div class="single-item-price align-self-end">
+                <h1 class="text-uppercase text-dark">цена</h1>
+              </div>
+              <h3 class="special-text text-capitalize">специалитет</h3>
+
+            </div>
+
+            <!--end of single item-->
+
+
+
 
           </div>
-
-          <!--end of single item-->
-          <!--single item-->
-          <div class="single-item d-flex justify-content-between my-3 p-3 special">
-            <div class="single-item-text">
-              <h2 class="text-uppercase text-dark">пилешко ястие</h2>
-              <h4 class="text-muted">Lorem ipsum dolor sit amet.</h4>
-            </div>
-            <div class="single-item-price align-self-end">
-              <h1 class="text-uppercase text-dark">цена</h1>
-            </div>
-            <h3 class="special-text text-capitalize">специалитет</h3>
-
-          </div>
-
-          <!--end of single item-->
-          <!--title-->
-          <div class="row">
-            <div class="col">
-              <h1 class="primary-color text-uppercase">ястия с телешко</h1>
-
-            </div>
-          </div>
-          <!--end of title-->
-          <!--single item-->
-          <div class="single-item d-flex justify-content-between my-3 p-3">
-            <div class="single-item-text">
-              <h2 class="text-uppercase text-dark">телешко ястие</h2>
-              <h4 class="text-muted">Lorem ipsum dolor sit amet.</h4>
-            </div>
-            <div class="single-item-price align-self-end">
-              <h1 class="text-uppercase text-dark">цена</h1>
-            </div>
-
-          </div>
-
-          <!--end of single item-->
-          <!--single item-->
-          <div class="single-item d-flex justify-content-between my-3 p-3 special">
-            <div class="single-item-text">
-              <h2 class="text-uppercase text-dark">телешко ястие</h2>
-              <h4 class="text-muted">Lorem ipsum dolor sit amet.</h4>
-            </div>
-            <div class="single-item-price align-self-end">
-              <h1 class="text-uppercase text-dark">цена</h1>
-            </div>
-            <h3 class="special-text text-capitalize">специалитет</h3>
-
-          </div>
-
-          <!--end of single item-->
-
 
         </div>
-        <!--end of first col-->
-        <div class="col-md-6">
-          <div class="row">
-            <div class="col">
-              <h1 class="primary-color text-uppercase">ястия с риба</h1>
-
-            </div>
-          </div>
-          <!--end of title-->
-          <!--single item-->
-          <div class="single-item d-flex justify-content-between my-3 p-3">
-            <div class="single-item-text">
-              <h2 class="text-uppercase text-dark">рибно ястие</h2>
-              <h4 class="text-muted">Lorem ipsum dolor sit amet.</h4>
-            </div>
-            <div class="single-item-price align-self-end">
-              <h1 class="text-uppercase text-dark">цена</h1>
-            </div>
-
-          </div>
-
-          <!--end of single item-->
-          <!--single item-->
-          <div class="single-item d-flex justify-content-between my-3 p-3 special">
-            <div class="single-item-text">
-              <h2 class="text-uppercase text-dark">Рибно ястие</h2>
-              <h4 class="text-muted">Lorem ipsum dolor sit amet.</h4>
-            </div>
-            <div class="single-item-price align-self-end">
-              <h1 class="text-uppercase text-dark">цена</h1>
-            </div>
-            <h3 class="special-text text-capitalize">специалитет</h3>
-
-          </div>
-
-          <!--end of single item-->
-          <!--title-->
-          <div class="row">
-            <div class="col">
-              <h1 class="primary-color text-uppercase">салати</h1>
-
-            </div>
-          </div>
-          <!--end of title-->
-          <!--single item-->
-          <div class="single-item d-flex justify-content-between my-3 p-3">
-            <div class="single-item-text">
-              <h2 class="text-uppercase text-dark">салата</h2>
-              <h4 class="text-muted">Lorem ipsum dolor sit amet.</h4>
-            </div>
-            <div class="single-item-price align-self-end">
-              <h1 class="text-uppercase text-dark">цена</h1>
-            </div>
-
-          </div>
-
-          <!--end of single item-->
-          <!--single item-->
-          <div class="single-item d-flex justify-content-between my-3 p-3 special">
-            <div class="single-item-text">
-              <h2 class="text-uppercase text-dark">салата</h2>
-              <h4 class="text-muted">Lorem ipsum dolor sit amet.</h4>
-            </div>
-            <div class="single-item-price align-self-end">
-              <h1 class="text-uppercase text-dark">цена</h1>
-            </div>
-            <h3 class="special-text text-capitalize">специалитет</h3>
-
-          </div>
-
-          <!--end of single item-->
-
-
-
-
-        </div>
-
       </div>
-    </div>
 
-  </section>
-
+    </section>
+  </article>
   <!--end menu section-->
   <!--about-->
   <section id="about" class="py-5">
-    <div class="container">
+    <div id="aboutBackground" class="container p-4">
       <div class="row">
         <div class="col-md-6 about-pictures my-4 d-none d-lg-block ">
           <img src="img/menu-item-1.jpeg" alt="" class="img-1 img-thumbnail about-image">
@@ -354,10 +355,10 @@
           <img src="img/menu-item-4.jpeg" alt="" class="img-4 img-thumbnail about-image">
           <img src="img/menu-item-5.jpeg" alt="" class="img-5 img-thumbnail about-image">
         </div>
-        <div class="col-md-6 my-4 mx-auto">
+        <div class="col-md-6 my-4 mx-auto text-center">
           <h1 class="text-uppercase display-3">за нас</h1>
-          <h2 class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque vel asperiores necessitatibus facere quasi numquam.</h2>
-          <button type="button" id="about-page" class="btn main-btn my-4 text-capitalize">научете повече</button>
+          <h2 id="aboutDescription" class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque vel asperiores necessitatibus facere quasi numquam.</h2>
+          <button type="button" id="about-page" class="btn main-btn my-4 text-capitalize px-4 text-center">научете повече</button>
 
 
         </div>
@@ -450,17 +451,19 @@
 
   <!--end of reviews-->
   <!--team-->
-  <section id="team" class="py-5">
-    <div class="container">
-      <div class="teamHtml row">
+  <article class="team-section">
+    <section id="team" class="py-5">
+      <div class="container">
+        <div class="teamHtml row">
 
 
-        <!--team member-->
+          <!--team member-->
 
 
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </article>
   <!--end of team-->
   <!--contact section-->
   <section id="contact">
@@ -554,13 +557,13 @@
   <!--end of footer-->
 
   <!--jquery-->
-  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="vendor/jquery-3.3.1.min.js"></script>
   <!--bootstrap js-->
-  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/bootstrap.bundle.min.js"></script>
   <!--ripple-->
-  <script src="js/jquery.ripples-min.js"></script>
+  <script src="vendor/jquery.ripples-min.js"></script>
   <!--magnific popup js-->
-  <script src="magnific-popup/jquery.magnific-popup.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.js"></script>
   <!--js-->
   <script src="js/script.js"></script>
 

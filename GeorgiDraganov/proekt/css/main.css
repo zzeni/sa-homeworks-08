@@ -1,8 +1,9 @@
 /*texas green .info color : #073B3A */
 
-/*.primary-color tea green : #138A36 */
+/*.primary-color medium sea green : #4CB963; */
 
 body {
+  font-size: 16px;
   font-family: 'Kanit', sans-serif;
   color: #AAD922;
   background: url(../img/bckg-image.jpg)center/cover fixed no-repeat;
@@ -10,14 +11,16 @@ body {
 
 .info {
   background: #073B3A;
+
 }
 
 .primary-color {
-  color: #138A36;
+  color: #63ce7a;
 }
 
 .info h2 {
   word-spacing: 0.6rem;
+  font-size: 1em;
 }
 
 .info a {
@@ -25,7 +28,7 @@ body {
 }
 
 .info a:hover {
-  color: #04E824;
+  color: rgb(74, 65, 150);
 }
 
 /*############header##############*/
@@ -44,7 +47,20 @@ body {
   min-height: 87vh;
 }
 
+#mostOrdered {
+  background-color: rgba(0, 0, 0, .65);
+  border-radius: .5em;
+  border: 2px solid #fafafa;
+}
+
+#mostOrdered h2 {
+  font-size: 5em;
+  word-break: break-word;
+}
+
 .banner h1 {
+  text-shadow: 1px 1px 2px #333;
+  font-size: 5em;
   border-top: 6px dotted #073B3A;
   border-bottom: 6px dotted #073B3A;
   animation: fromLeft;
@@ -118,7 +134,7 @@ body {
   animation: fromBottom;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-
+  color: #fafafa;
 }
 
 .header-link:hover {
@@ -163,7 +179,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #04E824;
-  font-size: 2rem;
+  font-size: 2em;
   border-bottom: 3px solid #04E824;
   border-top: 3px solid #04E824;
   transition: all 2s ease;
@@ -189,12 +205,14 @@ body {
 /*######################menu######################*/
 
 #menu {
+  text-shadow: 1px 1px 1px #242424;
   background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../img/bannerimg2.jpeg)center/cover fixed no-repeat;
 }
 
 .special {
   border: 3px solid #138A36;
   position: relative;
+
 }
 
 .special-text {
@@ -209,6 +227,16 @@ body {
 /*######################end of menu######################*/
 
 /*####################about##############################*/
+
+#aboutBackground {
+  background-color: rgba(0, 0, 0, .65);
+  border-radius: .5em;
+  border: 2px solid #fafafa;
+}
+
+#aboutDescription {
+  font-size: 2em;
+}
 
 .about-pictures {
   position: relative;
@@ -335,6 +363,10 @@ body {
 
 /*######################footer######################*/
 
+#footer h2 {
+  font-size: 1.6em;
+}
+
 #back-to-top {
   background: #AAD922;
   border-radius: 10px;
@@ -452,3 +484,62 @@ body {
 }*/
 
 /*#######################end of navbar#################*/
+
+/*Small devices */
+
+@media (max-width: 1200px) {
+  body {
+    font-size: 14px;
+  }
+  #mostOrdered h2 {
+    font-size: 3em;
+  }
+
+  #menu h1 {
+    font-size: 1.85em;
+  }
+
+  #menu h2 {
+    font-size: 1.55em;
+  }
+
+  #menu h3 {
+    font-size: 1em;
+  }
+
+  #menu h4 {
+    font-size: 1.45em;
+  }
+  #aboutBackground h1 {
+    font-size: 3.5em;
+  }
+  #aboutBackground h2 {
+    font-size: 1.5em;
+  }
+
+  .teamHtml h1 {
+    font-size: 1.5em;
+  }
+  .teamHtml h3 {
+    font-size: 1.2em;
+  }
+  .teamHtml h6 {
+    font-size: 0.8em;
+  }
+  .teamHtml .team-icons {
+    font-size: 0.7em;
+  }
+  #contact h1 {
+    font-size: 2em;
+  }
+  #footer h2 {
+    font-size: 1em;
+  }
+  #footer .info-icons {
+    font-size: 0.6em;
+  }
+  #team .card {
+    width: 250px;
+  }
+
+}
