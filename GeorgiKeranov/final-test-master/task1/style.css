@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6em;
+  padding-bottom: 400px;
+}
+
+.subtask {
+  margin: 20px 0;
+  border: 1px solid lightblue;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  color: white;
+  display: flex;
+}
+
+ul > li {
+  list-style-type: none;
+  padding: 20px;
+  background-color: lightpink;
+  width: calc(100%/6);
+}
+
+ul > li img {
+  margin: 0 auto;
+  display: block;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* Вашият CSS от тук надолу */
+
+@media (min-width: 1000px){
+    img{
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 999px){
+    img{
+        display: flex;
+        overflow: auto;
+        
+    }
+}
+
+ul > li:nth-child(even){
+    background-color: lightblue;
+}
+
+img:hover{
+    transform: rotate(360deg);
+    transition-duration: 1s;
+}
+li::after { 
+    content: "IMAGINE THAT!";
+    position: absolute; 
+}
