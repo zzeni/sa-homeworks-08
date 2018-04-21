@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6em;
+    padding-bottom: 400px;
+}
+
+.subtask {
+    margin: 20px 0;
+    border: 1px solid lightblue;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+}
+
+ul > li {
+    list-style-type: none;
+    padding: 20px;
+    background-color: lightpink;
+    width: calc(100%/6);
+}
+
+ul > li img {
+    margin: 0 auto;
+    display: block;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* Вашият CSS от тук надолу */
+
+/* 1.a */
+
+ul {
+    flex-wrap: wrap;
+}
+
+ul li img {
+    max-width: 100%;
+}
+
+@media (max-width:399px) {
+    ul li {
+        width: 100%;
+    }
+}
+
+@media (min-width:400px) and (max-width:599px) {
+    ul li {
+        width: calc(100%/2);
+    }
+}
+
+@media (min-width:600px) and (max-width:1000px) {
+    ul li {
+        width: calc(100%/3);
+    }
+}
+
+@media (min-width:1000px) {
+    ul li img {
+        display: inline;
+    }
+}
+
+/* 1.b */
+
+#subtask2 li:nth-of-type(even) {
+    background: lightblue
+}
+
+/* 1.c */
+
+#subtask3 li:hover {
+    background: lightblue;
+    transform: rotateX(360deg);
+    transition: 1s ease-in-out;
+}
+
+/* 1.d */
+
+#subtask4 li:nth-of-type(1) {
+    order: 6;
+}
+
+#subtask4 li:nth-of-type(6) {
+    order: -1;
+}
+
+/* 1.e */
+
+#subtask5 li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#subtask5 li:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#subtask5 li:hover::after {
+    content: "IMAGINE THAT!";
+    position: absolute;
+
+}
