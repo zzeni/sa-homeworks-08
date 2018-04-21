@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6em;
+  padding-bottom: 400px;
+}
+
+.subtask {
+  margin: 20px 0;
+  border: 1px solid lightblue;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  color: white;
+  display: flex;
+}
+
+ul > li {
+  list-style-type: none;
+  padding: 20px;
+  background-color: lightpink;
+  width: calc(100%/6);
+}
+
+ul > li img {
+  margin: 0 auto;
+  display: block;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* Вашият CSS от тук надолу */
+
+.chetno {
+  background-color: lightblue;
+}
+
+.hover:hover {
+  background: lightblue;
+  transform: rotateY(360deg);
+  transition: all 1s ease-in-out;
+}
+
+
+
+.pozicii:nth-child(1) {
+  order: 6;
+}
+
+.pozicii:nth-child(2) {
+  order: 2;
+}
+
+.pozicii:nth-child(3) {
+  order: 3;
+}
+
+.pozicii:nth-child(4) {
+  order: 4;
+}
+
+.pozicii:nth-child(5) {
+  order: 5;
+}
+
+.pozicii:nth-child(6) {
+  order: 1;
+}
+
+
+@media (min-width:1000px) {
+
+  ul > li {
+    width: calc(100%/6);
+  }
+  ul > li img {
+    width: 100%;
+
+  }
+}
+
+@media (max-width:600px) {
+  ul {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  ul > li {
+    width: calc(100%/3);
+  }
+  ul > li img {
+    width: 100%;
+
+  }
+}
