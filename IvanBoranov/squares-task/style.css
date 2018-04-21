@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6em;
+}
+
+.container {
+  border: 2px solid black;
+  width: 100%;
+  min-height: 600px;
+}
+
+.square {
+  color: white;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.black {
+  background-color: black;
+}
+
+/* Smallest first (<399px) */
+
+@media (max-width:399px) {
+  .red {
+    flex-grow: 1;
+    max-width: 100%
+  }
+
+  .blue {
+    flex-grow: 1;
+    max-width: 100%
+  }
+
+  .green {
+    flex-grow: 1;
+    max-width: 100%
+  }
+  .black {
+    display: none;
+  }
+}
+
+/* 400 - 499 */
+
+@media {}
+
+/* 500 - 599 */
+
+@media {}
+
+/* 600 - 699 */
+
+@media {}
+
+/* 700 - 799 */
+
+@media {}
+
+/* > 800 */
+
+@media {}

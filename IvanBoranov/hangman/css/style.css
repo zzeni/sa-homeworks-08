@@ -1,0 +1,52 @@
+body{
+  margin: 20px;
+  padding-left: 10px;
+}
+
+p {
+  background-color: yellow;
+  color: white;
+  width: 100px;
+  text-align: center;
+  font-size: 20px;
+  box-shadow: 2px 3px 1px grey;
+  outline: 1px solid brown;
+}
+
+div#man {
+  margin:0;
+  padding:0;
+  padding-left:5px;
+  border-top: 5px solid brown;
+  border-left: 3px solid brown;
+  color: red;
+  font-weight: bold;
+  font-size: 17px;
+  height:100px;
+  width:50px;
+}
+
+div#man pre{
+  margin:0;
+  padding:0;
+}
+
+div#wordDisplay {
+  font-family: monospace;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+div#keyboard button {
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+  margin: 3px;
+  display: inline-block;
+  background-color: hotpink;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 20px;
+  box-shadow: 2px 3px 1px grey;
+  outline: 1px solid grey;
+}
