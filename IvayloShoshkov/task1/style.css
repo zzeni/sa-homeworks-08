@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6em;
+    padding-bottom: 400px;
+}
+
+.subtask {
+    margin: 20px 0;
+    border: 1px solid lightblue;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul > li {
+    list-style-type: none;
+    padding: 20px;
+    background-color: lightpink;
+    width: calc(100%/6);
+}
+
+ul > li img {
+    margin: 0 auto;
+    display: block;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+.container:hover ul {
+    opacity: 0.3;
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        background-color: lightblue;     
+    }
+    
+    ul > li {
+         width: calc(100%/2);
+
+    }
+ul{
+        max-width: 100% vw;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: lightgreen;
+        display: inline;      
+    }
+    ul > li {
+         width: calc(100%/3);
+
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        background-color: lightseagreen;
+        
+    }
+    ul{
+        max-width: 100% vw;
+    }
+    ul > li {
+         width: calc(100%/3);
+
+    }
+}
+
+
+#subtask1 {
+    
+}
+
+
+
