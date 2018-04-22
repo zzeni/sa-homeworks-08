@@ -1,0 +1,72 @@
+header{
+    overflow: hidden;
+}
+
+
+#collection{
+    overflow: hidden;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+#team{
+    position: relative;
+    overflow: hidden;
+    
+}
+
+
+
+#button{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+#content{
+    margin-bottom: 2rem;
+    
+}
+.criteria{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+}
+.card-title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+}
+.card-text{
+    font-family: 'Roboto', sans-serif;
+
+}
+.navbar-brand{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 1.7rem;
+
+}
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}
+
+
+#carouselExampleControls{
+    width:840px;
+    height:460px;
+    margin: auto;
+   padding: 50px;
+
+}
+.d-block{
+    width:640px;
+    height:360px;
+}
+
+#popup img{
+    height: 400px;
+}
+#chart img{
+    width: 1080px;
+    
+}
