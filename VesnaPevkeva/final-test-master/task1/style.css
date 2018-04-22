@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6em;
+  padding-bottom: 400px;
+}
+
+.subtask {
+  margin: 20px 0;
+  border: 1px solid lightblue;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  color: white;
+  display: flex;
+}
+
+ul > li {
+  list-style-type: none;
+  padding: 20px;
+  background-color: lightpink;
+  width: calc(100%/6);
+      transition: 1s;
+
+}
+
+ul > li img {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* Вашият CSS от тук надолу */
+
+#subtask2 ul > li:nth-child(even) {
+  background-color: lightblue;
+}
+
+#subtask3 ul > li:hover {
+  transform: rotateX(180deg);
+  background-color: lightblue;
+}
+
+#subtask4 ul > li:first-child {
+  order: 6;
+}
+
+#subtask4 ul > li:last-child {
+    order: 1;
+}
+
+#subtask5 li {
+  position: relative;
+}
+
+#subtask5 li::before {
+  content: "";
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.6);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#subtask5 li:hover::after {
+  content: '"IMAGINE THAT!"';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+}
+
+
+@media (max-width: 1000px){
+  ul {
+    flex-wrap: wrap;
+  }
+
+  ul > li {
+  width: calc(100%/3);
+  }
+}
+
+@media (max-width: 600px){
+
+  ul > li {
+  width: calc(100%/2);
+  }
+}
+
+@media (max-width: 400px){
+
+  ul > li {
+  width: 100%;
+  }
+}

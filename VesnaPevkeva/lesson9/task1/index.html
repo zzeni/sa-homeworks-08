@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <style type="text/css">
+
+    body {
+  font-family: Helvetica, sans-serif;
+  color: #fefefe;
+  letter-spacing: 0.1em;
+  font-weight: 100;
+}
+
+main {
+  width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
+  border: rgba(224, 192, 168, .5) 10px dashed;
+  padding: 0;
+  background-color: #965454;
+  box-sizing: border-box;
+}
+
+h1,h2 {
+  font-weight: 500;
+}
+
+h1 {
+  padding: 35px;
+  margin: 0;
+  background-color: #965454;
+  text-align: center;
+  border-bottom: rgba(224, 192, 168, .5) 10px dashed;
+}
+
+section {
+  min-height: 350px;
+  background-color: rgba(224, 192, 168, .5);
+}
+
+h2 {
+  margin: 0;
+  padding: 20px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  color: inherit;
+  text-decoration: none;
+  font-size: 20px;
+  border: rgba(255,255,255,.3) 10px dashed;
+  transition: all 1s;
+  position: relative;
+}
+
+.btn-red {
+  background-color: #965454;
+}
+
+.btn-red:hover {
+  z-index: 1000;
+  margin-top: -5px;
+}
+
+.btn-green {
+  background-color: #488448;
+}
+
+.btn-green:hover {
+  z-index: 1000;
+  margin-top: -5px;
+}
+
+
+.btn-yellow {
+  background-color: #968454;
+}
+
+.btn-yellow:hover {
+  z-index: 1000;
+  margin-top: -5px;
+}
+
+.btn-blue {
+  background-color: #484856;
+}
+
+.btn-blue:hover {
+  z-index: 1000;
+  margin-top: -5px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 50px auto;
+  width: 470px;
+  overflow: visible;
+}
+
+ul li {
+  position: relative;
+  overflow: visible;
+  width: 110px;
+}
+
+@media screen and (max-width: 479px) {
+  ul {
+    display: block;
+  }
+  ul, ul li, .btn {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  .btn {
+    height: auto;
+    border-radius: 0;
+    padding: 5px;
+  }
+}
+  </style>
+</head>
+<body>
+  <ul>
+    <li>
+      <a href="#about" class="btn btn-red">About</a>
+    </li>
+    
+    <li>
+      <a href="#resume" class="btn btn-green">Resume</a>
+    </li>
+    
+    <li>
+      <a href="#portfolio" class="btn btn-yellow">Portfolio</a>
+    </li>
+    
+    <li>
+      <a href="#contact" class="btn btn-blue">Contact</a>
+    </li>
+  </ul>
+
+  <main>
+    <h1>Main content</h1>
+    <section>
+      <h2>Width &gt;= 480px</h2>
+    </section>
+  </main>
+</body>
+</html>
