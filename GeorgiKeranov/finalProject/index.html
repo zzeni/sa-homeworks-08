@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="bg">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link href="style/style.css" rel="stylesheet">
+
+
+    <title>Weather Forecast</title>
+    <style>
+    </style>
+
+</head>
+
+<body>
+    <header id="header">
+        <nav id="main-nav" class="navbarClass navbar navbar-expand-lg navbar-light fixed-top">
+            <a class="navbar-brand text-light" href="#main-page" data-target="#main-page">ВРЕМЕТО</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-light" href="#main-page" data-target="#main-page">Начало <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-light" href="#wind" data-target="#wind">Вятър <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-light" href="#tomorrow" data-target="#tomorrow">Утре <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-light" href="#nextdays" data-target="#nextdays">Следващите дни <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-light" href="#about" data-target="#about">За мен<span class="sr-only">(current)</span></a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </nav>
+
+    </header>
+
+    <main class="container mt-5">
+        <div class="row" id="main-page">
+
+            <!--       <canvas id="myChart"></canvas>-->
+            <div class="firstColumn col-lg-3">
+                <h1 class="my-4">Времето</h1>
+                <div class="list-group" id="category-filter">
+                    <a href="#" data-category="city" class="list-group-item">Големи градове</a>
+                    <a href="#" data-category="sea" class="list-group-item">Черноморие</a>
+                    <a href="#" data-category="all" class="list-group-item">Всички градове</a>
+                    <a id="clickArticle" href="#" data-category="today" class="list-group-item">Текстова прогноза</a>
+
+                </div>
+
+                <h2>Източници</h2>
+                <div class="list-group">
+                    <a href="http://old.wetterzentrale.de" class="list-group-item" target="_blank">Wetterzentrale</a>
+                    <a href="https://www.weatheronline.co.uk/cgi-bin/expertcharts?LANG=en&MENU=0000000000&CONT=trtr&MODELL=euro4&MODELLTYP=1&BASE=-&VAR=tmp2&HH=3&ARCHIV=0&ZOOM=0&PERIOD=&WMO=" class="list-group-item" target="_blank">EURO 4</a>
+                    <a href="https://www.weatheronline.co.uk/cgi-bin/expertcharts?LANG=en&MENU=0000000000&CONT=trtr&MODELL=gfs&MODELLTYP=1&VAR=tmp2&HH=3&BASE=-&WMO=&ZOOM=0" class="list-group-item" target="_blank">GFS</a>
+                    <a href="https://www.windy.com/?42.683,23.317,5" class="list-group-item" target="_blank">WINDYTV</a>
+                </div>
+
+            </div>
+
+            <div class="secondColumn col-lg-9">
+                <div class="container row mt-4">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner images" role="listbox">
+                            <div class="carousel-item active">
+                                <img class="d-block crs" src="img_1/spring%20(1).jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block crs" src="img_1/summer.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block crs" src="img_1/autumn.jpg" alt="Third slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block crs" src="img_1/winter.jpg" alt="Fourth slide">
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <h5 id="todayHeading">Днес</h5>
+                <div class="row mb-5" id="city-container">
+
+                </div>
+
+                <article class="mt-5 mb-5" id="article" style="display:none">
+
+                    <ul class="nav nav-pills mt-3 mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">България (днес)</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Черноморие (днес)</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">България (утре)</a>
+                        </li>
+                         <li class="nav-item">
+                             <a class="nav-link" id="pills-settings-tab" data-toggle="pill" href="#pills-settings" role="tab" aria-controls="pills-settings" aria-selected="false">Черноморие (утре)</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content forecast" id="pills-tabContent">
+                        <div class="tab-pane fade text-justify p-2 show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">През нощта ще има незначитлена висока облачност. Денят ще започне със слънчево време, с дневен ход ще се образува и купеста облачност, купесто-дъждовна и с условия за краткотрайни валежи и гръмотевици ще има в планините и по северното Черноморие, както и в Добруджа. Ще духа слаб вятър от западната четвърт, в следобедните часове по крайбрежието на морето ще бъде от изток. Максималните температури ще са в интервала 25-30 градуса. Атмосферното налягане ще бъде почти без промяна през целия ден.</div>
+                        <div class="tab-pane fade text-justify p-2" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">По Черноморието ще преобладава слънчево време. В следобедните часове по северното крайбрежие ще се развие по-мощна купесо-дъждовна облачност и там на места ще превали и прегърми. Ще духа слаб западен вятър, в следобедните часове ще духа бриз. Максималните температури ще са 22-27 градуса. Вълнението на морето ще бъде съвсем слабо, а температурата на морската вода е 13-15 градуса.</div>
+                        <div class="tab-pane fade text-justify p-2" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">През деня ще има разкъсана облачност, по-значителна в следобедните часове около планините, когато на отделни места там ще превали и прегърми. Ще духа слаб ЮЗ-ен вятър, в Дунавската равнина ще бъде от запад. Максималните температури ще са в интервала 26-31 градуса. Атмосферното налягане ще бъде малко по-високо от обичайното и ще се задържи почти без промяна.</div>
+                        <div class="tab-pane fade text-justify p-2" id="pills-settings" role="tabpanel" aria-labelledby="pills-settings-tab">По Черноморието ще има разкъсана облачност. Ще духа слаб вятър от ЮЗ, в следобедните часове от ЮИ. Максималните температури ще са от 20 до 27 градуса. Вълнението на морето ще бъде слабо.</div>
+                    </div>
+
+                </article>
+
+            </div>
+        </div>
+        <div id="wind">
+        </div>
+        <div id="tomorrow">
+        </div>
+        <div id="nextdays">
+        </div>
+        <div id="about">
+        </div>
+    </main>
+    <footer>
+        <p class="text-light">Georgi Keranov 2018</p>
+        <!--        -->
+    </footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>-->
+    <script src="script/script.js"></script>
+    <script src="script/navigation.js"></script>
+</body>
+</html>
