@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/style_crosswords.css">
+</head>
+
+<body>
+
+  <header>
+    <a href="../index.html" title="GoBack"> Към оснавната страница</a>
+  </header>
+
+  <div id="board">
+
+    <div class="row">
+      <span class="cell" id="1-1"><i class="fa fa-question"> </i> </span>
+      <input id="1-2" class="cell" type="text" minlength="1" maxlength="1" pattern="^[чЧ]{1}$" required="required" value="" autofocus />
+      <span class="cell" id="1-3"><i class="fa fa-question"> </i></span>
+      <input id="1-4" class="cell" type="text" minlength="1" maxlength="1" pattern="^[шШ]{1}$" required="required" value="" autofocus />
+      <span class="cell" id="1-5"><i class="fa fa-question">  </i></span>
+      <input id="1-6" class="cell" type="text" minlength="1" maxlength="1" pattern="^[оО]{1}$" required="required" value="" autofocus />
+      <span class="cell" id="1-7"><i class="fa fa-question">  </i></span>
+      <input id="1-8" class="cell" type="text" minlength="1" maxlength="1" pattern="^[сС]{1}$" required="required" value="" autofocus />
+      <span class="cell" id="1-9"><i class="fa fa-question"> </i></span>
+    </div>
+
+    <div class="row">
+      <input id="2-1" class="cell" type="text" minlength="1" maxlength="1" pattern="^[лЛ]{1}$" required="required" value="" autofocus />
+      <input id="2-2" class="cell" type="text" minlength="1" maxlength="1" pattern="^[уУ]{1}$" required="required" value="" autofocus />
+      <input id="2-3" class="cell" type="text" minlength="1" maxlength="1" pattern="^[дД]{1}$" required="required" value="" autofocus />
+      <input id="2-4" class="cell" type="text" minlength="1" maxlength="1" pattern="^[иИ]{1}$" required="required" value="" autofocus />
+      <input id="2-5" class="cell" type="text" minlength="1" maxlength="1" pattern="^[яЯ]{1}$" required="required" value="" autofocus />
+      <input id="2-6" class="cell" type="text" minlength="1" maxlength="1" pattern="^[мМ]{1}$" required="required" value="" autofocus />
+      <input id="2-7" class="cell" type="text" minlength="1" maxlength="1" pattern="^[аА]{1}$" required="required" value="" autofocus />
+      <input id="2-8" class="cell" type="text" minlength="1" maxlength="1" pattern="^[кК]{1}$" required="required" value="" autofocus />
+      <input id="2-9" class="cell" type="text" minlength="1" maxlength="1" pattern="^[сС]{1}$" required="required" value="" autofocus />
+    </div>
+
+    <div class="row">
+      <span class="cell" id="3-1"><i class="fa fa-question"> </i></span>
+      <input id="3-2" class="cell" type="text" minlength="1" maxlength="1" pattern="^[чЧ]{1}$" required="required" value="" autofocus />
+      <input id="3-3" class="cell" type="text" minlength="1" maxlength="1" pattern="^[еЕ]{1}$" required="required" value="" autofocus />
+      <input id="3-4" class="cell" type="text" minlength="1" maxlength="1" pattern="^[пП]{1}$" required="required" value="" autofocus />
+      <span class="cell" id="3-5"> <i class="fa fa-question"></i> </span>
+      <input id="3-6" class="cell" type="text" minlength="1" maxlength="1" pattern="^[аА]{1}$" required="required" value="" autofocus />
+      <input id="3-7" class="cell" type="text" minlength="1" maxlength="1" pattern="^[кК]{1}$" required="required" value="" autofocus />
+      <input id="3-8" class="cell" type="text" minlength="1" maxlength="1" pattern="^[уУ]{1}$" required="required" value="" autofocus />
+      <input id="3-9" class="cell" type="text" minlength="1" maxlength="1" pattern="^[тТ]{1}$" required="required" value="" autofocus />
+    </div>
+
+    <div class="row">
+      <input id="4-1" class="cell" type="text" minlength="1" maxlength="1" pattern="^[цЦ]{1}$" required="required" value="" autofocus />
+      <input id="4-2" class="cell" type="text" minlength="1" maxlength="1" pattern="^[еЕ]{1}$" required="required" value="" autofocus />
+      <input id="4-3" class="cell" type="text" minlength="1" maxlength="1" pattern="^[вВ]{1}$" required="required" value="" autofocus />
+      <span class="cell" id="4-4"> <i class="fa fa-question"></i> </span>
+      <input id="4-5" class="cell" type="text" minlength="1" maxlength="1" pattern="^[дД]{1}$" required="required" value="" autofocus />
+      <input id="4-6" class="cell" type="text" minlength="1" maxlength="1" pattern="^[рР]{1}$" required="required" value="" autofocus />
+      <input id="4-7" class="cell" type="text" minlength="1" maxlength="1" pattern="^[аА]{1}$" required="required" value="" autofocus />
+      <input id="4-8" class="cell" type="text" minlength="1" maxlength="1" pattern="^[кК]{1}$" required="required" value="" autofocus />
+      <input id="4-9" class="cell" type="text" minlength="1" maxlength="1" pattern="^[аА]{1}$" required="required" value="" autofocus />
+    </div>
+
+    <div class="row">
+      <span class="cell" id="5-1"> <i class="fa fa-question"></i> </span>
+      <input id="5-2" class="cell" type="text" minlength="1" maxlength="1" pattern="^[лЛ]{1}$" required="required" value="" autofocus />
+      <input id="5-3" class="cell" type="text" minlength="1" maxlength="1" pattern="^[оО]{1}$" required="required" value="" autofocus />
+      <input id="5-4" class="cell" type="text" minlength="1" maxlength="1" pattern="^[зЗ]{1}$" required="required" value="" autofocus />
+      <input id="5-5" class="cell" type="text" minlength="1" maxlength="1" pattern="^[еЕ]{1}$" required="required" value="" autofocus />
+      <span class="cell" id="5-6"> <i class="fa fa-question"></i> </span>
+      <input id="5-7" class="cell" type="text" minlength="1" maxlength="1" pattern="^[гГ]{1}$" required="required" value="" autofocus />
+      <input id="5-8" class="cell" type="text" minlength="1" maxlength="1" pattern="^[аА]{1}$" required="required" value="" autofocus />
+      <input id="5-9" class="cell" type="text" minlength="1" maxlength="1" pattern="^[дД]{1}$" required="required" value="" autofocus />
+    </div>
+
+    <div class="row">
+      <input id="6-1" class="cell" type="text" minlength="1" maxlength="1" pattern="^[мМ]{1}$" required="required" value="" autofocus />
+      <input id="6-2" class="cell" type="text" minlength="1" maxlength="1" pattern="^[аА]{1}$" required="required" value="" autofocus />
+      <input id="6-3" class="cell" type="text" minlength="1" maxlength="1" pattern="^[йЙ]{1}$" required="required" value="" autofocus />
+      <input id="6-4" class="cell" type="text" minlength="1" maxlength="1" pattern="^[оО]{1}$" required="required" value="" autofocus />
+      <input id="6-5" class="cell" type="text" minlength="1" maxlength="1" pattern="^[рР]{1}$" required="required" value="" autofocus />
+      <input id="6-6" class="cell" type="text" minlength="1" maxlength="1" pattern="^[кК]{1}$" required="required" value="" autofocus />
+      <input id="6-7" class="cell" type="text" minlength="1" maxlength="1" pattern="^[аА]{1}$" required="required" value="" autofocus />
+      <span class="cell" id="6-8"> <i class="fa fa-question"></i> </span>
+      <input id="6-9" class="cell" type="text" minlength="1" maxlength="1" pattern="^[иИ]{1}$" required="required" value="" autofocus />
+    </div>
+
+    <div class="row">
+      <span class="cell" id="7-1"> <i class="fa fa-question"></i> </span>
+      <span class="cell" id="7-2"> <i class="fa fa-question"></i> </span>
+      <input id="7-3" class="cell" type="text" minlength="1" maxlength="1" pattern="^[кК]{1}$" required="required" value="" autofocus />
+      <input id="7-4" class="cell" type="text" minlength="1" maxlength="1" pattern="^[рР]{1}$" required="required" value="" autofocus />
+      <input id="7-5" class="cell" type="text" minlength="1" maxlength="1" pattern="^[оО]{1}$" required="required" value="" autofocus />
+      <input id="7-6" class="cell" type="text" minlength="1" maxlength="1" pattern="^[лЛ]{1}$" required="required" value="" autofocus />
+      <span class="cell" id="7-7"> <i class="fa fa-question"></i> </span>
+      <input id="7-8" class="cell" type="text" minlength="1" maxlength="1" pattern="^[дД]{1}$" required="required" value="" autofocus />
+      <input id="7-9" class="cell" type="text" minlength="1" maxlength="1" pattern="^[оО]{1}$" required="required" value="" autofocus />
+    </div>
+
+    <div class="row">
+      <input id="8-1" class="cell" type="text" minlength="1" maxlength="1" pattern="^[аА]{1}$" required="required" value="" autofocus />
+      <input id="8-2" class="cell" type="text" minlength="1" maxlength="1" pattern="^[гГ]{1}$" required="required" value="" autofocus />
+      <input id="8-3" class="cell" type="text" minlength="1" maxlength="1" pattern="^[аА]{1}$" required="required" value="" autofocus />
+      <span class="cell" id="8-4"> <i class="fa fa-question"></i> </span>
+      <input id="8-5" class="cell" type="text" minlength="1" maxlength="1" pattern="^[нН]{1}$" required="required" value="" autofocus />
+      <input id="8-6" class="cell" type="text" minlength="1" maxlength="1" pattern="^[еЕ]{1}$" required="required" value="" autofocus />
+      <input id="8-7" class="cell" type="text" minlength="1" maxlength="1" pattern="^[рР]{1}$" required="required" value="" autofocus />
+      <input id="8-8" class="cell" type="text" minlength="1" maxlength="1" pattern="^[оО]{1}$" required="required" value="" autofocus />
+      <input id="8-9" class="cell" type="text" minlength="1" maxlength="1" pattern="^[нН]{1}$" required="required" value="" autofocus />
+    </div>
+
+    <div class="row">
+      <span class="cell" id="9-1"> <i class="fa fa-question"></i> </span>
+      <input id="9-2" class="cell" type="text" minlength="1" maxlength="1" pattern="^[еЕ]{1}$" required="required" value="" autofocus />
+      <span class="cell" id="9-3"> <i class="fa fa-question"></i> </span>
+      <input id="9-4" class="cell" type="text" minlength="1" maxlength="1" pattern="^[кК]{1}$" required="required" value="" autofocus />
+      <input id="9-5" class="cell" type="text" minlength="1" maxlength="1" pattern="^[иИ]{1}$" required="required" value="" autofocus />
+      <input id="9-6" class="cell" type="text" minlength="1" maxlength="1" pattern="^[чЧ]{1}$" required="required" value="" autofocus />
+      <input id="9-7" class="cell" type="text" minlength="1" maxlength="1" pattern="^[уУ]{1}$" required="required" value="" autofocus />
+      <input id="9-8" class="cell" type="text" minlength="1" maxlength="1" pattern="^[рР]{1}$" required="required" value="" autofocus />
+      <span class="cell" id="9-9"> <i class="fa fa-question"></i> </span>
+    </div>
+
+    <div class="row">
+      <input id="10-1" class="cell" type="text" minlength="1" maxlength="1" pattern="^[юЮ]{1}$" required="required" value="" autofocus />
+      <input id="10-2" class="cell" type="text" minlength="1" maxlength="1" pattern="^[рР]{1}$" required="required" value="" autofocus />
+      <input id="10-3" class="cell" type="text" minlength="1" maxlength="1" pattern="^[тТ]{1}$" required="required" value="" autofocus />
+      <input id="10-4" class="cell" type="text" minlength="1" maxlength="1" pattern="^[аА]{1}$" required="required" value="" autofocus />
+      <span class="cell" id="10-5"> <i class="fa fa-question"></i> </span>
+      <input id="10-6" class="cell" type="text" minlength="1" maxlength="1" pattern="^[кК]{1}$" required="required" value="" autofocus />
+      <input id="10-7" class="cell" type="text" minlength="1" maxlength="1" pattern="^[нН]{1}$" required="required" value="" autofocus />
+      <input id="10-8" class="cell" type="text" minlength="1" maxlength="1" pattern="^[оО]{1}$" required="required" value="" autofocus />
+      <input id="10-9" class="cell" type="text" minlength="1" maxlength="1" pattern="^[рР]{1}$" required="required" value="" autofocus />
+    </div>
+
+    <div class="row">
+      <span class="cell" id="11-1"> <i class="fa fa-question"></i> </span>
+      <input id="11-2" class="cell" type="text" minlength="1" maxlength="1" pattern="^[шШ]{1}$" required="required" value="" autofocus />
+      <input id="11-3" class="cell" type="text" minlength="1" maxlength="1" pattern="^[аА]{1}$" required="required" value="" autofocus />
+      <input id="11-4" class="cell" type="text" minlength="1" maxlength="1" pattern="^[рР]{1}$" required="required" value="" autofocus />
+      <input id="11-5" class="cell" type="text" minlength="1" maxlength="1" pattern="^[кК]{1}$" required="required" value="" autofocus />
+      <input id="11-6" class="cell" type="text" minlength="1" maxlength="1" pattern="^[аА]{1}$" required="required" value="" autofocus />
+      <span class="cell" id="11-7"> <i class="fa fa-question"></i> </span>
+      <input id="11-8" class="cell" type="text" minlength="1" maxlength="1" pattern="^[сС]{1}$" required="required" value="" autofocus />
+      <input id="11-9" class="cell" type="text" minlength="1" maxlength="1" pattern="^[аА]{1}$" required="required" value="" autofocus />
+    </div>
+
+    <div class="row">
+      <input id="12-1" class="cell" type="text" minlength="1" maxlength="1" pattern="^[фФ]{1}$" required="required" value="" autofocus />
+      <input id="12-2" class="cell" type="text" minlength="1" maxlength="1" pattern="^[уУ]{1}$" required="required" value="" autofocus />
+      <input id="12-3" class="cell" type="text" minlength="1" maxlength="1" pattern="^[рР]{1}$" required="required" value="" autofocus />
+      <input id="12-4" class="cell" type="text" minlength="1" maxlength="1" pattern="^[оО]{1}$" required="required" value="" autofocus />
+      <input id="12-5" class="cell" type="text" minlength="1" maxlength="1" pattern="^[рР]{1}$" required="required" value="" autofocus />
+      <span class="cell" id="12-6"> <i class="fa fa-question"></i> </span>
+      <input id="12-7" class="cell" type="text" minlength="1" maxlength="1" pattern="^[уУ]{1}$" required="required" value="" autofocus />
+      <input id="12-8" class="cell" type="text" minlength="1" maxlength="1" pattern="^[тТ]{1}$" required="required" value="" autofocus />
+      <input id="12-9" class="cell" type="text" minlength="1" maxlength="1" pattern="^[иИ]{1}$" required="required" value="" autofocus />
+    </div>
+
+    <div class="row">
+      <span class="cell" id="13-1"> <i class="fa fa-question"></i> </span>
+      <input id="13-2" class="cell" type="text" minlength="1" maxlength="1" pattern="^[иИ]{1}$" required="required" value="" autofocus />
+      <input id="13-3" class="cell" type="text" minlength="1" maxlength="1" pattern="^[гГ]{1}$" required="required" value="" autofocus />
+      <input id="13-4" class="cell" type="text" minlength="1" maxlength="1" pattern="^[лЛ]{1}$" required="required" value="" autofocus />
+      <input id="13-5" class="cell" type="text" minlength="1" maxlength="1" pattern="^[еЕ]{1}$" required="required" value="" autofocus />
+      <input id="13-6" class="cell" type="text" minlength="1" maxlength="1" pattern="^[нН]{1}$" required="required" value="" autofocus />
+      <input id="13-7" class="cell" type="text" minlength="1" maxlength="1" pattern="^[нН]{1}$" required="required" value="" autofocus />
+      <input id="13-8" class="cell" type="text" minlength="1" maxlength="1" pattern="^[оО]{1}$" required="required" value="" autofocus />
+      <input id="13-9" class="cell" type="text" minlength="1" maxlength="1" pattern="^[сС]{1}$" required="required" value="" autofocus />
+    </div>
+
+    <div class="row">
+      <input id="14-1" class="cell" type="text" minlength="1" maxlength="1" pattern="^[аА]{1}$" required="required" value="" autofocus />
+      <input id="14-2" class="cell" type="text" minlength="1" maxlength="1" pattern="^[нН]{1}$" required="required" value="" autofocus />
+      <input id="14-3" class="cell" type="text" minlength="1" maxlength="1" pattern="^[аА]{1}$" required="required" value="" autofocus />
+      <span class="cell" id="14-4"> <i class="fa fa-question"></i> </span>
+      <input id="14-5" class="cell" type="text" minlength="1" maxlength="1" pattern="^[мМ]{1}$" required="required" value="" autofocus />
+      <input id="14-6" class="cell" type="text" minlength="1" maxlength="1" pattern="^[еЕ]{1}$" required="required" value="" autofocus />
+      <input id="14-7" class="cell" type="text" minlength="1" maxlength="1" pattern="^[оО]{1}$" required="required" value="" autofocus />
+      <input id="14-8" class="cell" type="text" minlength="1" maxlength="1" pattern="^[лЛ]{1}$" required="required" value="" autofocus />
+      <input id="14-9" class="cell" type="text" minlength="1" maxlength="1" pattern="^[аА]{1}$" required="required" value="" autofocus />
+    </div>
+
+  </div>
+
+
+  <div id="question">
+    <i class="fa fa-question fa-3x"></i>
+
+  </div>
+
+  <footer id="footer">
+    <div>
+      &copy; Copyright <strong>Denitsa Petrova</strong>. All Rights Reserved
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="../js/script_crossWord.js"></script>
+</body>
+
+</html>
