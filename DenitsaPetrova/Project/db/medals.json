@@ -1,0 +1,218 @@
+[{
+    "year": 2010,
+    "medal": [{
+        "city": "София",
+        "place": 3,
+        "discipline": "трудност"
+  },
+      {
+        "city": "Варна",
+        "place": 1,
+        "discipline": "трудност"
+  }, {
+        "city": "Варна",
+        "place": 1,
+        "discipline": "скорост"
+  }, {
+        "city": "София - Бонсист",
+        "place": 1,
+        "discipline": "трудност"
+  }, {
+        "city": "София - НСА",
+        "place": 1,
+        "discipline": "трудност"
+  }]
+  },
+ {
+    "year": 2011,
+    "medal": [{
+        "city": "София",
+        "place": 2,
+        "discipline": ""
+  },
+      {
+        "city": "Велико Търново",
+        "place": 3,
+        "discipline": "трудност"
+  }, {
+        "city": "Килифарево",
+        "place": 2,
+        "discipline": "болдър"
+  }, {
+        "city": "Казанлък",
+        "place": 3,
+        "discipline": "болдър"
+  }]
+  },
+ {
+    "year": 2012,
+    "medal": [{
+        "city": "София - Бонсист",
+        "place": 2,
+        "discipline": "трудност"
+  },
+      {
+        "city": "Варна",
+        "place": 3,
+        "discipline": "трудност"
+  }, {
+        "city": "Елена",
+        "place": 1,
+        "discipline": "трудност"
+  }, {
+        "city": "София",
+        "place": 1,
+        "discipline": ""
+  }, {
+        "city": "София - НСА",
+        "place": 2,
+        "discipline": ""
+  }, {
+        "city": "Казанлък",
+        "place": 2,
+        "discipline": "болдър"
+  }, {
+        "city": "Килифарево",
+        "place": 3,
+        "discipline": "болдър"
+  }, {
+        "city": "Белград",
+        "place": 1,
+        "discipline": "болдър"
+  }, {
+        "city": "Белград",
+        "place": 1,
+        "discipline": "трудност"
+  }, {
+        "city": "Велико Търново",
+        "place": 3,
+        "discipline": "скорост"
+  }, {
+        "city": "Велико Търново",
+        "place": 2,
+        "discipline": "трудност"
+  }]
+  },
+ {
+    "year": 2013,
+    "medal": [{
+        "city": "София - НСА",
+        "place": 2,
+        "discipline": "бордър"
+  },
+      {
+        "city": "Казанлък",
+        "place": 3,
+        "discipline": "болдър"
+  }, {
+        "city": "Стара Загора",
+        "place": 1,
+        "discipline": "трудност"
+  }, {
+        "city": "Приморско",
+        "place": 2,
+        "discipline": "болдър"
+  }, {
+        "city": "Скопие",
+        "place": 1,
+        "discipline": "трудност"
+  }, {
+        "city": "Скопие",
+        "place": 2,
+        "discipline": "болдър"
+  }, {
+        "city": "Белград",
+        "place": 2,
+        "discipline": "болдър"
+  }, {
+        "city": "Белград",
+        "place": 2,
+        "discipline": "трудност"
+  }, {
+        "city": "Белград",
+        "place": 3,
+        "discipline": "скорост"
+  }, {
+        "city": "София - НСА",
+        "place": 2,
+        "discipline": ""
+  }]
+  },
+ {
+    "year": 2014,
+    "medal": [{
+        "city": "София - НСА",
+        "place": 3,
+        "discipline": "болдър"
+  },
+      {
+        "city": "София - Бонсист",
+        "place": 1,
+        "discipline": "болдър"
+  }, {
+        "city": "Карлово",
+        "place": 1,
+        "discipline": "трудност"
+  }, {
+        "city": "Казанлък",
+        "place": 3,
+        "discipline": "болдър"
+  }, {
+        "city": "Стара Загора",
+        "place": 3,
+        "discipline": "болдър"
+  }, {
+        "city": "Килифарево",
+        "place": 2,
+        "discipline": "болдър"
+  }, {
+        "city": "София - Boulderland",
+        "place": 2,
+        "discipline": "болдър"
+  }, {
+        "city": "Варна",
+        "place": 3,
+        "discipline": "трудност"
+  }]
+  },
+  {
+    "year": 2015,
+    "medal": [{
+        "city": "Букурещ",
+        "place": 2,
+        "discipline": "трудност"
+  },
+      {
+        "city": "София - Бонсист",
+        "place": 2,
+        "discipline": "трудност"
+  }, {
+        "city": "Казанлък",
+        "place": 1,
+        "discipline": "болдър"
+  }, {
+        "city": "Килифарево",
+        "place": 2,
+        "discipline": "болдър"
+  }, {
+        "city": "Стара Загора",
+        "place": 1,
+        "discipline": "трудност"
+  }, {
+        "city": "Стара Загора",
+        "place": 3,
+        "discipline": "скорост"
+  }, {
+        "city": "Скопие",
+        "place": 3,
+        "discipline": "трудност"
+  }, {
+        "city": "Велико Търново",
+        "place": 3,
+        "discipline": "трудност"
+  }, {
+        "city": "Велико Търново",
+        "place": 3,
+        "discipline": "скорост"
+  }]
+}]
