@@ -1,0 +1,32 @@
+[
+    {
+        "name": "SAP Labs",
+        "hired": "150",
+        "team": "200"
+    },
+    {
+        "name": "Progress",
+        "hired": "120",
+        "team": "300"
+    },
+    {
+        "name": "Accedia",
+        "hired": "50",
+        "team": "120"
+    },
+    {
+        "name": "Chaos Group",
+        "hired": "130",
+        "team": "400"
+    },
+    {
+        "name": "Paysafe",
+        "hired": "60",
+        "team": "90"
+    },
+    {
+        "name": "VMWare",
+        "hired": "180",
+        "team": "300"
+    }
+]
