@@ -1,0 +1,356 @@
+[
+    {
+        "img": "./img/2912028_large-lnd.jpg",
+        "tittle": "EGYPT",
+        "description": "Egypt became the second team from Africa to book their place in Russia, topping Group E with a game to spare, to make their first appearance at the tournament for 28 years.",
+        "continent": "Africa",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43855/profile-detail.html",
+        "Appearances": "2",
+        "Cups": "0",
+        "FIFA_Ranking_position": "31"
+
+    }, {
+        "img": "./img/2919608_large-lnd.jpg",
+        "tittle": "MOROCCO",
+        "description": "Morocco booked their return to the FIFA World Cup after a 20-year absence, topping Africa Group C, to head to their fifth edition of the tournament..",
+        "continent": "Africa",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43872/profile-detail.html",
+        "Appearances": "4",
+        "Cups": "0",
+        "FIFA_Ranking_position": "40"
+
+    }, {
+        "img": "./img/2911534_large-lnd.jpg",
+        "tittle": "NIGERIA",
+        "description": "The first side from Africa to reach Russia, Nigeria continue their impressive run of appearances at the finals, having missed only one tournament - Germany 2006 - since qualifying for their debut in 1994.",
+        "continent": "Africa",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43876/profile-detail.html",
+        "Appearances": "5",
+        "Cups": "0",
+        "FIFA_Ranking_position": "50"
+
+
+    }, {
+        "img": "./img/2919440_large-lnd.jpg",
+        "tittle": "SENEGAL",
+        "description": "Senegal booked their return to the FIFA World Cup after a 16-year absence, topping Africa Group D, to head to their second edition of the tournament.",
+        "continent": "Africa",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43879/profile-detail.html",
+        "Appearances": "1",
+        "Cups": "0",
+        "FIFA_Ranking_position": "23"
+
+    },
+
+    {
+        "img": "./img/2919610_large-lnd.jpg",
+        "tittle": "TUNISIA",
+        "description": "Tunisia booked their return to the FIFA World Cup after a 12-year absence, topping Africa Group A, to head to their fifth edition of the tournament.",
+        "continent": "Africa",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43888/profile-detail.html",
+        "Appearances": "4",
+        "Cups": "0",
+        "FIFA_Ranking_position": "27"
+
+
+    },
+    {
+        "img": "./img/z3lckxigxi79mdftcaet.jpg",
+        "tittle": "BELGIUM",
+        "description": "Belgium booked their place at the 2018 FIFA World Cup Russia after a 2-1 win in Greece ensured they were guaranteed top spot in European qualifying Group H.",
+        "continent": "EUROPE",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43935/profile-detail.html",
+        "Appearances": "12",
+        "Cups": "0",
+        "FIFA_Ranking_position": "5"
+
+
+    }, {
+        "img": "./img/2919780_large-lnd.jpg",
+        "tittle": "CROATIA",
+        "description": "Croatia booked their spot at Russia 2018 thanks to a 4-1 aggregate play-off win over Greece, having finished second in Europe's Group I to clinch their second-successive appearance at the global finals.",
+        "continent": "EUROPE",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43938/profile-detail.html",
+        "Appearances": "4",
+        "Cups": "0",
+        "FIFA_Ranking_position": "17"
+
+    }, {
+        "img": "./img/2920061_large-lnd.jpg",
+        "tittle": "DENMARK",
+        "description": "Denmark booked their spot at Russia 2018 thanks to a 5-1 aggregate play-off win over Republic of Ireland, having finished second in Europe's Group E to return to the world finals after missing out on Brazil 2014.",
+        "continent": "EUROPE",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43941/profile-detail.html",
+        "Appearances": "4",
+        "Cups": "0",
+        "FIFA_Ranking_position": "12"
+
+    }, {
+        "img": "./img/2910573_large-lnd.jpg",
+        "tittle": "ENGLAND",
+        "description": "In reaching Russia 2018, by defeating Slovenia at Wembley in their penultimate Group F match, England sealed their spot at their sixth consecutive FIFA World Cup - matching their previous record set between 1950 and 1970.",
+        "continent": "EUROPE",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43942/profile-detail.html",
+        "Appearances": "14",
+        "Cups": "1",
+        "FIFA_Ranking_position": "15"
+
+    }, {
+        "img": "./img/2913121_large-lnd.jpg",
+        "tittle": "FRANCE",
+        "description": "France clinched their place at the 2018 FIFA World Cup Russia by topping Europe's Group A, continuing a run of appearing at every tournament since 1994.",
+        "continent": "EUROPE",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43946/profile-detail.html",
+        "Appearances": "14",
+        "Cups": "1",
+        "FIFA_Ranking_position": "9"
+
+    }, {
+        "img": "./img/2910560_large-lnd.jpg",
+        "tittle": "GERMANY",
+        "description": "Reigning FIFA World Cup holders and FIFA Confederations Cup winners, Germany return to Russia in a bid to become the first team to retain the title since Brazil in 1962.",
+        "continent": "EUROPE",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43948/profile-detail.html",
+        "Appearances": "18",
+        "Cups": "4",
+        "FIFA_Ranking_position": "1"
+
+    }, {
+        "img": "./img/2912472_large-lnd.jpg",
+        "tittle": "ICELAND",
+        "description": "FIFA.com profiles the country's qualification hopes for Russia 2018 and highlights their star players, the coach as well as its footballing history.",
+        "continent": "EUROPE",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43951/profile-detail.html",
+        "Appearances": "0",
+        "Cups": "0",
+        "FIFA_Ranking_position": "22"
+
+    }, {
+        "img": "./img/2911999_large-lnd.jpg",
+        "tittle": "POLAND",
+        "description": "Poland booked their return to FIFA World Cup after a 12-year absence, topping European Group E in their final game, to head to their seventh edition of the tournament.",
+        "continent": "EUROPE",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43962/profile-detail.html",
+        "Appearances": "7",
+        "Cups": "0",
+        "FIFA_Ranking_position": "7"
+
+    }, {
+        "img": "./img/2913122_large-lnd.jpg",
+        "tittle": "PORTUGAL",
+        "description": "European champions ​Portugal​ booked their spot in Russia after narrowly finishing top of Europe's Group B on goal difference, edging out Switzerland on the final day to avoid the play-offs.",
+        "continent": "EUROPE",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43963/profile-detail.html",
+        "Appearances": "6",
+        "Cups": "0",
+        "FIFA_Ranking_position": "3"
+
+    }, {
+        "img": "./img/h7pns2zffhn4qcipuqyp.jpg",
+        "tittle": "RUSSIA",
+        "description": "As hosts of the 2018 FIFA World Cup, Russia qualify automatically but FIFA.com profiles the hosts' team as qualifying for the World Cup begins in earnest this year.",
+        "continent": "EUROPE",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43965/profile-detail.html",
+        "Appearances": "10",
+        "Cups": "0",
+        "FIFA_Ranking_position": "65"
+
+    }, {
+        "img": "./img/2912469_large-lnd.jpg",
+        "tittle": "SERBIA",
+        "description": "FIFA.com profiles the country's qualification hopes for Russia 2018 and highlights their star players, the coach as well as its footballing history.",
+        "continent": "EUROPE",
+        "profile": "http://www.fifa.com/worldcup/teams/team=1902465/profile-detail.html",
+        "Appearances": "11",
+        "Cups": "0",
+        "FIFA_Ranking_position": "37"
+
+    }, {
+        "img": "./img/2911130_large-lnd.jpg",
+        "tittle": "SPAIN",
+        "description": "South Africa 2010 winners Spain earned their place at Russia 2018 by topping Group G, booking their ticket to Russia with a game to spare ahead of Italy.",
+        "continent": "EUROPE",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43969/profile-detail.html",
+        "Appearances": "14",
+        "Cups": "1",
+        "FIFA_Ranking_position": "6"
+
+    }, {
+        "img": "./img/2919950_large-lnd.jpg",
+        "tittle": "SWEDEN",
+        "description": "Sweden booked their spot at Russia 2018 thanks to a 1-0 aggregate play-off win over Italy, having finished second in Europe's Group A to return to the global finals for the first time since Germany 2006.",
+        "continent": "EUROPE",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43970/profile-detail.html",
+        "Appearances": "11",
+        "Cups": "0",
+        "FIFA_Ranking_position": "18"
+    }, {
+        "img": "./img/2919745_large-lnd.jpg",
+        "tittle": "SWITZERLAND",
+        "description": "Switzerland booked their spot at Russia 2018 thanks to a 1-0 aggregate play-off win over Northern Ireland, having finished second in Europe's Group B to clinch their fourth-successive appearance at the global finals.",
+        "continent": "EUROPE",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43971/profile-detail.html",
+        "Appearances": "10",
+        "Cups": "0",
+        "FIFA_Ranking_position": "8"
+
+    }, {
+        "img": "./img/2920174_large-lnd.jpg",
+        "tittle": "AUSTRALIA",
+        "description": "Australia became the 31st team to secure their place in Russia, coming through as 3-1 winners against Honduras in their intercontinental play-off, following the Socceroos finishing as Asia's best third-place side after a play-off with Syria.",
+        "continent": "ASIA",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43976/profile-detail.html",
+        "Appearances": "4",
+        "Cups": "0",
+        "FIFA_Ranking_position": "39"
+
+    }, {
+        "img": "./img/2894693_large-lnd.jpg",
+        "tittle": "IR IRAN",
+        "description": "On Monday 12 June, Iran became the first team from the Asian Football Confederation (AFC) to book their place at the 2018 FIFA World Cup Russia™.",
+        "continent": "ASIA",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43817/profile-detail.html",
+        "Appearances": "4",
+        "Cups": "0",
+        "FIFA_Ranking_position": "32"
+    }, {
+        "img": "./img/2906318_large-lnd.jpg",
+        "tittle": "JAPAN",
+        "description": "Japan reached the 2018 FIFA World Cup Russia after their 2-0 win against Australia on 31 August 2017 which sealed progression from Asia's Group B at the third round stage..",
+        "continent": "ASIA",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43819/profile-detail.html",
+        "Appearances": "5",
+        "Cups": "0",
+        "FIFA_Ranking_position": "55"
+
+    }, {
+        "img": "./img/2906976_large-lnd.jpg",
+        "tittle": "KOREA REPUBLIC",
+        "description": "Korea Republic reached Russia 2018, to qualify for their tenth FIFA World Cup, becoming the only side outside of Europe and South America to be ever-present since 1986.",
+        "continent": "ASIA",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43822/profile-detail.html",
+        "Appearances": "9",
+        "Cups": "0",
+        "FIFA_Ranking_position": "59"
+
+    }, {
+        "img": "./img/2907057_large-lnd.jpg",
+        "tittle": "SAUDI ARABIA",
+        "description": "Saudi Arabia reached Russia 2018, to qualify for their fifth FIFA World Cup and first since Germany 2006.",
+        "continent": "ASIA",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43835/profile-detail.html",
+        "Appearances": "4",
+        "Cups": "0",
+        "FIFA_Ranking_position": "63"
+
+    }, {
+        "img": "./img/2911650_large-lnd.jpg",
+        "tittle": "COSTA RICA",
+        "description": "Brazil 2014 quarter-finalists Costa Rica earned their return thanks to claiming one of the automatic qualifying spots from the CONCACAF region.",
+        "continent": "North, Central America and Caribbean",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43901/profile-detail.html",
+        "Appearances": "4",
+        "Cups": "0",
+        "FIFA_Ranking_position": "26"
+
+    }, {
+        "img": "./img/2906517_large-lnd.jpg",
+        "tittle": "MEXICO",
+        "description": "Mexico won through to the 2018 FIFA World Cup Russia with a 1-0 win over Panama on 1 September 2017 securing qualification with three matches remaining.",
+        "continent": "North, Central America and Caribbean",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43911/profile-detail.html",
+        "Appearances": "15",
+        "Cups": "0",
+        "FIFA_Ranking_position": "16"
+
+    }, {
+        "img": "./img/2913229_large-lnd.jpg",
+        "tittle": "PANAMA",
+        "description": "Panama qualified for their first FIFA World Cup with a dramatic 2-1 win over Costa Rica on the final matchday of CONCACAF qualifying for Russia 2018.",
+        "continent": "North, Central America and Caribbean",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43914/profile-detail.html",
+        "Appearances": "0",
+        "Cups": "0",
+        "FIFA_Ranking_position": "56"
+
+    }, {
+        "img": "./img/2913235_large-lnd.jpg",
+        "tittle": "ARGENTINA",
+        "description": "Argentina finished third in the CONMEBOL standings for Russia 2018 qualifying, reaching the tournament on the final matchday with a 3-1 win in Ecuador.",
+        "continent": "South America",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43922/profile-detail.html",
+        "Appearances": "16",
+        "Cups": "2",
+        "FIFA_Ranking_position": "4"
+
+    }, {
+        "img": "./img/2878082_large-lnd.jpg",
+        "tittle": "BRAZIL",
+        "description": "On Tuesday 28 March, Brazil became the first team from CONMEBOL to book their place at the 2018 FIFA World Cup Russia™.",
+        "continent": "South America",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43924/profile-detail.html",
+        "Appearances": "20",
+        "Cups": "5",
+        "FIFA_Ranking_position": "2"
+
+
+    }, {
+        "img": "./img/2913236_large-lnd.jpg",
+        "tittle": "COLOMBIA",
+        "description": "Colombia finished fourth in the CONMEBOL standings for Russia 2018 qualifying after reaching the tournament on the final matchday with a 1-1 draw in Peru.",
+        "continent": "South America",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43926/profile-detail.html",
+        "Appearances": "5",
+        "Cups": "0",
+        "FIFA_Ranking_position": "13"
+
+    }, {
+        "img": "./img/dapejfl33d3oabqld4po.jpg",
+        "tittle": "PERU",
+        "description": "Peru ended their 36-year FIFA World Cup drought by finishing fifth in South American qualifying and subsequently defeating New Zealand 2-0 on aggregate in the intercontinental play-off.",
+        "continent": "South America",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43929/profile-detail.html",
+        "Appearances": "4",
+        "Cups": "0",
+        "FIFA_Ranking_position": "11"
+
+    }, {
+        "img": "./img/2913238_large-lnd.jpg",
+        "tittle": "URUGUAY",
+        "description": "Uruguay finished second in the CONMEBOL standings for Russia 2018 qualifying after reaching the finals on the final matchday with a 4-2 win over Bolivia. ",
+        "continent": "South America",
+        "profile": "http://www.fifa.com/worldcup/teams/team=43930/profile-detail.html",
+        "Appearances": "12",
+        "Cups": "2",
+        "FIFA_Ranking_position": "21"
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
