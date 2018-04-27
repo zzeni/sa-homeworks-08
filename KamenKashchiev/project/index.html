@@ -5,8 +5,8 @@
 	<title>Beavis and Butthead</title>
 	<meta name="author" content="Kamen Kashchiev">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" media="screen and (max-width: 749px)" href="css/small.css">
-	<link rel="stylesheet" media="screen and (min-width: 750px)" href="css/large.css">
+	<link rel="stylesheet" media="screen and (max-width: 750px)" href="css/small.css">
+	<link rel="stylesheet" media="screen and (min-width: 751px)" href="css/large.css">
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 	<link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
@@ -15,79 +15,190 @@
 	<header>
 		<img src="img/beavistop.png" alt="butthead" id="beavimg">
 		<div id="logoContainer">
-			<a href="#main1"><img src="img/tv.png" alt="beavis_and_buttheadlogo" id="bblogo"></a>
+			<a href="#main1" id="topLink"><img src="img/tv.png" alt="beavis_and_buttheadlogo" id="bblogo"></a>
 		</div>
 		<img src="img/buttheadtop.png" alt="beavis" id="buttimg">
 	</header>
 	<div id="center">
 		<section id="beavisPanel">
-			<div id="panelImgHolderL">
+			<div id="panelImgContainerL">
 				<img src="img/beavis.png" alt="beavis" id="panelImgL">
 			</div>
 			<div id="shadowRemoverL"></div>
-			<div id="pukeContainer">
-				<img src="img/puke.png" alt="puke" id="pukeL">
-			</div>
 			<div class="linkContainer">
-				<a href="#" class="linksL" onmousedown="threat.play()"><span>The great<br>Cornholio</span></a>
-				<a href="#" class="linksL midLink" onmousedown="threat.play()"><span>Beavis<br>Christ</span></a>
-				<a href="#" class="linksL" onmousedown="threat.play()"><span>Selected<br>Moments</span></a>
+				<div id="linkFloater">
+					<a href="#" class="linksL linkL1"><span>The great<br>Cornholio</span></a>
+				</div>
+				<div id="linkFloater">
+					<a href="#" class="linksL linkL2"><span>Beavis<br>Christ</span></a>
+				</div>
+				<div id="linkFloater">
+					<a href="#" class="linksL linkL3"><span>Selected<br>Moments</span></a>
+				</div>
 			</div>
 		</section>
 		<main>
 			<section id="main1">
 				<div id="sectDimm">
-					<article id="art1A">
-						<div id="h1Dimm">
-							<h1>Beavis and Butthead</h1>
+					<div id="upContainer">
+						<div id="upLink"><p id="up">UP</p></div>
+					</div>					
+					<div id="h1Dimm">
+						<h1>Beavis and Butthead</h1>
+					</div>
+					<article id="art1">
+						<div id="artDimm">
+							<h2>THE ROCKING DEAD</h2>
+							<div class="artImgContainerL">
+								<img src="img/bbzombie.jpg" alt="beavis and butthead zombies" class="artImgs artImgL">
+							</div>
+							<p id="artTextL">The show that will continue to rock you long after the zombie apocalypse makes everything suck less, because zombies are cool and skulls kick ass!</p>
+							<hr>
+							<div class="artImgContainerR">
+								<img src="img/bbbackstage.jpg" alt="beavis and butthead backstage" class="artImgs artImgR">
+							</div>
+							<p id="artTextR">Also, a first-hand behind the scenes narration and point of view from our main protagonists.</p>
 						</div>
-						<div id="artInternalA">
-							<div id="artDimm">
-								<h2>THE ROCKING DEAD</h2>
-								<div class="artImgContainerL">
-									<img src="img/bbzombie.jpg" alt="beavis and butthead zombies" class="artImgs artImgL">
-								</div>
-								<p id="artTextL">The show that will continue to rock you long after the zombie apocalypse makes everything suck less, because zombies are cool and sculls rule!</p>
-								<hr>
-								<div class="artImgContainerR">
-									<img src="img/bbbackstage.jpg" alt="beavis and butthead backstage" class="artImgs artImgR">
-								</div>
-								<p id="artTextR">Also, a first-hand behind the scenes narration and point of view from our main protagonists.</p>
+					</article>
+					<article id="art2">
+						<div id="artDimm">
+							<h2>Cool Music</h2>
+							<div id="videoBgContainer">
+								<iframe id="videoBg" src="https://www.youtube-nocookie.com/embed/CaL67OmzwaA?rel=0&amp;controls=0&amp;showinfo=0&autoplay=0&loop=1&playlist=CaL67OmzwaA&mute=1&controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+						        </iframe>
+						    </div>
+							<div id="carouselContainer">
+					            <div id="carouselMain">
+					            	<div class="hiddenVideoContainer">
+					            		<img id="hiddenVideoImg" src="img/bbmusic.jpg" alt="beavis and butthead as musicians"> 
+					                	<iframe class="hiddenVideo hiddenVideo1" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					                </div>
+					            </div>
+					            <div class="carouselPreviewContainer">
+				            		<h3 class="previewDividerText">Some Music</h3>
+				            		<hr>
+					                <div class="carouselPreviewRow1">
+					                	<img class="carouselPreviewImg carouselPreviewImg1" src="img/bbpreview1.jpg" alt="roller coaster of love">
+					                </div>
+					                <div class="carouselPreviewRow1">
+					                	<img class="carouselPreviewImg carouselPreviewImg2" src="img/bbpreview2.jpg" alt="i got you babe">
+					                </div>
+						            <hr>
+						            <h3 class="previewDividerText">Other Videos</h3>
+						            <hr>
+						            <div id="carouselScrollContainer">
+							            <div id="carouselRow2Container">
+							                <div class="carouselPreviewRow2">
+							            		<img class="carouselPreviewImg carouselPreviewImg3" src="img/pantera.jpg" alt="this love">
+							                </div>
+							                <div class="carouselPreviewRow2">
+							                	<img class="carouselPreviewImg carouselPreviewImg4" src="img/metallica.jpg" alt="one">
+							                </div>
+							                <div class="carouselPreviewRow2">
+							                	<img class="carouselPreviewImg carouselPreviewImg5" src="img/anthrax.jpg" alt="hy pro glo">
+							                </div>
+							                <div class="carouselPreviewRow2">
+							                	<img class="carouselPreviewImg carouselPreviewImg6" src="img/fnm.jpg" alt="digging the grave">
+							                </div>
+							                <div class="carouselPreviewRow2">
+							                	<img class="carouselPreviewImg carouselPreviewImg7" src="img/greenday.jpg" alt="basket case">
+							                </div>
+							                <div class="carouselPreviewRow2 carouselPreviewRow2Last">
+							                	<img class="carouselPreviewImg carouselPreviewImg8" src="img/motorhead.jpg" alt="no voices in the sky">
+							                </div>
+										</div>
+										<button class="carouselScrollButtonL"><img class="scrollButtonImg" src="img/arrowlr.png" alt="arrow left"></button>
+										<button class="carouselScrollButtonR"><img class="scrollButtonImg" src="img/arrowlr.png" alt="arrow right"></button>
+									</div>
+					                <hr class="carouselHrBottom">
+					                <div id="positionContainer">
+					                	<div class="previewPositionShadow1"><p class="positionNumber1">1</p></div>
+					                	<div class="previewPositionShadow2"><p class="positionNumber2">2</p></div>
+					                	<div class="previewPositionShadow3"><p class="positionNumber1">3</p></div>
+					                </div>
+					            </div>
+					        </div>
+						</div>
+					</article>	
+				</div>
+			</section>
+			<section id="cornholio">
+				<div id="sectDimm">
+					<div id="h1Dimm">
+						<h1>Cornholiooo</h1>
+					</div>
+					<article id="art1">
+						<div id="artDimm">
+							<div id="tpContainer">
+								<p>He is here to take this land for his bunghole.</p>
+								<figure id="holioImgContainer">
+									<div class="holioBtns holioBtnR"><img class="holioNext holioNext1" src="img/holionext.svg" alt=""></div>
+									<div class="holioBtns holioBtnL"><img class="holioNext holioNext2" src="img/holionext.svg" alt=""></div>
+									<div class="clickAreaDisabelers clickAreaDisabeler1"></div>
+									<div class="clickAreaDisabelers clickAreaDisabeler2"></div>
+									<div class="clickAreaDisabelers clickAreaDisabeler3"></div>
+									<div class="clickAreaDisabelers clickAreaDisabeler4"></div>
+									<img class="holioImg holioImg3" src="img/darkholio.jpg" alt="darkholio">
+									<img class="holioImg holioImg2" src="img/obaholio.jpg" alt="obaholio">
+									<img class="holioImg holioImg1" src="img/artholio.jpg" alt="artholio">
+								</figure>
+								<p>Long live the almighty bunghole.</p>
 							</div>
 						</div>
-						<div id="artInternalB">
-							<div id="artDimm">
-								<h2>Featured Video</h2>
-								<iframe id="bbCher" width="560" height="315" src="https://www.vbox7.com/emb/external.php?vid=22ae0695bb" frameborder="0" allowfullscreen></iframe>
-								<a href="#h1Dimm" id="upLink"><img src="img/uparrow.png" alt="arrow" id="upArrow"><span id="up">UP</span></a>
-							</div>
+					</article>
+					<article id="art2">
+						<div id="artDimm">
+							<h2>You can take him but you can not take his bunghole.</h2>
+							<iframe src="https://www.vbox7.com/emb/external.php?vid=cbae32d9" frameborder="0" allowfullscreen></iframe>
+							<p>For he has no bunghole.</p>
+						</div>
+					</article>
+				</div>
+			</section>
+			<section id="santaButthead">
+				<div id="sectDimm">
+					<div id="h1Dimm">
+						<h1>Santa Butthead</h1>
+					</div>
+					<article id="art1">
+						<div id="artDimm">
+							<h2>Santa and Rudolph are coming to town</h2>
+							<img id="santa" src="img/bbchristmas.jpg" alt="Beavis and Butthead - Santa and Rudolph">
+							<h2>Santa reads a few letters</h2>
+							<iframe src="https://www.vbox7.com/emb/external.php?vid=fac94b8a" frameborder="0" allowfullscreen></iframe>
 						</div>
 					</article>
 				</div>
 			</section>
 		</main>
 		<section id="buttheadPanel">
-			<div id="panelImgHolderR">
+			<div id="panelImgContainerR">
 				<img src="img/butthead.png" alt="butthead" id="panelImgR">
 			</div>
 			<div id="shadowRemoverR"></div>
-			<div id="pukeContainer">
-				<img src="img/puke.png" alt="puke" id="pukeR">
-			</div>
 			<div class="linkContainer">
-				<a href="#" class="linksR" onmousedown="cometo.play()"><span>Santa<br>Butthead</span></a>
-				<a href="#" class="linksR midLink" onmousedown="cometo.play()"></a>
-				<a href="#" class="linksR" onmousedown="cometo.play()"><span>Selected<br>Moments</span></a>
+				<div id="linkFloater">
+					<a href="#" class="linksR linkR1"><span>Santa<br>Butthead</span></a>
+				</div>
+				<div id="linkFloater">
+					<a href="#" class="linksR linkR2"><span>How to<br>not suck</span></a>
+				</div>
+				<div id="linkFloater">
+					<a href="#" class="linksR linkR3"><span>Selected<br>Moments</span></a>
+				</div>
 			</div>
 		</section>
 	</div>
 	<footer>
 		<div id="footContainer">
+			<img src="img/puke22.png" alt="puke" id="footPukeL">
 			<a href="https://github.com/katzata" target="_blank" id="footLinks"><img src="img/github.svg" alt="github" id="github"></a>
 			<p>Copywright © 2018</p>
 			<a href="https://www.linkedin.com/in/kamen-kashchiev-b7889314a/" target="_blank" id="footLinks"><img src="img/in.svg" alt="linked in" id="linked"></a>
+			<img src="img/puke.png" alt="puke" id="footPukeR">
 		</div>
 	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="js/index.js"></script>
 </body>
 </html>
