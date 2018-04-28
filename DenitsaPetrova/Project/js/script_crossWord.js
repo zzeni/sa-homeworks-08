@@ -10,7 +10,6 @@
 
   $.getJSON("../db/question.json", function (data) {
     questions = data;
-    console.log(questions);
   });
 
   function choiceQuestion(data) {
@@ -22,14 +21,13 @@
   $("span").click(function (event) {
     event.preventDefault();
     $("span").removeClass("setected").addClass("original");
-    var cellId = event.target.id;
+    var cellId = this.id;
     $("#" + cellId).removeClass("original").addClass("setected");
 
     questions.forEach(function (question) {
       var checkCell = choiceQuestion(question);
       if (cellId == checkCell) {
         displayQuestion(question);
-        console.log(question);
       }
     });
 
@@ -38,7 +36,6 @@
   function displayQuestion(list) {
     var collection = $("#question");
     collection.empty();
-    console.log(list);
     var html = questionsToHTML(list);
     collection.append(html);
   }
